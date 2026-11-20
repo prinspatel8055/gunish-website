@@ -28,12 +28,12 @@ export default function Footer({ footerData }: { footerData?: any }) {
       <div className="section-container pt-14 pb-10">
         
         {/* Main 4-Column Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-10 mb-12">
           
-          {/* Column 1: Brand / Two Logos with Reveal Effect & About (5 cols wide on large screens for big logos) */}
-          <div className="lg:col-span-5 flex flex-col space-y-5">
-            {/* Logo Reveal Container (Large Size) */}
-            <div className="w-fit">
+          {/* Column 1: Brand / Two Logos with Reveal Effect & About */}
+          <div className="lg:col-span-5 flex flex-col space-y-4 max-w-full overflow-hidden">
+            {/* Logo Reveal Container (Clean bounded container, zero overlap) */}
+            <div className="w-fit max-w-full">
               <LogoBrand variant="footer" size="lg" />
             </div>
 
