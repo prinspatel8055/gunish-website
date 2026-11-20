@@ -1,2 +1,17 @@
+# GitHub Linguist language detection overrides
+# Ignore all static assets, seeds, and any leftover legacy media files
+*.php linguist-detectable=false
+*.php -diff -linguist-detectable
 public/** linguist-vendored
-prisma/seed-data.json linguist-documentation
+public/uploads/** linguist-vendored
+prisma/** linguist-vendored
+scripts/** linguist-vendored
+*.json linguist-documentation
+*.docx linguist-documentation
+*.pdf linguist-documentation
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
+*.svg linguist-vendored
+*.webp linguist-vendored
+*.ico linguist-vendored

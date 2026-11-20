@@ -1,5 +1,7 @@
 # GUNICSH - Ganpat University | International Conference on Social Sciences & Humanities
 
+Built with **Next.js 16**, **TypeScript**, and **PostgreSQL**.
+
 A full-stack, self-hosted Content Management System (CMS) and public-facing website built for the Ganpat University International Conference on Social Sciences & Humanities (GUNICSH / Gunish). It is a unified Next.js application that serves both a dynamic public website and a secure, role-based admin portal for managing all conference content.
 
 ---
