@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { Upload, Search, Image as ImageIcon, FileText, Film, File, Loader2, Copy, Trash2, LayoutGrid, List } from 'lucide-react';
+import { Upload, Search, Image as ImageIcon, FileText, Film, File, Loader2, Copy, Trash2, LayoutGrid, List, RefreshCw } from 'lucide-react';
 import { toast } from 'sonner';
 
 interface MediaItem {
@@ -35,7 +35,9 @@ export default function MediaLibraryPage() {
   const [filter, setFilter] = useState<'all' | 'image' | 'video' | 'document'>('all');
   const [view, setView] = useState<'grid' | 'list'>('grid');
   const [uploading, setUploading] = useState(false);
+  const [syncing, setSyncing] = useState(false);
   const [deletingId, setDeletingId] = useState<string | null>(null);
+  const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   // Detail Modal & Replacement states
@@ -44,6 +46,10 @@ export default function MediaLibraryPage() {
   const [savingAlt, setSavingAlt] = useState(false);
   const [replacing, setReplacing] = useState(false);
   const replaceInputRef = useRef<HTMLInputElement>(null);
+
+  const handleImageError = (id: string) => {
+    setFailedImages((prev) => new Set(prev).add(id));
+  };
 
   const handleSaveAlt = async () => {
     if (!selectedItem) return;
@@ -83,6 +89,12 @@ export default function MediaLibraryPage() {
       if (res.ok) {
         setMedia((prev) => prev.map((m) => (m.id === selectedItem.id ? data : m)));
         setSelectedItem(data);
+        // remove from failed images if it was there
+        setFailedImages((prev) => {
+          const next = new Set(prev);
+          next.delete(selectedItem.id);
+          return next;
+        });
         toast.success('File replaced successfully');
       } else {
         toast.error(data.error || 'Failed to replace file');
@@ -108,11 +120,28 @@ export default function MediaLibraryPage() {
 
   useEffect(() => { fetchMedia(); }, [fetchMedia]);
 
+  const handleSync = async () => {
+    setSyncing(true);
+    try {
+      const res = await fetch('/api/media/sync', { method: 'POST' });
+      const data = await res.json();
+      if (res.ok) {
+        toast.success(`Media Library synchronized! +${data.added} added, -${data.deleted} cleaned (${data.total} total)`);
+        await fetchMedia();
+      } else {
+        toast.error(data.error || 'Failed to sync media');
+      }
+    } catch {
+      toast.error('Network error during media sync');
+    } finally {
+      setSyncing(false);
+    }
+  };
+
   const handleUpload = async (files: FileList | null) => {
     if (!files?.length) return;
     setUploading(true);
     
-    // Upload files sequentially for simplicity, could be parallelized
     let successCount = 0;
     
     for (let i = 0; i < files.length; i++) {
@@ -179,20 +208,32 @@ export default function MediaLibraryPage() {
             <h1 className="text-sm font-semibold text-slate-800">Media Library</h1>
           </div>
           {!loading && (
-            <span className="text-[10px] px-1.5 py-0.5 rounded-full font-medium bg-slate-100 text-slate-500">
-              {media.length}
+            <span className="text-[10px] px-2 py-0.5 rounded-full font-medium bg-blue-50 text-blue-600 border border-blue-100">
+              {media.length} files
             </span>
           )}
         </div>
         <div className="flex items-center gap-2">
-          <label className="inline-flex items-center gap-1.5 text-white text-xs font-medium px-3 py-1.5 rounded cursor-pointer transition-colors" style={{ background: '#2563eb' }}>
+          {/* Sync Disk Button */}
+          <button
+            onClick={handleSync}
+            disabled={syncing}
+            className="inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 transition-colors shadow-sm disabled:opacity-50"
+            title="Scan uploads directory and sync media files into database"
+          >
+            <RefreshCw className={`w-3.5 h-3.5 text-slate-500 ${syncing ? 'animate-spin text-blue-600' : ''}`} />
+            {syncing ? 'Syncing...' : 'Sync Disk'}
+          </button>
+
+          {/* Upload Button */}
+          <label className="inline-flex items-center gap-1.5 text-white text-xs font-medium px-3.5 py-1.5 rounded cursor-pointer transition-colors shadow-sm" style={{ background: '#2563eb' }}>
             {uploading ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Upload className="w-3.5 h-3.5" />}
             {uploading ? 'Uploading...' : 'Upload'}
             <input 
               ref={fileInputRef}
               type="file" 
               className="hidden" 
-              multiple
+              multiple 
               onChange={(e) => handleUpload(e.target.files)} 
             />
           </label>
@@ -228,12 +269,14 @@ export default function MediaLibraryPage() {
             <button
               onClick={() => setView('grid')}
               className={`p-1 rounded ${view === 'grid' ? 'bg-white shadow-sm text-blue-600' : 'text-slate-400 hover:text-slate-600'}`}
+              title="Grid View"
             >
               <LayoutGrid className="w-3.5 h-3.5" />
             </button>
             <button
               onClick={() => setView('list')}
               className={`p-1 rounded ${view === 'list' ? 'bg-white shadow-sm text-blue-600' : 'text-slate-400 hover:text-slate-600'}`}
+              title="List View"
             >
               <List className="w-3.5 h-3.5" />
             </button>
@@ -265,15 +308,28 @@ export default function MediaLibraryPage() {
               <div 
                 key={item.id} 
                 onClick={() => { setSelectedItem(item); setEditingAlt(item.alt || ''); }}
-                className="bg-white border border-slate-200 rounded overflow-hidden group hover:border-blue-400 hover:shadow-md transition-all cursor-pointer flex flex-col h-full"
+                className="bg-white border border-slate-200 rounded-lg overflow-hidden group hover:border-blue-400 hover:shadow-md transition-all cursor-pointer flex flex-col h-full"
               >
-                <div className="aspect-square bg-slate-100 flex items-center justify-center relative overflow-hidden">
-                  {item.mimeType.startsWith('image/') ? (
+                {/* Preview Container: clean slate background with object-contain to display full images without cutting */}
+                <div className="aspect-square bg-slate-50 flex items-center justify-center relative overflow-hidden p-2 border-b border-slate-100">
+                  {item.mimeType.startsWith('image/') && !failedImages.has(item.id) ? (
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img src={item.url} alt={item.alt} className="w-full h-full object-cover" />
+                    <img 
+                      src={item.url} 
+                      alt={item.alt || item.originalName} 
+                      className="w-full h-full object-contain transition-transform duration-200 group-hover:scale-105" 
+                      onError={() => handleImageError(item.id)}
+                      loading="lazy"
+                    />
                   ) : (
-                    <MediaIcon mimeType={item.mimeType} className="w-10 h-10 text-slate-300" />
+                    <div className="flex flex-col items-center justify-center gap-1 text-slate-400 p-2 text-center">
+                      <MediaIcon mimeType={item.mimeType} className="w-8 h-8 text-slate-300" />
+                      {failedImages.has(item.id) && (
+                        <span className="text-[9px] text-amber-600 bg-amber-50 px-1.5 py-0.5 rounded font-medium">Missing</span>
+                      )}
+                    </div>
                   )}
+
                   {/* Hover overlay actions */}
                   <div className="absolute inset-0 bg-slate-900/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2" onClick={(e) => e.stopPropagation()}>
                     <button 
@@ -293,8 +349,9 @@ export default function MediaLibraryPage() {
                     </button>
                   </div>
                 </div>
-                <div className="p-2.5 flex-1 flex flex-col justify-between bg-white border-t border-slate-100">
-                  <p className="text-[10px] font-semibold text-slate-700 truncate" title={item.originalName}>{item.originalName}</p>
+
+                <div className="p-2.5 flex-1 flex flex-col justify-between bg-white">
+                  <p className="text-[11px] font-medium text-slate-700 truncate" title={item.originalName}>{item.originalName}</p>
                   <div className="flex items-center justify-between mt-1 pt-1 border-t border-slate-50">
                     <p className="text-[9px] text-slate-400">{formatSize(item.size)}</p>
                     <p className="text-[9px] text-slate-400 uppercase font-mono">{item.mimeType.split('/')[1] || 'file'}</p>
@@ -304,7 +361,7 @@ export default function MediaLibraryPage() {
             ))}
           </div>
         ) : (
-          <div className="bg-white border border-slate-200 rounded overflow-hidden">
+          <div className="bg-white border border-slate-200 rounded-lg overflow-hidden">
             <table className="w-full">
               <thead>
                 <tr className="border-b border-slate-100 bg-slate-50">
@@ -324,10 +381,16 @@ export default function MediaLibraryPage() {
                     className="border-b border-slate-50 hover:bg-blue-50/30 transition-colors cursor-pointer"
                   >
                     <td className="px-4 py-2">
-                      <div className="w-8 h-8 bg-slate-100 rounded overflow-hidden flex items-center justify-center">
-                        {item.mimeType.startsWith('image/') ? (
+                      <div className="w-8 h-8 bg-slate-50 rounded overflow-hidden flex items-center justify-center p-0.5 border border-slate-100">
+                        {item.mimeType.startsWith('image/') && !failedImages.has(item.id) ? (
                           // eslint-disable-next-line @next/next/no-img-element
-                          <img src={item.url} alt={item.alt} className="w-full h-full object-cover" />
+                          <img 
+                            src={item.url} 
+                            alt={item.alt || item.originalName} 
+                            className="w-full h-full object-contain" 
+                            onError={() => handleImageError(item.id)}
+                            loading="lazy"
+                          />
                         ) : (
                           <MediaIcon mimeType={item.mimeType} className="w-4 h-4 text-slate-400" />
                         )}
@@ -374,17 +437,23 @@ export default function MediaLibraryPage() {
           >
             {/* Left Preview Panel */}
             <div className="md:w-1/2 bg-slate-950 flex items-center justify-center p-6 min-h-[240px] relative">
-              {selectedItem.mimeType.startsWith('image/') ? (
+              {selectedItem.mimeType.startsWith('image/') && !failedImages.has(selectedItem.id) ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img 
                   src={selectedItem.url} 
-                  alt={selectedItem.alt} 
+                  alt={selectedItem.alt || selectedItem.originalName} 
                   className="max-w-full max-h-[350px] object-contain rounded shadow-lg"
+                  onError={() => handleImageError(selectedItem.id)}
                 />
               ) : (
                 <div className="text-center text-white/50 space-y-2">
                   <MediaIcon mimeType={selectedItem.mimeType} className="w-16 h-16 mx-auto opacity-40 text-white" />
                   <p className="text-xs uppercase tracking-wider">{selectedItem.mimeType}</p>
+                  {failedImages.has(selectedItem.id) && (
+                    <span className="text-[10px] text-amber-400 bg-amber-950/60 border border-amber-800 px-2 py-0.5 rounded">
+                      File missing on disk
+                    </span>
+                  )}
                 </div>
               )}
             </div>
@@ -451,51 +520,52 @@ export default function MediaLibraryPage() {
                       type="text" 
                       value={editingAlt}
                       onChange={(e) => setEditingAlt(e.target.value)}
-                      placeholder="Describe this image for search engines..."
-                      className="flex-1 px-2.5 py-1.5 border border-slate-200 rounded text-xs focus:outline-none focus:ring-1 focus:ring-blue-500 bg-white"
+                      placeholder="e.g. Keynote Speaker presenting at GUNICSH"
+                      className="flex-1 px-3 py-1.5 text-xs border border-slate-200 rounded focus:outline-none focus:ring-1 focus:ring-blue-500"
                     />
                     <button
                       onClick={handleSaveAlt}
                       disabled={savingAlt}
-                      className="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 disabled:opacity-50 text-white text-[11px] font-semibold rounded transition-colors flex-shrink-0"
+                      className="px-3 py-1.5 text-xs font-medium text-white rounded bg-slate-900 hover:bg-slate-800 disabled:opacity-50 transition-colors flex items-center gap-1"
                     >
-                      {savingAlt ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : 'Save'}
+                      {savingAlt && <Loader2 className="w-3 h-3 animate-spin" />}
+                      Save
                     </button>
                   </div>
                 </div>
+
+                {/* Replace File */}
+                <div className="pt-4 border-t border-slate-100">
+                  <label className="block text-[10px] font-semibold text-slate-400 uppercase tracking-wider mb-2">
+                    Replace File
+                  </label>
+                  <label className="inline-flex items-center gap-1.5 text-xs font-medium text-slate-700 bg-slate-100 hover:bg-slate-200 px-3 py-1.5 rounded cursor-pointer transition-colors border border-slate-200">
+                    {replacing ? <Loader2 className="w-3.5 h-3.5 animate-spin text-blue-600" /> : <Upload className="w-3.5 h-3.5" />}
+                    {replacing ? 'Replacing file...' : 'Choose new file'}
+                    <input 
+                      ref={replaceInputRef}
+                      type="file" 
+                      className="hidden" 
+                      disabled={replacing}
+                      onChange={(e) => handleReplace(e.target.files)} 
+                    />
+                  </label>
+                  <p className="text-[10px] text-slate-400 mt-1">Replacing this file keeps the same URL so all pages remain updated.</p>
+                </div>
               </div>
 
-              {/* Action Buttons */}
-              <div className="pt-4 border-t border-slate-100 flex items-center justify-between gap-3">
+              {/* Delete button in modal */}
+              <div className="pt-6 border-t border-slate-100 flex justify-end">
                 <button
                   onClick={() => {
-                    if (confirm('Are you sure you want to permanently delete this media file?')) {
-                      handleDelete(selectedItem.id);
-                      setSelectedItem(null);
-                    }
+                    handleDelete(selectedItem.id);
+                    setSelectedItem(null);
                   }}
-                  className="px-3.5 py-2 bg-red-50 hover:bg-red-100 text-red-600 rounded text-xs font-semibold transition-colors flex items-center gap-1.5"
+                  className="text-xs text-red-600 hover:text-red-700 font-medium flex items-center gap-1 transition-colors"
                 >
                   <Trash2 className="w-3.5 h-3.5" />
                   Delete File
                 </button>
-
-                <div>
-                  <button
-                    onClick={() => replaceInputRef.current?.click()}
-                    disabled={replacing}
-                    className="px-4 py-2 bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white rounded text-xs font-semibold transition-colors flex items-center gap-1.5 shadow-sm"
-                  >
-                    {replacing ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Upload className="w-3.5 h-3.5" />}
-                    {replacing ? 'Replacing...' : 'Replace File'}
-                  </button>
-                  <input 
-                    ref={replaceInputRef}
-                    type="file" 
-                    onChange={(e) => handleReplace(e.target.files)} 
-                    className="hidden" 
-                  />
-                </div>
               </div>
             </div>
           </div>

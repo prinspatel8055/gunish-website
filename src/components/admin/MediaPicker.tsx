@@ -40,7 +40,12 @@ export default function MediaPicker({ onSelect, onClose, filter = 'all' }: Props
   const [search, setSearch] = useState('');
   const [selected, setSelected] = useState<string | null>(null);
   const [uploading, setUploading] = useState(false);
+  const [failedImages, setFailedImages] = useState<Set<string>>(new Set());
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  const handleImageError = (id: string) => {
+    setFailedImages((prev) => new Set(prev).add(id));
+  };
 
   const fetchMedia = useCallback(async () => {
     try {
@@ -163,16 +168,22 @@ export default function MediaPicker({ onSelect, onClose, filter = 'all' }: Props
                       background: '#f8fafc',
                     }}
                   >
-                    <div className="aspect-square flex items-center justify-center bg-slate-100">
-                      {item.mimeType.startsWith('image/') ? (
+                    <div className="aspect-square flex items-center justify-center bg-slate-100 p-1">
+                      {item.mimeType.startsWith('image/') && !failedImages.has(item.id) ? (
                         // eslint-disable-next-line @next/next/no-img-element
-                        <img src={item.url} alt={item.alt} className="w-full h-full object-cover" />
+                        <img 
+                          src={item.url} 
+                          alt={item.alt || item.originalName} 
+                          className="w-full h-full object-contain"
+                          onError={() => handleImageError(item.id)}
+                          loading="lazy"
+                        />
                       ) : (
                         <MediaIcon mimeType={item.mimeType} className="w-8 h-8 text-slate-400" />
                       )}
                     </div>
                     {selected === item.id && (
-                      <div className="absolute top-1 right-1 w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center">
+                      <div className="absolute top-1 right-1 w-5 h-5 rounded-full bg-blue-600 flex items-center justify-center shadow-sm">
                         <Check className="w-3 h-3 text-white" />
                       </div>
                     )}
@@ -186,10 +197,15 @@ export default function MediaPicker({ onSelect, onClose, filter = 'all' }: Props
           {/* Sidebar — selected info */}
           {selectedItem && (
             <div className="w-52 border-l border-slate-200 p-3 flex-shrink-0 overflow-y-auto bg-slate-50">
-              <div className="aspect-square bg-slate-100 rounded overflow-hidden mb-3">
-                {selectedItem.mimeType.startsWith('image/') ? (
+              <div className="aspect-square bg-slate-100 rounded overflow-hidden mb-3 p-2 flex items-center justify-center">
+                {selectedItem.mimeType.startsWith('image/') && !failedImages.has(selectedItem.id) ? (
                   // eslint-disable-next-line @next/next/no-img-element
-                  <img src={selectedItem.url} alt={selectedItem.alt} className="w-full h-full object-cover" />
+                  <img 
+                    src={selectedItem.url} 
+                    alt={selectedItem.alt || selectedItem.originalName} 
+                    className="w-full h-full object-contain"
+                    onError={() => handleImageError(selectedItem.id)}
+                  />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center">
                     <MediaIcon mimeType={selectedItem.mimeType} className="w-10 h-10 text-slate-300" />

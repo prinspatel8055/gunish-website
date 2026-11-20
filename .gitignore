@@ -35,3 +35,4 @@ backups/
 
 # Scratch & temporary scripts
 scratch/
+*.tsbuildinfo
