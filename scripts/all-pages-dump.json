@@ -1,0 +1,1761 @@
+[
+  {
+    "id": "cmsygkl4q000dur70tmmbkmm1",
+    "slug": "research-area",
+    "title": "Research Area",
+    "metaTitle": "Research Area ATCNN",
+    "metaDescription": "RA",
+    "sections": [
+      {
+        "id": "research-area-hero",
+        "data": {
+          "title": "Key Research Areas",
+          "variant": "subpage-light",
+          "subtitle": "Pioneering Telecom Innovations",
+          "isSubpage": true,
+          "description": "Core domains of technological investigation at ATCNN, including 5G/6G, mmWave, massive MIMO, and SDN/NFV.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787136336565-hjns4",
+        "data": {
+          "body": "<div style=\"width:100%;\">\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:25px;\">Each generation brings in a few radical concepts into the real world implementation. 5<sup>th</sup> generation technology does that in more than just in the radio technologies. We are working on some of these revolutionary concepts.</p>\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Research Topics</strong></h3>\n\n<ul style=\"line-height:2; margin-bottom:30px;\">\n\t<li><strong>Milimeter Wave Communication</strong></li>\n\t<li><strong>Massive MIMO</strong></li>\n\t<li><strong>Dense Networks</strong></li>\n\t<li><strong>Wireless Solutions for Indian Market</strong></li>\n</ul>\n\n<h3 style=\"margin-top:35px; margin-bottom:15px;\"><strong>Millimetre Wave Communication</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8;\"><strong>Millimetre Wave</strong> brings the possibilities of Gbps speeds into the hands of a normal user!</p>\n\n<div style=\"width:100%; text-align:center; margin:25px 0;\"><img alt=\"Millimetre Wave Communication\" src=\"/uploads/milimeter-wave-1787116551328.png\" style=\"max-width:100%; width:auto; height:auto; display:inline-block;\" /></div>\n\n<h3 style=\"margin-top:35px; margin-bottom:15px;\"><strong>Massive MIMO</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8;\"><strong>Massive MIMO</strong> is a huge step forward in the MIMO technology space, trying to beat the limitations of spectrum through the use of antennae of the order of 64, 128 and 256.</p>\n\n<div style=\"width:100%; text-align:center; margin:25px 0;\"><img alt=\"Massive MIMO\" src=\"/uploads/massive-mimo-1787116545722.png\" style=\"max-width:100%; width:auto; height:auto; display:inline-block;\" /></div>\n\n<h3 style=\"margin-top:35px; margin-bottom:15px;\"><strong>Dense Network</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8;\">The demands of broadband traffic is so huge that the current architecture of networks are not able to meet it. In order meet the increasing capacity requirements and latency requirements, networks are becoming denser. This necessitated a different network architecture of the network. That brings in a number of challenges.</p>\n\n<p style=\"font-size:16px; line-height:1.8;\">There are interesting topics like <strong>Cloud RAN (CRAN)</strong>, <strong>Coordinated Multi Point (CoMP) Transmission and Reception</strong>, <strong>Backhaul</strong> for the new architecture etc.</p>\n\n<h3 style=\"margin-top:35px; margin-bottom:15px;\"><strong>Wireless Solution for Indian Market</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8;\">While the technologies of the future are being researched and designed, communication solutions for what we need now are designed and developed in association with <strong>Industry partners</strong>.</p>\n\n<div style=\"width:100%; text-align:center; margin:25px 0;\"><img alt=\"Wireless Solution for Indian Market\" src=\"/uploads/wireless-1787116539040.png\" style=\"max-width:100%; width:auto; height:auto; display:inline-block;\" /></div>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T09:26:39.866Z",
+    "updatedAt": "2026-08-31T10:05:18.666Z"
+  },
+  {
+    "id": "cmsye7ozc0007ur708onbcwjw",
+    "slug": "about-atcnn",
+    "title": "About Us",
+    "metaTitle": "About Us | ATCNN - Ganpat University",
+    "metaDescription": "Learn about the Advanced Technology Centre for Next-Generation Networks (ATCNN) at Ganpat University, its mission, laboratories, and leadership.",
+    "sections": [
+      {
+        "id": "about-atcnn-hero",
+        "data": {
+          "title": "About ATCNN",
+          "variant": "subpage-light",
+          "subtitle": "Centre of Excellence — Ganpat University",
+          "isSubpage": true,
+          "primaryCTA": {
+            "url": "/research-area",
+            "label": "Research Areas"
+          },
+          "description": "Advanced Technology Centre for Next-Generation Networks (ATCNN) is a premier Centre of Excellence established at Ganpat University to spearhead research, industrial testbeds, and specialized training in 5G NR, 6G Wireless, Millimeter Wave, SDN/NFV, and Advanced Telecommunications.",
+          "lightBgStyle": "grid-dots",
+          "secondaryCTA": {
+            "url": "/advisory-committee",
+            "label": "Advisory Committee"
+          },
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "about-atcnn-intro",
+        "data": {
+          "body": [
+            "The Advanced Technology Centre for Next-Generation Networks (ATCNN) at Ganpat University stands at the forefront of telecom innovation in India. Established with the vision to bridge academic research with carrier-grade industrial deployment, ATCNN fosters breakthroughs across 5G/6G wireless networks, antenna design, millimeter-wave propagation, and cloud-native software-defined networks.",
+            "Under the guidance of visionary educational leadership and eminent advisory members from ISRO, IIT Madras, the Department of Telecommunications (DoT), TSDSI, and global telecom pioneers, ATCNN provides students, researchers, and industry professionals with access to world-class RF laboratories, simulation suites, and experimental 5G spectrum testbeds.",
+            "Through active MoUs with leaders like eInfochips, ONF, and Ericsson, the Centre continually delivers high-impact research, commercial device testing, and industry-certified educational programs."
+          ],
+          "title": "Pioneering Next-Generation Telecommunications",
+          "layout": "editorial",
+          "category": "Vision & Mission",
+          "sidePanel": {
+            "type": "facts",
+            "title": "At a Glance",
+            "details": [
+              {
+                "label": "Parent University",
+                "value": "Ganpat University"
+              },
+              {
+                "label": "Core Domains",
+                "value": "5G, 6G, mmWave, SDN/NFV"
+              },
+              {
+                "label": "Experimental Spectrum",
+                "value": "DoT Allocated"
+              },
+              {
+                "label": "Key Standards Alliance",
+                "value": "TSDSI & ONF Member"
+              },
+              {
+                "label": "Industry Partners",
+                "value": "eInfochips, Ericsson, Nokia"
+              }
+            ]
+          },
+          "categoryIcon": "Target"
+        },
+        "type": "narrative"
+      },
+      {
+        "id": "about-atcnn-pillars",
+        "data": {
+          "items": [
+            {
+              "icon": "Radio",
+              "title": "5G NR & mmWave Testbeds",
+              "category": "Hardware Lab",
+              "description": "Advanced RF testbed facilities operating at 28 GHz and Sub-6 GHz frequencies for experimental wireless telecommunication trials."
+            },
+            {
+              "icon": "Cpu",
+              "title": "SDN & NFV Cloud Systems",
+              "category": "Software & Core",
+              "description": "Carrier-grade Software-Defined Networking and Network Function Virtualization architectures for carrier cloud infrastructure."
+            },
+            {
+              "icon": "Layers",
+              "title": "Antenna Design & Metrology",
+              "category": "Metrology",
+              "description": "Comprehensive electromagnetic measurement, phased array antenna design, and commercial Method of Moments (MoM) simulation."
+            },
+            {
+              "icon": "CheckCircle2",
+              "title": "Device & Life-Cycle Testing",
+              "category": "Testing Lab",
+              "description": "Environmental, thermal shock, frequency analysis, and reliability testing tailored for Indian environmental conditions."
+            },
+            {
+              "icon": "Globe",
+              "title": "Global Standardization & MoUs",
+              "category": "Alliances",
+              "description": "Active collaboration with TSDSI, Open Networking Foundation (ONF), ISRO, and multinational telecom corporations."
+            },
+            {
+              "icon": "Award",
+              "title": "Professional Certifications",
+              "category": "Education",
+              "description": "Hands-on training courses in 5G NR, SDN Architecture, NFV Engineering, and RF System Design for students and professionals."
+            }
+          ],
+          "title": "Key Focus Areas & Infrastructure",
+          "isDark": false,
+          "columns": 3,
+          "cardType": "standard",
+          "category": "Centre Highlights",
+          "subtitle": "Core laboratories, experimental facilities, and research domains powering ATCNN",
+          "cardStyle": "glow",
+          "categoryIcon": "Layers"
+        },
+        "type": "card_grid"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T08:20:39.096Z",
+    "updatedAt": "2026-08-31T10:02:16.659Z"
+  },
+  {
+    "id": "cmsyfsasv0008ur7075vblz76",
+    "slug": "advisory-committee",
+    "title": "Advisory Committee",
+    "metaTitle": "Advisory Committee | ATCNN - Ganpat University",
+    "metaDescription": "Meet the Advisory Committee of ATCNN Ganpat University.",
+    "sections": [
+      {
+        "id": "advisory-hero",
+        "data": {
+          "title": "Advisory Committee",
+          "tagline": "Strategic Governance",
+          "variant": "subpage-dark",
+          "subtitle": "ATCNN — Ganpat University",
+          "isSubpage": true,
+          "description": "Eminent academicians, industry leaders and technocrats guiding the vision and strategic direction of the centre.",
+          "taglineIcon": "Award",
+          "subpageAlign": "left",
+          "subpageHeight": "short"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "advisory-people-block",
+        "data": {
+          "title": "Advisory Committee Members",
+          "subtitle": "Distinguished leaders from academia, industry, and government organizations worldwide.",
+          "selectedPeople": {
+            "advisory": [
+              "Padmashri Ganpatbhai Patel",
+              "Dr. Mahendra Sharma",
+              "Dr. Ajay Kumar Gupta",
+              "Dr. V. Kamakoti",
+              "Mr. Rasesh Patel",
+              "Mr. Rajesh K. Pathak",
+              "Mr. John Dilworth",
+              "Mr. Shalin Shah",
+              "Ms. Pamela Kumar",
+              "Mr. Raghav Sahgal",
+              "Mr. Vijay Ram Inavolu",
+              "Mr. Erik Ekudden",
+              "Mr. Jitendra Kumar"
+            ]
+          },
+          "titleAlignment": "center"
+        },
+        "type": "people"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T09:04:40.111Z",
+    "updatedAt": "2026-08-31T10:02:16.699Z"
+  },
+  {
+    "id": "cmsyk4206000kur70qh2q84ax",
+    "slug": "antenna-design-and-measurement",
+    "title": "Antenna Design and Measurement",
+    "metaTitle": "Antenna Design and Measurement ATNN",
+    "metaDescription": "ADM",
+    "sections": [
+      {
+        "id": "antenna-design-and-measurement-hero",
+        "data": {
+          "title": "Antenna Design & Measurement",
+          "variant": "subpage-light",
+          "subtitle": "Electromagnetic Simulation & Metrology",
+          "isSubpage": true,
+          "description": "Advanced training in antenna design, phased array simulation, and microwave measurement techniques.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787139206495-tvln6",
+        "data": {
+          "body": "<div style=\"width:100%;\">\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:20px;\">Antennas have become the essential component in any equipment required to propagate and capture information sent through electromagnetic waves. Due to the wide variety of applications, there are many types of antennas, all of which are based on the principles of electromagnetic radiators.</p>\n\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:30px;\">Participants in this course will learn the general properties of the radiation fields of given sources and design them as required in order to achieve a given radiation field pattern. Students will be able to identify the parameters and develop techniques to fulfill the requirements in order to achieve the optimal usage. The acquired knowledge will be applied by designing practical antennas.</p>\n<!-- Pre-requisite -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Pre-requisite:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>Basics of Physics and Electronics</li>\n\t<li>Programming using C</li>\n</ul>\n<!-- Course Highlights -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Course Highlights:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>Wave Equation and solutions</li>\n\t<li>Antenna Fundamentals and types including wire, loop, arrays, Yagi-Uda, horn, parabolic, patch and broadband.</li>\n\t<li>Design concepts to improve antenna performance in element and array configurations</li>\n\t<li>Verification of antenna pattern characteristics using MATLAB.</li>\n\t<li>Antenna Modeling using commercial Method of Elements (MOM) electromagnetic antenna software tools.</li>\n\t<li>Understanding different types of Antenna Measurements and Antenna Ranges.</li>\n\t<li>Application of antennas in communication links.</li>\n</ul>\n<!-- Course Benefits -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Course Benefits:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>Acquire an understanding of antenna concepts and their industry applications</li>\n\t<li>Apply concepts to the design and simulation of practical antennas varying characteristic elements to optimize their system performance.</li>\n\t<li>Hands-on experience with tools used in the industry to verify antenna performance.</li>\n</ul>\n<!-- Who can Enroll -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Who can Enroll for the Course:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:20px;\">\n\t<li>Diploma Final year or completed students of EC/IT Branch or B. Sc. Electronics/ Physics graduates</li>\n\t<li>B. Tech. EC/IT or M. Sc. / B. Sc. Electronics/ Physics final and pre final year students</li>\n</ul>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T11:05:47.046Z",
+    "updatedAt": "2026-08-31T10:05:18.652Z"
+  },
+  {
+    "id": "cmsyl29rf000nur706y3oo0o9",
+    "slug": "testing-and-measurement",
+    "title": "Testing and Measurement",
+    "metaTitle": "Testing and Measurement ATCNN",
+    "metaDescription": "TAM",
+    "sections": [
+      {
+        "id": "testing-and-measurement-hero",
+        "data": {
+          "title": "Testing & Measurement",
+          "variant": "subpage-light",
+          "subtitle": "Industry-Grade RF & Protocol Testing",
+          "isSubpage": true,
+          "description": "State-of-the-art testbeds for telecommunication hardware, wireless devices, and network protocol validation.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787052734129-ifszd",
+        "data": {
+          "body": "<div style=\"width:100%;\">\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:30px;\">This course provides students with fundamental knowledge of <strong>Impedance measurements, S-Parameters and the Smith chart.</strong> Study of various parameters and specifications involved in the design and implementation of RF/Microwave systems, and the test and measurement equipment utilized in the classification of those parameters. Students will also learn Spectrum and Network Analysis techniques and possibly some test simulation techniques.</p>\n<!-- Course Highlights -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Course Highlights:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>Impedance measurement</li>\n\t<li>S-Parameters and the Smith Chart</li>\n\t<li>Power Measurement</li>\n\t<li>Noise Figure and Phase Noise measurement</li>\n\t<li>Frequency measurements (Spectrum Analysis)</li>\n\t<li>Gain Compression and Intermodulation</li>\n\t<li>Network Analysis</li>\n</ul>\n<!-- Course Benefits -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Course Benefits:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:20px;\">\n\t<li>Understanding of RF and Microwave power measurement and testing concepts.</li>\n\t<li>Knowledge in testing techniques.</li>\n\t<li>Gain familiarity with equipment used for testing RF/Microwave systems.</li>\n</ul>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T11:32:23.403Z",
+    "updatedAt": "2026-08-31T10:05:18.656Z"
+  },
+  {
+    "id": "cmsyl99x8000pur701g17lcv4",
+    "slug": "nfv-course",
+    "title": "NFV Course",
+    "metaTitle": "NFV Course ATCNN",
+    "metaDescription": "N",
+    "sections": [
+      {
+        "id": "nfv-course-hero",
+        "data": {
+          "title": "Network Functions Virtualization (NFV)",
+          "variant": "subpage-light",
+          "subtitle": "Cloud-Native Telecom Architecture",
+          "isSubpage": true,
+          "description": "Specialized training on VNF orchestration, MANO architecture, and virtualized packet core operations.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787139812090-eetjf",
+        "data": {
+          "body": "<div style=\"width:100%;\">\n\n    <p style=\"font-size:16px; line-height:1.8; margin-bottom:30px;\">\n        In this program, we will be covering the topic areas of\n        <strong>software defined infrastructure (SDI)</strong>,\n        <strong>network functions virtualization (NFV)</strong>,\n        <strong>software-defined networking (SDN)</strong> and beyond.\n        The centre includes a broad collection of online content and technical\n        training aimed to assist technical professionals in the network industry\n        to improve their knowledge of key Intel® technologies, industry trends,\n        and technical aspects of NFV deployments.\n    </p>\n\n\n    <!-- Pre-requisite -->\n\n    <h3 style=\"margin-top:30px; margin-bottom:15px;\">\n        <strong>Pre-requisite:</strong>\n    </h3>\n\n    <ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n        <li>\n            Basics of Computer Networking\n        </li>\n    </ul>\n\n\n    <!-- Course Highlights -->\n\n    <h3 style=\"margin-top:30px; margin-bottom:15px;\">\n        <strong>Course Highlights:</strong>\n    </h3>\n\n    <ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\n        <li>\n            NFV Overview\n        </li>\n\n        <li>\n            Virtualization Overview\n        </li>\n\n        <li>\n            Virtualization Implementation Concepts\n        </li>\n\n        <li>\n            NFV Architecture\n        </li>\n\n        <li>\n            Virtualization in NFV\n        </li>\n\n        <li>\n            NFV Development scenarios\n        </li>\n\n        <li>\n            NFV applied to 5G\n        </li>\n\n    </ul>\n\n\n    <!-- Course Benefits -->\n\n    <h3 style=\"margin-top:30px; margin-bottom:15px;\">\n        <strong>Course Benefits:</strong>\n    </h3>\n\n    <ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\n        <li>\n            Participants will have a chance to handle the complexity of network\n            management and orchestration. The main purpose is to understand how\n            to transform the way networks are built and services are delivered.\n        </li>\n\n        <li>\n            Through the Network functions virtualization (NFV) one can replace\n            the network functions on dedicated appliances—such as routers,\n            load balancers, and firewalls—with virtualized instances running\n            as software on commercial off-the-shelf (COTS) hardware.\n        </li>\n\n        <li>\n            In 5G, NFV will also enable the distributed cloud, helping to create\n            flexible and programmable networks for the needs of tomorrow.\n        </li>\n\n    </ul>\n\n\n    <!-- Who can Enroll -->\n\n    <h3 style=\"margin-top:30px; margin-bottom:15px;\">\n        <strong>Who can Enroll for the Course:</strong>\n    </h3>\n\n    <ul style=\"font-size:16px; line-height:2; margin-bottom:20px;\">\n\n        <li>\n            Diploma Final year or completed students of CE/IT/EC Branch or\n            B. Sc. IT, BCA graduates\n        </li>\n\n        <li>\n            B. Tech. CE/IT/EC or M. Sc. IT/CS final and pre final year students\n            or graduates\n        </li>\n\n    </ul>\n\n</div>",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T11:37:50.204Z",
+    "updatedAt": "2026-08-31T10:05:18.659Z"
+  },
+  {
+    "id": "cmszm22ms000uur70xg7vhzuo",
+    "slug": "news",
+    "title": "News",
+    "metaTitle": "News ATCNN",
+    "metaDescription": "N",
+    "sections": [
+      {
+        "id": "news-hero",
+        "data": {
+          "title": "News & Media Coverage",
+          "variant": "subpage-light",
+          "subtitle": "Latest Updates from ATCNN",
+          "isSubpage": true,
+          "description": "Press releases, media announcements, and milestones from Ganpat University ATCNN.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787219771565-37vma",
+        "data": {
+          "body": "<div style=\"width:100%; max-width:1200px; margin:0 auto;\">\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse;\"><!-- ROW 1 -->\n\t<tbody>\n\t\t<tr style=\"display:flex; align-items:flex-start; gap:20px; margin-bottom:20px;\"><!-- NEWS 1 -->\n\t\t\t<td style=\"display:block; flex:1; width:0; vertical-align:top; background:#ffffff; border:1px solid #eeeeee; box-shadow:0 3px 12px rgba(0,0,0,0.10); padding:0;\"><img alt=\"Ganpat University is selected for 5G technology research\" src=\"/uploads/ganpat-university-is-selected-for-5g-technology-re-1787219012849.jpg\" style=\"width:100%; height:auto; display:block; margin:0;\" />\n\t\t\t<div style=\"padding:22px 24px 25px 24px;\">\n\t\t\t<h3 style=\"font-size:17px; line-height:1.45; margin:0 0 20px 0; color:#17344a;\"><strong>Ganpat University is selected for 5G technology research (Tie-ups with USA based 5G technology company) </strong></h3>\n\t\t\t<a href=\"#\" style=\"display:inline-block; background:#0868d8; color:#ffffff; text-decoration:none; padding:11px 28px; border-radius:25px; font-size:14px; font-weight:600;\">Read More </a></div>\n\t\t\t</td>\n\t\t\t<!-- NEWS 2 -->\n\t\t\t<td style=\"display:block; flex:1; width:0; vertical-align:top; background:#ffffff; border:1px solid #eeeeee; box-shadow:0 3px 12px rgba(0,0,0,0.10); padding:0;\"><img alt=\"Ganpat University will introduce the new courses related to 5G technology\" src=\"/uploads/ganpat-university-will-introduce-the-new-courses-r-1787219011365.jpg\" style=\"width:100%; height:auto; display:block; margin:0;\" />\n\t\t\t<div style=\"padding:22px 24px 25px 24px;\">\n\t\t\t<h3 style=\"font-size:17px; line-height:1.45; margin:0 0 20px 0; color:#17344a;\"><strong>Ganpat University will introduce the new courses related to 5G technology </strong></h3>\n\n\t\t\t<p style=\"font-size:13px; line-height:1.6; color:#777777; margin:0 0 18px 0;\">Sandesh News Paper, Ahmedabad , 17-03-2021</p>\n\t\t\t<a href=\"#\" style=\"display:inline-block; background:#0868d8; color:#ffffff; text-decoration:none; padding:11px 28px; border-radius:25px; font-size:14px; font-weight:600;\">Read More </a></div>\n\t\t\t</td>\n\t\t\t<!-- NEWS 3 -->\n\t\t\t<td style=\"display:block; flex:1; width:0; vertical-align:top; background:#ffffff; border:1px solid #eeeeee; box-shadow:0 3px 12px rgba(0,0,0,0.10); padding:0;\"><img alt=\"Ganpat University is allocated spectrum for 5G technology research, development and testing\" src=\"/uploads/ganpat-university-is-allocated-spectrum-for-5g-tec-1787219010121.jpg\" style=\"width:100%; height:auto; display:block; margin:0;\" />\n\t\t\t<div style=\"padding:22px 24px 25px 24px;\">\n\t\t\t<h3 style=\"font-size:17px; line-height:1.45; margin:0 0 20px 0; color:#17344a;\"><strong>Ganpat University is allocated spectrum for 5G technology research, development and testing </strong></h3>\n\n\t\t\t<p style=\"font-size:13px; line-height:1.6; color:#777777; margin:0 0 18px 0;\">Divyabhaskar, Mehsana, 16-03-2021</p>\n\t\t\t<a href=\"#\" style=\"display:inline-block; background:#0868d8; color:#ffffff; text-decoration:none; padding:11px 28px; border-radius:25px; font-size:14px; font-weight:600;\">Read More </a></div>\n\t\t\t</td>\n\t\t</tr>\n\t\t<!-- ROW 2 -->\n\t\t<tr style=\"display:flex; align-items:flex-start; gap:20px;\"><!-- NEWS 4 -->\n\t\t\t<td style=\"display:block; flex:1; width:0; vertical-align:top; background:#ffffff; border:1px solid #eeeeee; box-shadow:0 3px 12px rgba(0,0,0,0.10); padding:0;\"><img alt=\"Ganpat University is allocated spectrum for 5G technology\" src=\"/uploads/ganpat-university-is-allocated-spectrum-for-5g-tec-1787219008843.jpg\" style=\"width:100%; height:auto; display:block; margin:0;\" />\n\t\t\t<div style=\"padding:22px 24px 25px 24px;\">\n\t\t\t<h3 style=\"font-size:17px; line-height:1.45; margin:0 0 20px 0; color:#17344a;\"><strong>Ganpat University is allocated spectrum for 5G technology </strong></h3>\n\n\t\t\t<p style=\"font-size:13px; line-height:1.6; color:#777777; margin:0 0 18px 0;\">16-03-2021</p>\n\t\t\t<a href=\"#\" style=\"display:inline-block; background:#0868d8; color:#ffffff; text-decoration:none; padding:11px 28px; border-radius:25px; font-size:14px; font-weight:600;\">Read More </a></div>\n\t\t\t</td>\n\t\t\t<!-- NEWS 5 -->\n\t\t\t<td style=\"display:block; flex:1; width:0; vertical-align:top; background:#ffffff; border:1px solid #eeeeee; box-shadow:0 3px 12px rgba(0,0,0,0.10); padding:0;\"><img alt=\"Ganpat University gets experimental 5G spectrum\" src=\"/uploads/ganpat-university-gets-experimental-5g-spectrum-ti-1787219007802.jpg\" style=\"width:100%; height:auto; display:block; margin:0;\" />\n\t\t\t<div style=\"padding:22px 24px 25px 24px;\">\n\t\t\t<h3 style=\"font-size:17px; line-height:1.45; margin:0 0 20px 0; color:#17344a;\"><strong>Ganpat University gets experimental 5G spectrum </strong></h3>\n\n\t\t\t<p style=\"font-size:13px; line-height:1.6; color:#777777; margin:0 0 18px 0;\">TIME OF INDIA, 16/03/2021</p>\n\t\t\t<a href=\"#\" style=\"display:inline-block; background:#0868d8; color:#ffffff; text-decoration:none; padding:11px 28px; border-radius:25px; font-size:14px; font-weight:600;\">Read More </a></div>\n\t\t\t</td>\n\t\t\t<!-- NEWS 6 -->\n\t\t\t<td style=\"display:block; flex:1; width:0; vertical-align:top; background:#ffffff; border:1px solid #eeeeee; box-shadow:0 3px 12px rgba(0,0,0,0.10); padding:0;\"><img alt=\"Centre gives Ganpat University experimental 5G spectrum\" src=\"/uploads/centre-gives-ganpat-university-experimental-5g--do-1787219005380.jpg\" style=\"width:100%; height:auto; display:block; margin:0;\" />\n\t\t\t<div style=\"padding:22px 24px 25px 24px;\">\n\t\t\t<h3 style=\"font-size:17px; line-height:1.45; margin:0 0 20px 0; color:#17344a;\"><strong>Centre gives Ganpat University experimental 5G spectrum </strong></h3>\n\n\t\t\t<p style=\"font-size:13px; line-height:1.6; color:#777777; margin:0 0 18px 0;\">2021</p>\n\t\t\t<a href=\"#\" style=\"display:inline-block; background:#0868d8; color:#ffffff; text-decoration:none; padding:11px 28px; border-radius:25px; font-size:14px; font-weight:600;\">Read More </a></div>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-19T04:47:59.956Z",
+    "updatedAt": "2026-08-31T10:05:18.662Z"
+  },
+  {
+    "id": "cmsyldvei000sur701zrulcwr",
+    "slug": "career",
+    "title": "Career",
+    "metaTitle": "Career ATCNN",
+    "metaDescription": "C",
+    "sections": [
+      {
+        "id": "career-hero",
+        "data": {
+          "title": "Career & Opportunities",
+          "variant": "subpage-light",
+          "subtitle": "Work with ATCNN — Ganpat University",
+          "isSubpage": true,
+          "description": "Explore research positions, RF engineering roles, and academic fellowship opportunities at GUNI-ATCNN.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787140133836-6quxh",
+        "data": {
+          "body": "<div style=\"width:100%;\">\n\n    <!-- ENGINEER FOR 5G MOBILE NETWORK -->\n\n    <h3 style=\"margin-top:0; margin-bottom:20px;\">\n        <strong>ENGINEER FOR 5G MOBILE NETWORK</strong>\n    </h3>\n\n    <p style=\"font-size:16px; line-height:1.8; margin-bottom:20px;\">\n        Engineering diploma bac+5 (M/F), either in telecommunications or\n        programming domain, you have 0 to 5 years’ experience in software\n        development, in telecommunications domain or in embedded systems domain:\n        C++, object oriented and latest C++ standards.\n    </p>\n\n    <ul style=\"font-size:16px; line-height:2; margin-bottom:35px;\">\n\n        <li>\n            Knowledge on Agile methodology, wireless technology\n            (2G, 3G, 4G), scripts (Shell, Python) would be an added value\n        </li>\n\n        <li>\n            You are keen on communication and international team work\n        </li>\n\n        <li>\n            You are interested in new technologies and are eager to share\n            your creativity\n        </li>\n\n        <li>\n            You speak English fluently.\n        </li>\n\n    </ul>\n\n\n    <!-- 5G R&D Engineer -->\n\n    <h3 style=\"margin-top:35px; margin-bottom:20px;\">\n        <strong>5G R&amp;D Engineer</strong>\n    </h3>\n\n    <p style=\"font-size:16px; line-height:1.8; margin-bottom:20px;\">\n        M.Sc. or B.Sc. degree in Telecommunication Engineering, Electronics and\n        Communication Engineering, Computer Science or equivalent\n    </p>\n\n    <ul style=\"font-size:16px; line-height:2; margin-bottom:20px;\">\n\n        <li>\n            Good knowledge of C/C++\n        </li>\n\n        <li>\n            Experience in development under Linux\n        </li>\n\n        <li>\n            Flexible, enthusiastic, and creative\n        </li>\n\n        <li>\n            Self-motivated, target driven and innovative thinking\n        </li>\n\n        <li>\n            Open minded and willing to accept challenge\n        </li>\n\n        <li>\n            Fluent written and spoken English\n        </li>\n\n        <li>\n            Responsible and committed\n        </li>\n\n        <li>\n            Initiative, creative and analytical\n        </li>\n\n        <li>\n            Good 5G/LTE/WCDMA mobility knowledge is a plus\n        </li>\n\n        <li>\n            Experience in 5G development is a strong plus\n        </li>\n\n    </ul>\n\n</div>",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T11:41:24.666Z",
+    "updatedAt": "2026-08-31T10:05:18.624Z"
+  },
+  {
+    "id": "cmsyl1284000mur70p3vt82bk",
+    "slug": "fundamentals-of-rf-system-design-final",
+    "title": "Fundamentals of RF System Design Final",
+    "metaTitle": "Fundamentals of RF System Design Final ATCNN",
+    "metaDescription": "FRSDF",
+    "sections": [
+      {
+        "id": "fundamentals-of-rf-system-design-final-hero",
+        "data": {
+          "title": "Fundamentals of RF System Design",
+          "variant": "subpage-light",
+          "subtitle": "Radio Frequency Engineering & Analysis",
+          "isSubpage": true,
+          "description": "In-depth program covering RF transceivers, matching networks, power amplifiers, and noise figure analysis.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787139485713-owakh",
+        "data": {
+          "body": "<div style=\"width:100%;\">\n<h3 style=\"margin-top:0; margin-bottom:20px;\"><strong>Learn The Basics of RF Systems Design Principles</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:20px;\">Intended to orient the Engineering student toward Radio Frequency (RF) circuits systems design principles, this course provides a fundamental overview of RF theory, RF systems and hardware architecture and RF design topics.</p>\n\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:30px;\">Basic electromagnetic theory, modulation theory, receivers, transmitters, antennas, transmission lines, system link considerations and hardware design of RF equipment will be discussed in relative depth to prepare the student for more advanced courses in the RF Engineering program with relative ease, also providing the non-RF engineer with basic knowledge of the field.</p>\n<!-- Pre-requisite -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Pre-requisite:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>Basics of Physics and Electronics</li>\n</ul>\n<!-- Course Highlights -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Course Highlights:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>RF Wave Propagation</li>\n\t<li>Antennas</li>\n\t<li>Transmission Lines and Analysis</li>\n\t<li>Modulation Theory</li>\n\t<li>RF Amplifiers</li>\n\t<li>Oscillators in RF Systems</li>\n\t<li>RF Receivers and System Links</li>\n</ul>\n<!-- Course Benefits -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Course Benefits:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>Define elements of Electromagnetic propagation in space and impairments.</li>\n\t<li>List Antenna types their functionalities and modes of operation.</li>\n\t<li>Name and differentiate RF transmission lines and perform wave/line analysis</li>\n\t<li>List and differentiate primary Modulation techniques with their characteristics</li>\n\t<li>Describe the various RF Amplifier types and classes and their characteristics</li>\n\t<li>Describe the various RF oscillator types and their characteristics</li>\n\t<li>Show familiarity with the RF Receiver architecture and subsection characteristics</li>\n\t<li>Show familiarity and perform power budget calculations on RF system links.</li>\n</ul>\n<!-- Who can Enroll -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Who can Enroll for the Course:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:20px;\">\n\t<li>Diploma Final year or completed students of EC/IT Branch or B. Sc. Electronics/ Physics graduates</li>\n\t<li>B. Tech. EC/IT or M. Sc. / B. Sc. Electronics/ Physics final and pre final year students</li>\n</ul>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T11:31:26.980Z",
+    "updatedAt": "2026-08-31T10:05:18.654Z"
+  },
+  {
+    "id": "cmsyfvq3f0009ur70k8i6sqlq",
+    "slug": "execution-committee",
+    "title": "Execution Committee",
+    "metaTitle": "Execution Committee | ATCNN - Ganpat University",
+    "metaDescription": "Meet the Execution Committee of ATCNN Ganpat University.",
+    "sections": [
+      {
+        "id": "execution-hero",
+        "data": {
+          "title": "Execution Committee",
+          "tagline": "Operational Leadership",
+          "variant": "subpage-dark",
+          "subtitle": "ATCNN — Ganpat University",
+          "isSubpage": true,
+          "description": "Driving the academic, research, and operational functioning of the Advanced Telecommunication Centre of Networking and Networks.",
+          "taglineIcon": "Award",
+          "subpageAlign": "left",
+          "subpageHeight": "short"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "execution-people-block",
+        "data": {
+          "title": "Execution Committee Members",
+          "subtitle": "Leadership, project leaders, and administrative officers steering the centre forward.",
+          "selectedPeople": {
+            "execution": [
+              "Padmashri Ganpatbhai Patel",
+              "Dr. Mahendra Sharma",
+              "Dr. Kiran Amin",
+              "Dr. Satyen M Parikh",
+              "Dr. Ajay Kumar Gupta",
+              "Dr. R. D. Vanzara",
+              "Dr. Amrut Patel",
+              "Dr. R.B. Patel",
+              "Dr. Ketan J. Patel"
+            ]
+          },
+          "titleAlignment": "center"
+        },
+        "type": "people"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T09:07:19.899Z",
+    "updatedAt": "2026-08-31T10:02:16.714Z"
+  },
+  {
+    "id": "cmsyg09qv000aur70udzy2uqd",
+    "slug": "bord-of-studies",
+    "title": "Board of Studies",
+    "metaTitle": "Board of Studies | ATCNN - Ganpat University",
+    "metaDescription": "Board of Studies at ATCNN Ganpat University shaping research and academic direction.",
+    "sections": [
+      {
+        "id": "bos-hero",
+        "data": {
+          "title": "Board of Studies",
+          "tagline": "Academic Excellence",
+          "variant": "subpage-dark",
+          "subtitle": "ATCNN — Ganpat University",
+          "isSubpage": true,
+          "description": "Academic and industry experts shaping cutting-edge curriculum, certifications, and research programs.",
+          "taglineIcon": "GraduationCap",
+          "subpageAlign": "left",
+          "subpageHeight": "short"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "bos-people-block",
+        "data": {
+          "title": "Board of Studies Members",
+          "subtitle": "Eminent scientists and professors from ISRO, IIT Madras, IIT Dharwad, and global telecom organizations.",
+          "selectedPeople": {
+            "board-of-studies": [
+              "Dr. V. Kamakoti",
+              "Mr. Rasesh Patel",
+              "Mr. Jaswant Sharma",
+              "Dr. Naveen M. B.",
+              "Prof. C Vijaykumar",
+              "Mr. Ajay Patel",
+              "Dr. Vijay K. Patel",
+              "Prof. Bhumit P. Patel"
+            ]
+          },
+          "titleAlignment": "center"
+        },
+        "type": "people"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T09:10:51.991Z",
+    "updatedAt": "2026-08-31T10:02:16.719Z"
+  },
+  {
+    "id": "cmsyh23td000eur70ejhnghst",
+    "slug": "research-topics",
+    "title": "Research Topics",
+    "metaTitle": "Research Topics ATCNN",
+    "metaDescription": "RT",
+    "sections": [
+      {
+        "id": "research-topics-hero",
+        "data": {
+          "title": "Open Research Topics",
+          "variant": "subpage-light",
+          "subtitle": "5G, 6G & Advanced Telecom Research",
+          "isSubpage": true,
+          "description": "Key open research opportunities and PhD/MTech dissertation themes at GUNI-ATCNN.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787136991249-wd8ab",
+        "data": {
+          "body": "<div style=\"width:100%;\">\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:25px;\"><strong>5G Research topics</strong> offer scholars an opportunity to innovate and explore the field of <strong>5G Wireless systems</strong> using enhanced algorithms and protocols to increase the data rates and overcome the existing challenges. <strong>5G networking</strong> is the advancement in the wireless domain for next-generation needs to offer enhanced data rates. Every new technology overcomes the existing challenges; similarly, 5G networks offer superior speed than the existing LTE/4G Networks to manage and connect multiple devices.</p>\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Coverage issues.</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8;\">With the advent of 5G we will witness a site densification process as a primary means to increase network capacity. Site densification necessarily poses economical issues that may slow down considerably spatial and temporal 5G deployment, unless a substantial BS cost reduction is achieved over the time. It has been reported how SDN and network virtualization may contribute to cut costs, but there remains uncertainty about to what extent this will speed up 5G rollout.</p>\n\n<p style=\"font-size:16px; line-height:1.8;\">Recent studies have shown that, under a business-as-usual model, in UK 90% of the population will be covered with 5G not before 2027 and the that 100% coverage will be extremely hard to reach due to prohibitively increasing deployment costs in less populated</p>\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Emerging applications challenges :</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8;\">Super-hype of 5G contributed to create unprecedented expectations about the levels of QoS these mobile networks will be able to provide. It is becoming clear, however, how some emerging applications will push the required QoS to extreme levels that appear very challenging for currently envisioned 5G architectures. Among them, driverless cars and vehicles and the tactile Internet.</p>\n\n<p style=\"font-size:16px; line-height:1.8;\">For example, the set of requirements imposed by the tactile Internet (end-to-end ultra-low latency not exceeding 1 ms, outage probability 10&minus;7 or less, network intelligence to support predictive actuation) to deliver actuation and senses such as hearing, touching, and seeing, is still considered a 5G challenge especially over long ranges beyond 100 km</p>\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Device to Device Communication challenges and vulnerabilities :</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8;\">There are aspects of D2D communication in 5G that have not yet been addressed in a totally satisfactory manner. One is coexistence of cellular users (CUs) and D2D pairs, particularly, mitigation of D2D links interference on CUs, when downlink resources are shared with D2D devices, and also on the BS when uplink resources are shared.</p>\n\n<p style=\"font-size:16px; line-height:1.8;\">D2D interference management is still a subject of research efforts, since existing interference mitigation techniques (interference cancellation based on coding and signal processing, interference avoidance based on orthogonal resource allocation, and interference coordination based on scheduling and power control) are expected to be insufficient in ultra-dense node deployment scenarios. Other issues concern D2D security and privacy.</p>\n\n<p style=\"font-size:16px; line-height:1.8;\">Direct or relay-assisted communication may be established on device controlled links with no control of the core network, a trusted party providing identification, authentication, and encryption. This makes D2D links potentially more vulnerable to privacy violation, besides suffering from all of the attacks affecting other networks.</p>\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Mobile edge computing issues:</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8;\">It is foreseen that moving computing, storage, and networking resources to the edge of the radio access network (RAN) will be a key ingredient to alleviate backhaul and core network and to allow executing delay-sensitive and context-aware applications in the proximity of end users. This paradigm, referred to as mobile edge computing (MEC), poses however concerns .</p>\n\n<p style=\"font-size:16px; line-height:1.8;\">Among them, the limited computing and storage resources per each MEC platform, the necessity for MEC platforms of different provider to collaborate, challenges in user mobility support in small cells, problematic applicability of centralized authentication protocols.</p>\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>An open and smart RAN?</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8;\">We are currently witnessing efforts towards open, interoperable interfaces, RAN virtualization, and RAN intelligence. There is a trend to incentivize the use of commercial off-the-shelf (COTS) hardware, to explore open source and open whitebox network by introducing virtualized network elements with standardized open interfaces, to push embedded machine learning systems and artificial intelligence back end modules for an enhanced network intelligence. These are the main objectives of the ORAN Alliance.</p>\n\n<p style=\"font-size:16px; line-height:1.8;\">This trend is taking the first steps and it is clear to what extent the envisioned features will be implemented in 5G networks.</p>\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Network orchestration and slicing :</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8;\">The NFV-SDN technologies, as briefly mentioned above, promise to support the implementation of a large variety of services by means of softwarized functionalities hosted into cloud computing platform over data centers implemented with standard hardware (COTS). In terms of Capex and Opex this is a real revolution for network operators, that can move into the direction of more effective procurement and simplified operations.</p>\n\n<p style=\"font-size:16px; line-height:1.8;\">Moreover the same resources (both and hardware and software) may be shared among different subsets of customers, while keeping full isolation of the data paths and of the quality of service thanks to the native capabilities of cloud computing platforms.</p>\n\n<p style=\"font-size:16px; line-height:1.8;\">This is the &ldquo;slicing&rdquo; concepts, different subsets of customers may subscribe a service contract with different operators (either real or virtual) and share in the end the same infrastructure, which paves the way to novel business models and opportunities for the network providers. An effective management of NFV requires an orchestration platform that will automate the deployment of the required functionalities and manage operations.</p>\n\n<p style=\"font-size:16px; line-height:1.8;\">Some opensource implementations of such an orchestration platform are currently under implementation, for instance Open source MANO (OSM)1, and the open network automation platform (ONAP)2, and running proof of concepts are also available such as the central office re-engineered as a data-center (CORD)3. These technologies are not at the production level and some issues like multi-domain orchestration support are still open.</p>\n\n<p style=\"font-size:16px; line-height:1.8;\">Similarly, the slicing paradigm has still to be fully understood and experimented to validate some critical aspects such as full quality of service isolation and security guarantees.</p>\n\n<h3 style=\"margin-top:35px; margin-bottom:15px;\"><strong>PhD Research Areas in 5G Network</strong></h3>\n\n<ul style=\"line-height:2; margin-top:10px; margin-bottom:25px;\">\n\t<li>Implementing Security mechanism in Pervasive/Ubiquitous Computing</li>\n\t<li>Evolution of Future Wireless Networks using Cognitive Radio</li>\n\t<li>Implementing Privacy and Security in Wireless Networks</li>\n\t<li>Elevated Performance Network Virtualization</li>\n\t<li>Experimental Results on Spectrum effectiveness in End-to-End wireless systems</li>\n\t<li><a href=\"https://omnet-manual.com/d2d-in-5g-network-architecture-supervision-techniques-and-services/\" target=\"_blank\">D2D in 5G Network Architecture, Supervision Techniques, and Services </a></li>\n\t<li>Joint Management and Orchestration of Networking with Cloud Technologies</li>\n</ul>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T09:40:17.188Z",
+    "updatedAt": "2026-08-31T10:05:18.587Z"
+  },
+  {
+    "id": "cmsyjjzac000iur70g5rm2cdm",
+    "slug": "millimeter-wave",
+    "title": "Millimeter Wave",
+    "metaTitle": "Millimeter Wave ATCNN",
+    "metaDescription": "MW",
+    "sections": [
+      {
+        "id": "millimeter-wave-hero",
+        "data": {
+          "title": "Millimeter Wave (mmWave)",
+          "variant": "subpage-light",
+          "subtitle": "High-Frequency Wireless Technologies",
+          "isSubpage": true,
+          "description": "Research, applications, and propagation modeling in mmWave frequency bands (24 GHz to 100 GHz).",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787137813152-zrvge",
+        "data": {
+          "body": "<div style=\"width:100%;\"><!-- BROADBAND WIRELESS FIBER EXTENSIONS -->\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse; margin-bottom:35px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:38%; vertical-align:top; padding:0 35px 20px 0; text-align:center;\"><img alt=\"Broadband Wireless Fiber Extensions\" src=\"/uploads/building-icon-109x110-1787137767976.png\" style=\"width:100%; max-width:500px; height:auto; display:block; margin:0 auto;\" /></td>\n\t\t\t<td style=\"width:62%; vertical-align:top; padding:0;\">\n\t\t\t<h3 style=\"margin-top:0; margin-bottom:20px;\"><strong>BROADBAND WIRELESS FIBER EXTENSIONS</strong></h3>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">As the demand for bandwidth continues to grow and exceed the predicted expectations of the global mobile and internet markets, fiber-optic cable continues to be the technology of choice for high bandwidth delivery. However, there is a major issue with using a physical cable to deliver bandwidth: a physical path is required.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">Fiber-optic cable is typically buried below city streets, strung on utility poles, or installed in buildings. This can be a real headache for network and fiber operators who need to extend fiber-optic networks to a new location or building. The cost to run additional fiber from an existing fiber hub site to a new building typically exceeds $100 per foot for underground installations in metropolitan areas.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">Sometimes running a fiber extension is simply not possible, due to factors such as right-of-way issues or the need to traverse highways, rivers, or other physical or geographic impediments.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">The cost for this physical cable installation as well as the politics, delay and additional costs for access rights are well known in the industry. In many cases, a physical path for the &ldquo;last few hundred feet&rdquo; simply cannot be trenched for fiber-optic cable, which stops an installation in its tracks.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">As an alternative, network and cable operators are increasingly looking to <a href=\"https://www.vubiqnetworks.com/\" target=\"_blank\"> <strong>V-Band</strong> </a> and <a href=\"https://www.vubiqnetworks.com/\" target=\"_blank\"> <strong>E-Band</strong> </a> millimeter wave broadband wireless connectivity as a practical and cost-effective solution to the extension of such fiber-optic networks.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0;\">So, when fiber-optic networks are not available or are too expensive, implementing a wireless fiber optic extension is the right solution &ndash; but only if that solution can deliver both gigabit speeds and advanced networking features. That&rsquo;s why our HaulPass radios are ideal for network and fiber operators looking for a cost-effective way to extend their networks to a new location that is in line-of-sight proximity and less than 1.8 kilometer away.</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<hr style=\"margin:30px 0;\" /><!-- WIRELESS METROPOLITAN AREA NETWORKS -->\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse; margin-bottom:35px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:62%; vertical-align:top; padding:0 35px 20px 0;\">\n\t\t\t<h3 style=\"margin-top:0; margin-bottom:20px;\"><strong>WIRELESS METROPOLITAN AREA NETWORKS</strong></h3>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">Enterprise networks are becoming increasingly sophisticated with advanced services, security, quality of service and software-defined networks. Such networks often span multiple buildings, forming campus-wide metropolitan area networks. When networks have to span multiple buildings, fiber-optic cable is usually the transmission medium of choice. However, installing fiber-optic cable can be expensive, labor intensive, and and time consuming.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">Instead of undertaking such costly cable installation projects, enterprises can extend the reach of their metro area networks by deploying cost-effective, easy-to-install millimeter wave V-band and E-Band wireless extensions when the new location or building is in the line of sight and less than 1.8 kilometers away. When deploying wireless broadband technology, however, it&rsquo;s not enough merely to bridge the two locations.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0;\">It&rsquo;s essential to make those wireless network extensions as integrated into the network as possible. Quality of service and traffic management switching must be part of the solution without incurring additional costs.</p>\n\t\t\t</td>\n\t\t\t<td style=\"width:38%; vertical-align:top; padding:0; text-align:center;\"><img alt=\"Wireless Metropolitan Area Networks\" src=\"/uploads/metro-icon-109x110-1787137767347.png\" style=\"width:100%; max-width:500px; height:auto; display:block; margin:0 auto;\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<hr style=\"margin:30px 0;\" /><!-- WIRELESS MOBILE BACKHAUL -->\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse; margin-bottom:35px;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"width:38%; vertical-align:top; padding:0 35px 20px 0; text-align:center;\"><img alt=\"Wireless Mobile Backhaul\" src=\"/uploads/backhaul-icon-109x110-1787137766604.png\" style=\"width:100%; max-width:500px; height:auto; display:block; margin:0 auto;\" /></td>\n\t\t\t<td style=\"width:62%; vertical-align:top; padding:0;\">\n\t\t\t<h3 style=\"margin-top:0; margin-bottom:20px;\"><strong>WIRELESS MOBILE BACKHAUL</strong></h3>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">For wireless carriers, V-Band and E-Band millimeter wave technology can also provide a practical and low-cost wireless backhaul solution for their mobile communications networks.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">In order to expand wireless network coverage and provide more data capacity for their customers, wireless carriers are rapidly upgrading to 5G technology and installing additional small base stations (known as small cells) to extend their reach. This is especially prevalent in densely populated urban and metropolitan regions.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">Small cells can be cost-effectively mounted on light poles, utility poles, or buildings. However, they still need high-speed broadband backhaul networks to communicate with one another and with base stations. As is the case with the previous applications discussed above, installing additional fiber-optic cable is not always feasible or cost-justified. As a result, many wireless carriers are now looking to deploy millimeter wave broadband wireless backhaul solutions.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0;\">Another factor to consider is that the future growth of mobile communications networks will require much higher density and smaller base stations. The fact that millimeter wave is the most interference-resistant spectrum is yet another reason that large carriers and internet service providers are moving towards V-Band and E-Band wireless broadband for the badly needed short-range backhaul links.</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T10:50:10.404Z",
+    "updatedAt": "2026-08-31T10:05:18.616Z"
+  },
+  {
+    "id": "cmsylahf2000qur70m1w39lwn",
+    "slug": "ideathon-2022",
+    "title": "Ideathon 2022",
+    "metaTitle": "Ideathon 2022 ATCNN",
+    "metaDescription": "I22",
+    "sections": [
+      {
+        "id": "ideathon-2022-hero",
+        "data": {
+          "title": "Ideathon 2022",
+          "variant": "subpage-light",
+          "subtitle": "Centre of Excellence — Ganpat University",
+          "isSubpage": true,
+          "description": "Annual Innovation and Ideation Competition on Next-Generation 5G & Telecommunication Technologies.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787139964127-r6kji",
+        "data": {
+          "body": "<div style=\"width:100%; text-align:center;\"><!-- Main Heading -->\n<h2 style=\"\n        margin:0 auto 25px auto;\n        text-align:center;\n        font-size:32px;\n        line-height:1.2;\n        font-weight:700;\n        color:#1468d5;\n        text-transform:uppercase;\n    \">THANK YOU FOR YOUR PARTICIPATION. THIS EVENT IS POSTPONED</h2>\n<!-- Query Heading -->\n\n<h2 style=\"\n        margin:25px auto 15px auto;\n        text-align:center;\n        font-size:42px;\n        line-height:1.3;\n        font-weight:700;\n        color:#123047;\n    \">Further Queries ? Feel Free to Ask Here</h2>\n<!-- Blue Line -->\n\n<div style=\"\n        width:55px;\n        height:2px;\n        background:#1468d5;\n        margin:25px auto 75px auto;\n    \">&nbsp;</div>\n<!-- Contact Details -->\n\n<p style=\"\n        margin:0 auto 25px auto;\n        text-align:center;\n        font-size:18px;\n        line-height:1.8;\n        color:#666666;\n    \">Dr. Anand Mankodia (M) 9638096944 | Email ID: ideathon@ganpatuniversity.ac.in</p>\n\n<p style=\"\n        margin:0 auto;\n        text-align:center;\n        font-size:18px;\n        line-height:1.8;\n        color:#666666;\n    \">Mr. Kushal Gohil:(M) 8320541500 | Mr. Gaurav Agarwal : (M) 9978643848</p>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T11:38:46.574Z",
+    "updatedAt": "2026-08-31T10:05:18.629Z"
+  },
+  {
+    "id": "cmsyjnzwm000jur70zyx944m3",
+    "slug": "expression-of-interest-einfochips",
+    "title": "Expression of Interest Einfochips",
+    "metaTitle": "Expression of Interest Einfochips ATCNN",
+    "metaDescription": "EOIE",
+    "sections": [
+      {
+        "id": "expression-of-interest-einfochips-hero",
+        "data": {
+          "title": "Expression of Interest — eInfochips",
+          "variant": "subpage-light",
+          "subtitle": "Industry-Academia Strategic Alliance",
+          "isSubpage": true,
+          "description": "Collaborative research and development partnership between Ganpat University ATCNN and eInfochips.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787139115966-bti27",
+        "data": {
+          "body": "<div style=\"width:100%; margin:0; padding:0; text-align:center;\"><img alt=\"Expression of Interest - eInfochips\" src=\"/uploads/expression-of-interest-einfochips-1-scaled-1787138553586.jpg\" style=\"display:block; width:100%; max-width:100%; height:auto; margin:0 auto; border:0;\" /></div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T10:53:17.829Z",
+    "updatedAt": "2026-08-31T10:05:18.632Z"
+  },
+  {
+    "id": "cmsyl7pmu000our70d44ptii0",
+    "slug": "sdn-certification-course",
+    "title": "SDN Certification Course",
+    "metaTitle": "SDN Certification Course ATCNN",
+    "metaDescription": "SCC",
+    "sections": [
+      {
+        "id": "sdn-certification-course-hero",
+        "data": {
+          "title": "SDN Certification Course",
+          "variant": "subpage-light",
+          "subtitle": "Software-Defined Networking Professional Training",
+          "isSubpage": true,
+          "description": "Hands-on industry certification course covering SDN architecture, OpenFlow controllers, and carrier cloud deployments.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787139672584-88iz9",
+        "data": {
+          "body": "<div style=\"width:100%;\">\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:30px;\">This course is ideal for entry-level engineers, programmers, in the SDN ecosystem. Candidate will be able to enhance the vendor-neutral conceptual knowledge of the major domains of networking practices that support the theory and practice of Software Defined Networking (SDN).</p>\n<!-- Pre-requisite -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Pre-requisite:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>Basics of Computer Networking,</li>\n</ul>\n<!-- Course Highlights -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Course Highlights:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>Networking concepts</li>\n\t<li>SDN Concepts</li>\n\t<li>OpenFlow</li>\n\t<li>SDN Architecture and ecosystem</li>\n\t<li>SDN Open Source</li>\n</ul>\n<!-- Course Benefits -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Course Benefits:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>Acquire an understanding of has vendor-neutral conceptual knowledge of the major domains of networking practices that support the theory and practice of Software Defined Networking (SDN).</li>\n\t<li>It presupposes foundational knowledge in computer networking practices, and will validate conceptual knowledge in how those computer networking foundations are affected in an SDN environment.</li>\n\t<li>It is an entry-level certification course for technical professionals asserting concept-level mastery of the domain of SDN.</li>\n</ul>\n<!-- Who can Enroll -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Who can Enroll for the Course:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:20px;\">\n\t<li>Diploma Final year or completed students of CE/IT/EC Branch or B. Sc. IT, BCA graduates</li>\n\t<li>B. Tech. CE/IT/EC or M. Sc. IT/CS final and pre final year students or graduates</li>\n</ul>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T11:36:37.255Z",
+    "updatedAt": "2026-08-31T10:05:18.635Z"
+  },
+  {
+    "id": "cmszlr7p5000tur70w5oag4sy",
+    "slug": "pm-wani",
+    "title": "PM Wani",
+    "metaTitle": "PM Wani ATCNN",
+    "metaDescription": "PW",
+    "sections": [
+      {
+        "id": "pm-wani-hero",
+        "data": {
+          "title": "PM-WANI Framework",
+          "variant": "subpage-light",
+          "subtitle": "Prime Minister Wireless Access Network Interface",
+          "isSubpage": true,
+          "description": "ATCNN initiatives and technical enablement for public Wi-Fi infrastructure under Government of India's PM-WANI framework.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787216424777-g6lmd",
+        "data": {
+          "body": "<div style=\"width:100%;\"><!-- PM-WANI -->\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse; margin-bottom:35px;\">\n\t<tbody>\n\t\t<tr><!-- IMAGE LEFT -->\n\t\t\t<td style=\"width:38%; vertical-align:top; padding:0 35px 20px 0; text-align:center;\"><img alt=\"PM-WANI Public Wi-Fi\" src=\"/uploads/img-0096-scaled-800x500-1787216517606.jpg\" style=\"width:100%; max-width:500px; height:auto; display:block; margin:0 auto;\" /></td>\n\t\t\t<!-- CONTENT RIGHT -->\n\t\t\t<td style=\"width:62%; vertical-align:top; padding:0;\">\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">The Union Cabinet headed by Prime Minister Shri Narendra Modi today approved the proposal of Department of Telecom (DoT) to proliferate Broadband through Public Wi-Fi networks under the framework of Prime Minister&rsquo;s Wi-Fi Access Network Interface (PMWANI). This framework takes forward the goal of National Digital Communications Policy, 2018 (NDCP) of creating a robust digital communications infrastructure.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 15px 0;\">The PM-WANI framework envisages provision of Broadband through Public Wi-Fi Hotspot providers and will consist of the following elements:</p>\n\n\t\t\t<ul style=\"font-size:16px; line-height:1.8; margin:0 0 20px 20px; padding:0;\">\n\t\t\t\t<li style=\"margin-bottom:12px;\"><strong>Public Data Office (PDO)</strong>, which will establish, maintain, and operate PM-WANI compliant Wi-Fi Access Points and provide last-mile connectivity to deliver Broadband services to subscribers by procuring internet bandwidth from telecom service providers and/or internet service providers;</li>\n\t\t\t\t<li style=\"margin-bottom:12px;\"><strong>Public Data Office Aggregator (PDOA)</strong>, which will provide aggregation services such as authorization and accounting to PDOs, thereby facilitating PDOs in providing services to the end consumer;</li>\n\t\t\t\t<li style=\"margin-bottom:12px;\"><strong>App Provider</strong>, who will develop an Application to register users and &lsquo;discover&rsquo; and display PM-WANI compliant Wi-Fi hotspots in the proximity for accessing the internet service and also authenticate the potential Broadband users;</li>\n\t\t\t\t<li style=\"margin-bottom:12px;\"><strong>A Central Registry</strong>, which will maintain the details of App Providers, PDOAs, and PDOs. To begin with, the Central Registry will be maintained by the Centre for Development of Telematics (C-DOT).</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n<!-- SECOND SECTION -->\n\n<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; border-collapse:collapse; margin-bottom:35px;\">\n\t<tbody>\n\t\t<tr><!-- CONTENT LEFT -->\n\t\t\t<td style=\"width:62%; vertical-align:top; padding:0 35px 20px 0;\">\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">To facilitate ease of doing business and encourage local shops and small establishments to become Wi-Fi providers, it has been approved that the last-mile Public Wi-Fi providers require no license, no registration and will not need to pay any fees to DoT. In fact, PDOAs, who will aggregate the last-mile providers will also not require any license. These PDOAs will only have to register, for which no fees will be charged.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0 0 20px 0;\">The registration process will be completed within 7 working days of the receipt of applications. PM-WANI framework will also encourage App Providers who will offer services for registering and authenticating users.</p>\n\n\t\t\t<p style=\"font-size:16px; line-height:1.8; margin:0;\">The potential user who wants to access Broadband through Public Wi-Fi will need to download the relevant App, get authenticated, and thereafter access Broadband at any Public Wi-Fi Hotspot. When the user reaches a Public Wi-Fi Hotspot, the App on the mobile phone will show various available networks. The user can then choose the Public Wi-Fi network of choice, pay an amount &ndash; either online or through voucher &ndash; and use the network till the balance is exhausted.</p>\n\t\t\t</td>\n\t\t\t<!-- IMAGE RIGHT -->\n\t\t\t<td style=\"width:38%; vertical-align:top; padding:0; text-align:center;\"><img alt=\"PM-WANI Wi-Fi Network\" src=\"/uploads/img-0098-scaled-800x500-1787216516425.jpg\" style=\"width:100%; max-width:500px; height:auto; display:block; margin:0 auto;\" /></td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-19T04:39:33.305Z",
+    "updatedAt": "2026-08-31T10:05:18.638Z"
+  },
+  {
+    "id": "cmsylclc5000rur70qj8vjns6",
+    "slug": "main-events",
+    "title": "Main Events",
+    "metaTitle": "Main Events ATCNN",
+    "metaDescription": "ME",
+    "sections": [
+      {
+        "id": "main-events-hero",
+        "data": {
+          "title": "Events & Seminars",
+          "variant": "subpage-light",
+          "subtitle": "Centre of Excellence — Ganpat University",
+          "isSubpage": true,
+          "description": "Technical seminars, 5G workshops, and industry conclaves organized by the Advanced Technology Centre for Next-Generation Networks.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787053213278-ty1eq",
+        "data": {
+          "items": [
+            {
+              "icon": "Star",
+              "title": "Card Title",
+              "description": "Card description here."
+            }
+          ],
+          "title": "Section Title",
+          "columns": 3,
+          "cardType": "initiative",
+          "category": ""
+        },
+        "type": "card_grid"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T11:40:24.965Z",
+    "updatedAt": "2026-08-31T10:05:18.621Z"
+  },
+  {
+    "id": "cmsygeutr000bur70m3qnywhb",
+    "slug": "organization-hierarchy",
+    "title": "Organization Hierarchy",
+    "metaTitle": "Organization Hierarchy ATCNN",
+    "metaDescription": "OH",
+    "sections": [
+      {
+        "id": "organization-hierarchy-hero",
+        "data": {
+          "title": "Organization Hierarchy",
+          "variant": "subpage-light",
+          "subtitle": "Governance & Structure — ATCNN",
+          "isSubpage": true,
+          "description": "Leadership and administrative structure of the Advanced Technology Centre for Next-Generation Networks.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787134658250-j9esm",
+        "data": {
+          "body": "<p><img alt=\"Organization Hierarchy\" src=\"/uploads/organization-hierarchy-1-2048x978-1787134405480.png\" style=\"width: 100%; height: auto; display: block;\" /></p>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T09:22:12.495Z",
+    "updatedAt": "2026-08-31T10:05:18.640Z"
+  },
+  {
+    "id": "cmsygii9n000cur70e8b8d45a",
+    "slug": "gallery",
+    "title": "Gallery",
+    "metaTitle": "Gallery ATCNN",
+    "metaDescription": "G",
+    "sections": [
+      {
+        "id": "gallery-hero",
+        "data": {
+          "title": "Gallery",
+          "variant": "subpage-light",
+          "subtitle": "Moments & Milestones — Ganpat University ATCNN",
+          "isSubpage": true,
+          "description": "Explore photographs of our state-of-the-art telecommunication labs, experimental testbeds, high-level delegations, and campus events.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787135594226-9n2w3",
+        "data": {
+          "title": "Gallery",
+          "images": [
+            {
+              "alt": "",
+              "url": "/uploads/1-768x355-1787135449358.jpg",
+              "category": "all"
+            },
+            {
+              "alt": "",
+              "url": "/uploads/2-1-768x355-1787135448605.jpg",
+              "category": "all"
+            },
+            {
+              "alt": "",
+              "url": "/uploads/20210526-172706-scaled-e1655180648363-768x1662-1787135445431.jpg",
+              "category": "all"
+            },
+            {
+              "alt": "",
+              "url": "/uploads/5-768x355-1787135444601.jpg",
+              "category": "all"
+            },
+            {
+              "alt": "",
+              "url": "/uploads/6-1-768x355-1787135443740.jpg",
+              "category": "all"
+            },
+            {
+              "alt": "",
+              "url": "/uploads/7-768x355-1787135442902.jpg",
+              "category": "all"
+            }
+          ],
+          "categories": []
+        },
+        "type": "gallery"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T09:25:02.843Z",
+    "updatedAt": "2026-08-31T10:05:18.643Z"
+  },
+  {
+    "id": "cmsyk7b36000lur703oyzk8zb",
+    "slug": "fundamentals-of-5g-nr",
+    "title": "Fundamentals of 5G NR",
+    "metaTitle": "Fundamentals of 5G NR ATCNN",
+    "metaDescription": "FO5N",
+    "sections": [
+      {
+        "id": "fundamentals-of-5g-nr-hero",
+        "data": {
+          "title": "Fundamentals of 5G NR",
+          "variant": "subpage-light",
+          "subtitle": "5G New Radio Technical Course",
+          "isSubpage": true,
+          "description": "Comprehensive course on 5G NR air interface, numerology, beamforming, and network architecture.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787139299430-96p4r",
+        "data": {
+          "body": "<div style=\"width:100%;\">\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:20px;\">Current wireless cellular systems are projected to be replaced by a significantly faster and more versatile new generation of wireless technology &ndash; <strong>5G</strong>. In this new online course, you will learn the fundamentals of <strong>5G NR (New Radio)</strong> &ndash; the radio access network of 5G. The materials will be based on the standards (<strong>3GPP Technical Specifications Releases 15 and 16</strong>) with insights drawn from the instructor&rsquo;s first-hand experience in contributing to the 5G standards.</p>\n\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:20px;\">Simple examples and exercises will be provided to help the students grasp the key concepts. Various topics will be taught in a holistic way by ways such as analyzing the call flows.</p>\n\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:30px;\">In this new online course, you will learn the fundamentals of <strong>5G NR (New Radio)</strong> &ndash; the radio access network of 5G. Hands-on projects will be available to those students who want to have an in-depth understanding of certain topics.</p>\n<!-- Course Highlights -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Course Highlights:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>5G use cases and 3GPP standards status</li>\n\t<li>Waveforms: OFDM, DFT-spread-OFDM</li>\n\t<li>Numerology, frame structure, HARQ</li>\n\t<li>Channel coding (LDPC and polar code)</li>\n\t<li>Massive MIMO: precoding, CSI feedback</li>\n\t<li>Beamforming: hybrid beamforming, operation at mmWave</li>\n\t<li>Data channel, control channel, initial access</li>\n\t<li>Advanced Quality of Service (QoS) support in 5G</li>\n\t<li>Co-existence between NR and LTE</li>\n\t<li>Online delivery provides participants with schedule flexibility</li>\n</ul>\n<!-- Course Learning Outcomes -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Course Learning Outcomes:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:30px;\">\n\t<li>Apply key technologies of 5G NR (New Radio), the global 5G standard for a new radio access network designed to support a wide array of 5G device-types, services, spectrum and deployments</li>\n\t<li>Analyze 5G use cases, including Enhanced Mobile Broadband (EMBB), Ultra Reliable and Low Latency Communication (URLLC), massive Machine Type communication (mMTC)</li>\n\t<li>Look up 3GPP Technical Specifications</li>\n\t<li>Explain the differences between NR and LTE</li>\n</ul>\n<!-- Who can Enroll -->\n\n<h3 style=\"margin-top:30px; margin-bottom:15px;\"><strong>Who can Enroll for the Course:</strong></h3>\n\n<ul style=\"font-size:16px; line-height:2; margin-bottom:20px;\">\n\t<li>Diploma Final year or completed students of EC/CE/IT Branch or B. Sc. Electronics/ Physics graduates</li>\n\t<li>B. Tech. EC/IT or M. Sc. / B. Sc. Electronics/ Physics final and pre final year students</li>\n</ul>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T11:08:18.786Z",
+    "updatedAt": "2026-08-31T10:05:18.646Z"
+  },
+  {
+    "id": "cmsyjd8wa000hur706x5zqzvw",
+    "slug": "testing",
+    "title": "Testing",
+    "metaTitle": "Testing ATCNN",
+    "metaDescription": "T",
+    "sections": [
+      {
+        "id": "testing-hero",
+        "data": {
+          "title": "Testing Facilities",
+          "variant": "subpage-light",
+          "subtitle": "Commercial & Academic Telecom Testing Lab",
+          "isSubpage": true,
+          "description": "GUNI-ATCNN testing services assisting industry partners in RF compliance, environmental testing, and device characterization.",
+          "lightBgStyle": "grid-dots",
+          "subpageAlign": "left",
+          "subpageHeight": "short",
+          "lightGradientPos": "top-right"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787137236323-3gglf",
+        "data": {
+          "body": "<div style=\"width:100%;\"><!-- Device Testing -->\n<div style=\"width:100%; overflow:hidden; margin-bottom:35px;\"><img alt=\"Device Testing\" src=\"/uploads/20210526-172706-scaled-e1655180648363-768x1662-1787135445431.jpg\" style=\"width:300px; max-width:40%; height:auto; float:right; margin:0 0 20px 30px;\" />\n<h2 style=\"margin-top:0; margin-bottom:20px;\"><strong>Device Testing</strong></h2>\n\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:20px;\">GUNI-ATCNN is working with industry partners in supporting and fulfilling their business and social objectives. GUNI-ATCNN has created a Testing Environment for industrial device particularly for Indian Environment conditions.</p>\n\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:20px;\">The results of such experiments will be used for further Research and Development of New products or upgrading the existing products, which will be suitable for Indian Environments.</p>\n</div>\n<!-- Testing Details -->\n\n<div style=\"width:100%; margin:25px 0 35px 0;\">\n<p style=\"font-size:16px; line-height:1.8; margin:10px 0;\"><strong>Date</strong><br />\n20 May, 2021</p>\n\n<p style=\"font-size:16px; line-height:1.8; margin:10px 0;\"><strong>Device</strong><br />\nFrequency Analyser</p>\n\n<p style=\"font-size:16px; line-height:1.8; margin:10px 0;\"><strong>Category</strong><br />\nDesign / Ideas</p>\n\n<p style=\"font-size:16px; line-height:1.8; margin:10px 0;\"><strong>Address</strong><br />\nGanpat Vidhyanagar - 384012</p>\n</div>\n<!-- Testing Environment -->\n\n<div style=\"width:100%; overflow:hidden; margin-bottom:35px;\"><img alt=\"Testing Environment\" src=\"/uploads/2-1-768x355-1787135448605.jpg\" style=\"width:45%; max-width:500px; height:auto; float:left; margin:0 30px 20px 0;\" />\n<h3 style=\"margin-top:0; margin-bottom:20px;\"><strong>Testing Environment</strong></h3>\n\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:20px;\">This testing will help the manufacturer to accelerate the aging process of the product to predict its <strong>life cycle</strong> analyse the modes of failure and filtering out those products that are not fit to be shipped out to the customers. In order for the testing to be carried out, equipment are needed to perform this test. One has to analyse and calculate whether it is worthwhile to invest in the equipment or to just perform the reliability tests in test houses.</p>\n\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:20px;\">Many of these test houses are able to offer consultancy services as to the standards and test methods that will be used with regards to the electronic products that will be tested. The reliability testing is one of the secret that makes a world of difference between a good product to another.</p>\n\n<p style=\"font-size:16px; line-height:1.8; margin-bottom:20px;\">Some of the basic equipment that are needed for the testings are temperature and humidity chambers, thermal shock chambers, vibration machines and salt-fog chambers. Other more specialized equipment are needed depending on the types of products that will be tested.</p>\n</div>\n<!-- Third Image -->\n\n<div style=\"width:100%; overflow:hidden; margin-top:25px;\"><img alt=\"Testing Equipment\" src=\"/uploads/1-768x355-1787135449358.jpg\" style=\"width:45%; max-width:500px; height:auto; float:right; margin:0 0 20px 30px;\" />\n<p style=\"font-size:16px; line-height:1.8;\">The testing environment provides facilities for carrying out various reliability and environmental tests on electronic products.</p>\n</div>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 0,
+    "createdAt": "2026-08-18T10:44:56.266Z",
+    "updatedAt": "2026-08-31T10:05:18.649Z"
+  },
+  {
+    "id": "cmsx27c0v0007urh0fahloe4d",
+    "slug": "home",
+    "title": "Home",
+    "metaTitle": "ATCNN | Advanced Technology Centre for Next-Generation Networks - Ganpat University",
+    "metaDescription": "Ganpat University Advanced Technology Centre for Next-Generation Networks (ATCNN) - pioneering 5G, 6G, Millimeter Wave, SDN/NFV, and Advanced Telecommunication Technologies.",
+    "sections": [
+      {
+        "id": "home-hero",
+        "data": {
+          "title": "ATCNN",
+          "bgImage": "/uploads/atcnn-hero-network-bg.jpg",
+          "tagline": "Centre of Excellence — Ganpat University",
+          "subtitle": "5G, 6G & Next-Gen Wireless Telecommunication Systems",
+          "heroStats": [
+            {
+              "icon": "Radio",
+              "label": "5G NR & mmWave Testbeds",
+              "value": "28 GHz"
+            },
+            {
+              "icon": "Cpu",
+              "label": "Cloud Carrier Core",
+              "value": "SDN/NFV"
+            },
+            {
+              "icon": "Award",
+              "label": "Seminars & Certifications",
+              "value": "125+"
+            },
+            {
+              "icon": "Globe",
+              "label": "Industry Alliances",
+              "value": "Global"
+            }
+          ],
+          "primaryCTA": {
+            "url": "/research-area",
+            "label": "Explore Research & Labs"
+          },
+          "description": "Pioneering carrier-grade research, millimeter-wave testbeds, SDN/NFV cloud architectures, and high-impact industrial telecommunication training at Ganpat University.",
+          "taglineIcon": "Radio",
+          "secondaryCTA": {
+            "url": "/about-atcnn",
+            "label": "About ATCNN"
+          }
+        },
+        "type": "hero"
+      },
+      {
+        "id": "block-1787202568294-uqoqq",
+        "data": {
+          "body": "<meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title></title>\n<link href=\"https://fonts.googleapis.com\" rel=\"preconnect\" />\n<link crossorigin=\"\" href=\"https://fonts.gstatic.com\" rel=\"preconnect\" />\n<link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap\" rel=\"stylesheet\" /><!-- =========================================================\n     SECTION 1 — About the University\n     ========================================================= -->\n<style type=\"text/css\">.au-about, .au-about *, .au-about *::before, .au-about *::after { box-sizing: border-box; }\n.au-about {\n  --au-blue:#086AD8; --au-navy:#0e2b3d; --au-ink:#55606b; --au-gold:#086AD8; --au-line:#e7e7e7;\n  font-family: 'Inter', sans-serif;\n  background-color: #ffffff;\n  padding: clamp(2.5rem, 6vw, 5rem) 1.25rem;\n  overflow: hidden;\n}\n.au-about .au-container { max-width: 75rem; margin: 0 auto; }\n.au-about .au-grid { display: grid; grid-template-columns: 1fr; gap: clamp(2.5rem, 6vw, 4rem); align-items: center; }\n@media (min-width: 62rem) { .au-about .au-grid { grid-template-columns: 1fr 1fr; } }\n\n/* ---- Image collage (matches .about-area .thumb) ---- */\n.au-about .au-thumb { position: relative; margin-bottom: 1.5rem; }\n@media (min-width: 62rem) { .au-about .au-thumb { margin-bottom: 0; } }\n.au-about .au-thumb img { border-radius: 0.5rem; display: block; }\n.au-about .au-img-main { width: 80%; }\n.au-about .au-img-second {\n  position: relative; left: 20%; width: 80%; top: -5rem; margin-bottom: -5rem;\n  box-shadow: 0 0 0.6rem rgba(0,0,0,0.18); padding: 0.3rem; background-color: #ffffff;\n}\n@media (max-width: 61.9rem) {\n  .au-about .au-img-second { display: none; }\n  .au-about .au-img-main { width: 100%; }\n}\n.au-about .au-overlay {\n  position: absolute; right: 0; top: 50%; height: 15.5rem; width: 15.5rem;\n  text-align: center; background-color: #ffffff; transform: translate(3.2rem, -50%);\n  border-radius: 0.5rem; box-shadow: 0 0 0.6rem rgba(0,0,0,0.18); z-index: 2;\n}\n@media (max-width: 74.9rem) and (min-width: 62rem) { .au-about .au-overlay { transform: translate(1rem, -50%); } }\n@media (max-width: 61.9rem) { .au-about .au-overlay { display: none; } }\n.au-about .au-overlay-content { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 100%; padding: 0 1.5rem; }\n.au-about .au-overlay-content .au-overlay-title { margin: 0; font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.15rem; line-height: 1.4; color: var(--au-navy); text-transform: capitalize; }\n\n/* ---- Info column ---- */\n.au-about .au-info { position: relative; z-index: 1; }\n.au-about .au-eyebrow {\n  display: inline-flex; align-items: center; gap: 0.6rem;\n  font-family: 'Poppins', sans-serif; font-size: 0.8rem; font-weight: 600;\n  letter-spacing: 0.02em; text-transform: uppercase; color: var(--au-blue); margin-bottom: 1rem;\n}\n.au-about .au-eyebrow::before { content: \"\"; width: 1.6rem; height: 2px; background-color: var(--au-blue); display: inline-block; }\n.au-about .au-title { font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--au-navy); font-size: clamp(1.6rem, 3.2vw, 2.2rem); line-height: 1.3; margin: 0 0 1.5rem; }\n.au-about .au-text { color: var(--au-ink); font-size: 1rem; line-height: 1.8; margin: 0; }\n.au-about .au-memberships { list-style: none; margin: 1.875rem 0 0; padding: 0; }\n.au-about .au-memberships li { display: flex; margin-top: 1.875rem; }\n.au-about .au-memberships li:first-child { margin-top: 0; }\n.au-about .au-mem-icon { flex: none; font-size: 3.75rem; line-height: 1; margin-right: 1.5rem; color: var(--au-blue); }\n.au-about .au-mem-icon svg { width: 1em; height: 1em; display: block; }\n.au-about .au-mem-title { display: block; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 1.125rem; color: var(--au-navy); margin: 0 0 0.4rem; }\n.au-about .au-mem-text { color: var(--au-ink); font-size: 0.95rem; line-height: 1.6; margin: 0; }\n.au-about .au-author { display: flex; align-items: center; margin-top: 1.875rem; }\n.au-about .au-signature { border-right: 1px solid var(--au-line); padding-right: 1.25rem; margin-right: 1.25rem; flex: none; }\n.au-about .au-signature img { height: 6.25rem; width: auto; display: block; }\n.au-about .au-intro-name { font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--au-navy); font-size: 1rem; margin: 0 0 0.4rem; }\n.au-about .au-intro span { color: var(--au-ink); font-size: 0.9rem; }\n</style>\n<div class=\"au-about\" id=\"about-university\">\n<div class=\"au-container\">\n<div class=\"au-grid\">\n<div class=\"au-thumb\"><!-- Image URL: /uploads/shri-ganpatbhai-patel2-1787220919108.jpg --><img alt=\"Shri Ganpatbhai Patel, Patron-in-Chief and President, Ganpat University\" class=\"au-img-main\" decoding=\"async\" src=\"/uploads/shri-ganpatbhai-patel2-1787220919108.jpg\" /> <!-- Image URL: /uploads/ganpat-uni-1787220917342.png --> <img alt=\"Ganpat University campus entrance\" class=\"au-img-second\" decoding=\"async\" src=\"/uploads/ganpat-uni-1787220917342.png\" />\n<div class=\"au-overlay\">\n<div class=\"au-overlay-content\">\n<div class=\"au-overlay-title\">16 years of Excellence</div>\n</div>\n</div>\n</div>\n\n<div class=\"au-info\">\n<div class=\"au-eyebrow\">About the University</div>\n\n<div class=\"au-title\">GANPAT UNIVERSITY -A Destination Of Smart Education</div>\n\n<p class=\"au-text\">Ganpat University and the township of Ganpat Vidyanagar, a high-tech education campus is a joint initiative, purely philanthropic in nature, by a large number of industrialists and technocrats, noble farmers and affluent businessmen for the mission of &ldquo;Social Upliftment through Education&rdquo;.</p>\n\n<ul class=\"au-memberships\">\n\t<li>\n\t<div class=\"au-mem-icon\"><svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\"><circle cx=\"12\" cy=\"8\" r=\"4\"></circle><path d=\"M8.5 12.5 6 21l6-3 6 3-2.5-8.5\"></path></svg></div>\n\n\t<div class=\"au-mem-info\">\n\t<div class=\"au-mem-title\">AIU Membership</div>\n\n\t<p class=\"au-mem-text\">Permanent Membership of Association of Indian Universities (AIU)</p>\n\t</div>\n\t</li>\n\t<li>\n\t<div class=\"au-mem-icon\"><svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\"><path d=\"M12 2 3 6l9 4 9-4-9-4Z\"></path><path d=\"M3 6v6c0 3 4 6 9 6s9-3 9-6V6\"></path></svg></div>\n\n\t<div class=\"au-mem-info\">\n\t<div class=\"au-mem-title\">IAU Membership</div>\n\n\t<p class=\"au-mem-text\">Membership from Association of Commonwealth Universities (ACU), UK and International Association of Universities (IAU), France.</p>\n\t</div>\n\t</li>\n</ul>\n\n<div class=\"au-author\">\n<div class=\"au-signature\"><!-- Image URL: /uploads/1577900788836-1787215412979.png --><img alt=\"signature\" decoding=\"async\" src=\"/uploads/1577900788836-1787215412979.png\" /></div>\n\n<div class=\"au-intro\">\n<div class=\"au-intro-name\">Shri. Ganpatbhai Patel</div>\n<span>Patron-in-Chief &amp; President</span></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<!-- =========================================================\n     SECTION 2 — News / Updates\n     ========================================================= -->\n<style type=\"text/css\">.nw-news, .nw-news *, .nw-news *::before, .nw-news *::after { box-sizing: border-box; }\n.nw-news {\n  --nw-blue:#086AD8; --nw-navy:#0e2b3d; --nw-ink:#55606b; --nw-gold:#d99a2b; --nw-line:#e3e8f0;\n  font-family: 'Inter', sans-serif;\n  background-color: #ffffff;\n  padding: clamp(2.5rem, 6vw, 5rem) 1.25rem;\n}\n.nw-news .nw-container { max-width: 75rem; margin: 0 auto; }\n.nw-news .nw-head { text-align: center; max-width: 36rem; margin: 0 auto 2.75rem; }\n.nw-news .nw-eyebrow { font-family: 'Poppins', sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--nw-gold); margin-bottom: 0.6rem; }\n.nw-news .nw-title { font-family: 'Poppins', sans-serif; font-weight: 700; color: var(--nw-navy); font-size: clamp(1.5rem, 3vw, 2.1rem); }\n.nw-news .nw-grid { display: grid; grid-template-columns: 1fr; gap: 1.75rem; }\n@media (min-width: 48rem) { .nw-news .nw-grid { grid-template-columns: repeat(3, 1fr); } }\n.nw-news .nw-card { border: 1px solid var(--nw-line); border-radius: 0.85rem; overflow: hidden; background-color: #fff; transition: transform 0.2s ease, box-shadow 0.2s ease; }\n.nw-news .nw-card:hover { transform: translateY(-0.3rem); box-shadow: 0 1.25rem 2.5rem -1rem rgba(14,43,61,0.18); }\n.nw-news .nw-thumb { display: block; aspect-ratio: 16/11; overflow: hidden; background-color: var(--nw-line); }\n.nw-news .nw-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }\n.nw-news .nw-card-body { padding: 1.35rem 1.4rem 1.5rem; }\n.nw-news .nw-date { font-size: 0.78rem; font-weight: 600; color: var(--nw-blue); letter-spacing: 0.03em; text-transform: uppercase; margin-bottom: 0.6rem; display: block; }\n.nw-news .nw-card-title { font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--nw-navy); font-size: 1.02rem; line-height: 1.4; margin-bottom: 0.5rem; }\n.nw-news .nw-card-title a { color: inherit; text-decoration: none; }\n.nw-news .nw-card-title a:hover { color: var(--nw-blue); }\n.nw-news .nw-excerpt { color: var(--nw-ink); font-size: 0.88rem; margin-bottom: 0.85rem; }\n.nw-news .nw-readmore { font-size: 0.85rem; font-weight: 600; color: var(--nw-blue); text-decoration: none; }\n.nw-news .nw-readmore:hover { text-decoration: underline; }\n.nw-news .nw-footer { text-align: center; margin-top: 2.75rem; }\n.nw-news .nw-btn { display: inline-block; background-color: var(--nw-blue); color: #fff; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 0.9rem; padding: 0.8rem 2rem; border-radius: 2rem; text-decoration: none; }\n.nw-news .nw-btn:hover { background-color: #06519f; }\n</style>\n<div class=\"nw-news\" id=\"news-updates\">\n<div class=\"nw-container\">\n<div class=\"nw-head\">\n<div class=\"nw-eyebrow\">News</div>\n\n<div class=\"nw-title\">Updates from GNU</div>\n</div>\n\n<div class=\"nw-grid\">\n<div class=\"nw-card\"><a class=\"nw-thumb\" href=\"/news\"><img alt=\"Ganpat University selected for 5G technology research\" loading=\"lazy\" src=\"https://atcnn.guni.ac.in/ut/wp-content/uploads/2021/06/2-511x400.jpg\" /> </a>\n\n<div class=\"nw-card-body\"><span class=\"nw-date\">June 10, 2021</span>\n\n<div class=\"nw-card-title\"><a href=\"/news\">Ganpat University is selected for 5G technology research (tie-ups with a USA based 5G technology company)</a></div>\n<a class=\"nw-readmore\" href=\"/news\">Read More &rarr;</a></div>\n</div>\n\n<div class=\"nw-card\"><a class=\"nw-thumb\" href=\"/news\"><img alt=\"Ganpat University to introduce new 5G technology courses\" loading=\"lazy\" src=\"https://atcnn.guni.ac.in/ut/wp-content/uploads/2021/06/Sandesh-Ahmedabad-17-March-2021-451x400.jpg\" /> </a>\n\n<div class=\"nw-card-body\"><span class=\"nw-date\">June 10, 2021</span>\n\n<div class=\"nw-card-title\"><a href=\"/news\">Ganpat University will introduce new courses related to 5G technology</a></div>\n\n<p class=\"nw-excerpt\">Sandesh News Paper, Ahmedabad &mdash; 17.03.2021</p>\n<a class=\"nw-readmore\" href=\"/news\">Read More &rarr;</a></div>\n</div>\n\n<div class=\"nw-card\"><a class=\"nw-thumb\" href=\"/news\"><img alt=\"Ganpat University allocated spectrum for 5G technology research\" loading=\"lazy\" src=\"https://atcnn.guni.ac.in/ut/wp-content/uploads/2021/06/Divyabhaskar-Mehsana_17_03_2021-512x400.jpg\" /> </a>\n\n<div class=\"nw-card-body\"><span class=\"nw-date\">June 10, 2021</span>\n\n<div class=\"nw-card-title\"><a href=\"/news\">Ganpat University is allocated spectrum for 5G technology research, development and testing</a></div>\n\n<p class=\"nw-excerpt\">Divyabhaskar, Mehsana &mdash; 16.03.2021</p>\n<a class=\"nw-readmore\" href=\"/news\">Read More &rarr;</a></div>\n</div>\n</div>\n\n<div class=\"nw-footer\"><a class=\"nw-btn\" href=\"/news\">View All News</a></div>\n</div>\n</div>\n<!-- =========================================================\n     SECTION 3 — Why Choose Us\n     ========================================================= -->\n<style type=\"text/css\">.wcu-features, .wcu-features *, .wcu-features *::before, .wcu-features *::after { box-sizing: border-box; }\n.wcu-features {\n  --wcu-blue:#086AD8; --wcu-navy:#0e2b3d; --wcu-ink:#55606b; --wcu-gold:#d99a2b;\n  font-family: 'Inter', sans-serif;\n  background-color: #f5f8fc;\n  padding: clamp(2.5rem, 6vw, 5rem) 1.25rem;\n}\n.wcu-features .wcu-container { max-width: 75rem; margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center; }\n@media (min-width: 60rem) { .wcu-features .wcu-container { grid-template-columns: 0.95fr 1.05fr; } }\n.wcu-features .wcu-eyebrow { font-family: 'Poppins', sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--wcu-gold); margin-bottom: 0.6rem; }\n.wcu-features .wcu-title { font-family: 'Poppins', sans-serif; font-weight: 700; color: var(--wcu-navy); font-size: clamp(1.5rem, 3.2vw, 2.15rem); line-height: 1.25; margin-bottom: 1rem; }\n.wcu-features .wcu-text { color: var(--wcu-ink); line-height: 1.75; margin-bottom: 1.5rem; }\n.wcu-features .wcu-video { display: inline-flex; align-items: center; gap: 0.75rem; text-decoration: none; color: var(--wcu-navy); font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 0.92rem; }\n.wcu-features .wcu-play { width: 2.75rem; height: 2.75rem; border-radius: 50%; background-color: var(--wcu-blue); color: #fff; display: flex; align-items: center; justify-content: center; flex: none; transition: transform 0.2s ease; }\n.wcu-features .wcu-video:hover .wcu-play { transform: scale(1.08); }\n.wcu-features .wcu-play svg { width: 1.1rem; height: 1.1rem; }\n.wcu-features .wcu-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }\n.wcu-features .wcu-item { background-color: #fff; border-radius: 0.85rem; padding: 1.5rem 1.35rem; text-align: center; box-shadow: 0 0.6rem 1.75rem -0.8rem rgba(14,43,61,0.18); }\n.wcu-features .wcu-item-icon { width: 3rem; height: 3rem; margin: 0 auto 0.9rem; border-radius: 0.65rem; background-color: #eaf2fd; color: var(--wcu-blue); display: flex; align-items: center; justify-content: center; }\n.wcu-features .wcu-item-icon svg { width: 1.5rem; height: 1.5rem; }\n.wcu-features .wcu-item-title { font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 0.95rem; margin-bottom: 0.4rem; }\n.wcu-features .wcu-item-title a { color: var(--wcu-navy); text-decoration: none; }\n.wcu-features .wcu-item-title a:hover { color: var(--wcu-blue); }\n.wcu-features .wcu-item-text { color: var(--wcu-ink); font-size: 0.85rem; line-height: 1.5; margin: 0; }\n</style>\n<div class=\"wcu-features\" id=\"why-choose-us\">\n<div class=\"wcu-container\">\n<div>\n<div class=\"wcu-eyebrow\">Why Choose Us</div>\n\n<div class=\"wcu-title\">Ultimate destination for 5G Technology Research</div>\n\n<p class=\"wcu-text\">Ganpat University offers various unique, quality, industry-linked and sector-focused Diploma, Undergraduate, Postgraduate and Research level programs (professional and non-professional) in the fields of Engineering, Management, Computer Applications, Pharmacy, Sciences, Commerce &amp; Social Science, Architecture, Design &amp; Planning, Maritime Studies and Law.</p>\n<a class=\"wcu-video\" href=\"https://www.youtube.com/watch?v=OsoXEo1wpYI\" rel=\"noopener\" target=\"_blank\"><span class=\"wcu-play\"><svg fill=\"currentColor\" viewbox=\"0 0 24 24\"><path d=\"M8 5v14l11-7z\"></path></svg></span> Video Showcase </a></div>\n\n<div class=\"wcu-grid\">\n<div class=\"wcu-item\">\n<div class=\"wcu-item-icon\"><svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.8\" viewbox=\"0 0 24 24\"><path d=\"M9 3v5L4 18a2 2 0 0 0 1.8 3h12.4a2 2 0 0 0 1.8-3L15 8V3\"></path><path d=\"M9 3h6\"></path><path d=\"M7.5 14h9\"></path></svg></div>\n\n<div class=\"wcu-item-title\"><a href=\"/research-area\">Research Work</a></div>\n\n<p class=\"wcu-item-text\">A great platform for smart research work.</p>\n</div>\n\n<div class=\"wcu-item\">\n<div class=\"wcu-item-icon\"><svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.8\" viewbox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"2.2\"></circle><path d=\"M6.5 6.5a8 8 0 0 0 0 11M17.5 6.5a8 8 0 0 1 0 11M3.5 3.5a12.5 12.5 0 0 0 0 17M20.5 3.5a12.5 12.5 0 0 1 0 17\"></path></svg></div>\n\n<div class=\"wcu-item-title\"><a href=\"/testing\">Realtime Testing</a></div>\n\n<p class=\"wcu-item-text\">Perform real-time instrument testing in workshops.</p>\n</div>\n\n<div class=\"wcu-item\">\n<div class=\"wcu-item-icon\"><svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.8\" viewbox=\"0 0 24 24\"><circle cx=\"12\" cy=\"12\" r=\"9\"></circle><path d=\"M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18\"></path></svg></div>\n\n<div class=\"wcu-item-title\"><a href=\"/expression-of-interest-einfochips\">Global Presence</a></div>\n\n<p class=\"wcu-item-text\">Providing worldwide availability for research scholars.</p>\n</div>\n\n<div class=\"wcu-item\">\n<div class=\"wcu-item-icon\"><svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.8\" viewbox=\"0 0 24 24\"><circle cx=\"12\" cy=\"8\" r=\"4\"></circle><path d=\"M8.5 12.5 6 21l6-3 6 3-2.5-8.5\"></path></svg></div>\n\n<div class=\"wcu-item-title\"><a href=\"/antenna-design-and-measurement\">Course Certification</a></div>\n\n<p class=\"wcu-item-text\">Get an industry-approved training certificate for research.</p>\n</div>\n</div>\n</div>\n</div>\n<!-- =========================================================\n     SECTION 4 — How We Work\n     ========================================================= -->\n<style type=\"text/css\">.hww-process, .hww-process *, .hww-process *::before, .hww-process *::after { box-sizing: border-box; }\n.hww-process {\n  --hww-blue:#086AD8; --hww-navy:#0e2b3d; --hww-ink:#55606b; --hww-gold:#d99a2b; --hww-line:#e3e8f0;\n  font-family: 'Inter', sans-serif;\n  background-color: #ffffff;\n  padding: clamp(2.5rem, 6vw, 5rem) 1.25rem;\n}\n.hww-process .hww-container { max-width: 75rem; margin: 0 auto; }\n.hww-process .hww-head { text-align: center; max-width: 34rem; margin: 0 auto 3rem; }\n.hww-process .hww-eyebrow { font-family: 'Poppins', sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--hww-gold); margin-bottom: 0.6rem; }\n.hww-process .hww-title { font-family: 'Poppins', sans-serif; font-weight: 700; color: var(--hww-navy); font-size: clamp(1.5rem, 3vw, 2.1rem); }\n.hww-process .hww-grid { display: grid; grid-template-columns: 1fr; gap: 1.75rem 1.5rem; position: relative; }\n@media (min-width: 60rem) { .hww-process .hww-grid { grid-template-columns: repeat(4, 1fr); } }\n@media (min-width: 60rem) {\n  .hww-process .hww-grid::before { content: \"\"; position: absolute; top: 1.6rem; left: 12%; right: 12%; height: 1px; background-image: linear-gradient(to right, var(--hww-line) 60%, transparent 0%); background-size: 0.6rem 1px; background-repeat: repeat-x; z-index: 0; }\n}\n.hww-process .hww-step { position: relative; z-index: 1; text-align: center; }\n.hww-process .hww-num {\n  width: 3.25rem; height: 3.25rem; margin: 0 auto 1.1rem; border-radius: 50%;\n  background-color: var(--hww-blue); background: linear-gradient(135deg, var(--hww-blue), #06519f);\n  color: #fff; display: flex; align-items: center; justify-content: center;\n  font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1rem;\n  box-shadow: 0 0 0 6px #f5f8fc;\n}\n.hww-process .hww-step-title { font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--hww-navy); font-size: 1rem; margin-bottom: 0.5rem; }\n.hww-process .hww-step-text { color: var(--hww-ink); font-size: 0.88rem; line-height: 1.6; max-width: 15rem; margin: 0 auto; }\n</style>\n<div class=\"hww-process\" id=\"how-we-work\">\n<div class=\"hww-container\">\n<div class=\"hww-head\">\n<div class=\"hww-eyebrow\">Process</div>\n\n<div class=\"hww-title\">How We Work</div>\n</div>\n\n<div class=\"hww-grid\">\n<div class=\"hww-step\">\n<div class=\"hww-num\">01</div>\n\n<div class=\"hww-step-title\">Collaborations</div>\n\n<p class=\"hww-step-text\">Partnering with industry and research bodies to shape joint 5G initiatives.</p>\n</div>\n\n<div class=\"hww-step\">\n<div class=\"hww-num\">02</div>\n\n<div class=\"hww-step-title\">Seminars &amp; Workshops</div>\n\n<p class=\"hww-step-text\">Hands-on sessions that bring scholars, faculty and experts together.</p>\n</div>\n\n<div class=\"hww-step\">\n<div class=\"hww-num\">03</div>\n\n<div class=\"hww-step-title\">Research Work</div>\n\n<p class=\"hww-step-text\">Focused study and experimentation across 5G and allied technologies.</p>\n</div>\n\n<div class=\"hww-step\">\n<div class=\"hww-num\">04</div>\n\n<div class=\"hww-step-title\">Industry Outcomes</div>\n\n<p class=\"hww-step-text\">Translating research into real, deployable industry results.</p>\n</div>\n</div>\n</div>\n</div>\n<!-- =========================================================\n     SECTION 5 — Research Scholars / Portfolio\n     ========================================================= -->\n<style type=\"text/css\">.rs-portfolio, .rs-portfolio *, .rs-portfolio *::before, .rs-portfolio *::after { box-sizing: border-box; }\n.rs-portfolio {\n  --rs-blue:#086AD8; --rs-navy:#0e2b3d; --rs-ink:#55606b; --rs-gold:#d99a2b;\n  font-family: 'Inter', sans-serif;\n  background-color: #0e2b3d;\n  padding: clamp(2.5rem, 6vw, 5rem) 1.25rem;\n}\n.rs-portfolio .rs-container { max-width: 75rem; margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 2.5rem; align-items: center; }\n@media (min-width: 60rem) { .rs-portfolio .rs-container { grid-template-columns: 1fr 0.9fr; } }\n.rs-portfolio .rs-eyebrow { font-family: 'Poppins', sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--rs-gold); margin-bottom: 0.6rem; }\n.rs-portfolio .rs-title { font-family: 'Poppins', sans-serif; font-weight: 700; color: #fff; font-size: clamp(1.5rem, 3.2vw, 2.15rem); line-height: 1.25; margin-bottom: 1rem; }\n.rs-portfolio .rs-text { color: #c7d2db; line-height: 1.75; margin-bottom: 1.4rem; }\n.rs-portfolio .rs-list { list-style: none; margin: 0 0 1.75rem; padding: 0; display: grid; gap: 0.65rem; }\n.rs-portfolio .rs-list li { display: flex; align-items: center; gap: 0.6rem; color: #fff; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 0.95rem; }\n.rs-portfolio .rs-list li svg { width: 1.1rem; height: 1.1rem; color: var(--rs-gold); flex: none; }\n.rs-portfolio .rs-btn { display: inline-block; background-color: var(--rs-blue); color: #fff; font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 0.9rem; padding: 0.8rem 2rem; border-radius: 2rem; text-decoration: none; }\n.rs-portfolio .rs-btn:hover { background-color: #06519f; }\n.rs-portfolio .rs-media { position: relative; max-width: 24rem; margin: 0 auto; }\n.rs-portfolio .rs-media img { width: 100%; border-radius: 0.75rem; display: block; }\n.rs-portfolio .rs-stat {\n  position: absolute; right: -1rem; bottom: -1.25rem; background-color: #fff; border-radius: 0.75rem;\n  padding: 1.1rem 1.4rem; text-align: center; box-shadow: 0 1.25rem 2.5rem -1rem rgba(0,0,0,0.35);\n}\n.rs-portfolio .rs-stat-num { font-family: 'Poppins', sans-serif; font-weight: 800; font-size: 1.9rem; color: var(--rs-blue); line-height: 1; }\n.rs-portfolio .rs-stat-label { font-size: 0.78rem; color: var(--rs-ink); font-weight: 600; margin-top: 0.2rem; }\n</style>\n<div class=\"rs-portfolio\" id=\"research-scholars\">\n<div class=\"rs-container\">\n<div>\n<div class=\"rs-eyebrow\">Our Portfolio</div>\n\n<div class=\"rs-title\">Trusted by 5,000+ Research Scholars</div>\n\n<p class=\"rs-text\">We are always happy to connect with more industry experts to collaborate with Ganpat University. In this way, we can provide excellent training and research facilities to scholars who join us &mdash; and we welcome every piece of feedback that helps us improve our programs.</p>\n\n<ul class=\"rs-list\">\n\t<li><svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.2\" viewbox=\"0 0 24 24\"><path d=\"M20 6 9 17l-5-5\"></path></svg> 100% Research Satisfaction</li>\n\t<li><svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.2\" viewbox=\"0 0 24 24\"><path d=\"M20 6 9 17l-5-5\"></path></svg> World Class Facilities</li>\n</ul>\n<a class=\"rs-btn\" href=\"/news\">Completed Seminars</a></div>\n\n<div class=\"rs-media\"><img alt=\"Research scholars at Ganpat University\" src=\"/uploads/3-1787220891757.jpg\" />\n<div class=\"rs-stat\">\n<div class=\"rs-stat-num\">125+</div>\n\n<div class=\"rs-stat-label\">Completed Seminars</div>\n</div>\n</div>\n</div>\n</div>\n<!-- =========================================================\n     SECTION 6 — What We Do\n     ========================================================= -->\n<style type=\"text/css\">.wwd-services, .wwd-services *, .wwd-services *::before, .wwd-services *::after { box-sizing: border-box; }\n.wwd-services {\n  --wwd-blue:#086AD8; --wwd-navy:#0e2b3d; --wwd-ink:#55606b; --wwd-gold:#d99a2b; --wwd-line:#e3e8f0;\n  font-family: 'Inter', sans-serif;\n  background-color: #f5f8fc;\n  padding: clamp(2.5rem, 6vw, 5rem) 1.25rem;\n}\n.wwd-services .wwd-container { max-width: 75rem; margin: 0 auto; }\n.wwd-services .wwd-head { text-align: center; max-width: 34rem; margin: 0 auto 3rem; }\n.wwd-services .wwd-eyebrow { font-family: 'Poppins', sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--wwd-gold); margin-bottom: 0.6rem; }\n.wwd-services .wwd-title { font-family: 'Poppins', sans-serif; font-weight: 700; color: var(--wwd-navy); font-size: clamp(1.5rem, 3vw, 2.1rem); }\n.wwd-services .wwd-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }\n@media (min-width: 48rem) { .wwd-services .wwd-grid { grid-template-columns: repeat(3, 1fr); } }\n.wwd-services .wwd-card { background-color: #fff; border: 1px solid var(--wwd-line); border-radius: 0.85rem; padding: 2rem 1.6rem; text-align: center; transition: box-shadow 0.2s ease, transform 0.2s ease; }\n.wwd-services .wwd-card:hover { transform: translateY(-0.25rem); box-shadow: 0 1.25rem 2.5rem -1rem rgba(14,43,61,0.18); }\n.wwd-services .wwd-card-icon { width: 3.25rem; height: 3.25rem; margin: 0 auto 1rem; border-radius: 0.7rem; background-color: #eaf2fd; color: var(--wwd-blue); display: flex; align-items: center; justify-content: center; }\n.wwd-services .wwd-card-icon svg { width: 1.6rem; height: 1.6rem; }\n.wwd-services .wwd-card-title { font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--wwd-navy); font-size: 1.05rem; margin-bottom: 0.6rem; }\n.wwd-services .wwd-card-text { color: var(--wwd-ink); font-size: 0.9rem; line-height: 1.65; margin-bottom: 1.1rem; }\n.wwd-services .wwd-card-link { font-size: 0.85rem; font-weight: 600; color: var(--wwd-blue); text-decoration: none; }\n.wwd-services .wwd-card-link:hover { text-decoration: underline; }\n</style>\n<div class=\"wwd-services\" id=\"what-we-do\">\n<div class=\"wwd-container\">\n<div class=\"wwd-head\">\n<div class=\"wwd-eyebrow\">Research</div>\n\n<div class=\"wwd-title\">What We Do</div>\n</div>\n\n<div class=\"wwd-grid\">\n<div class=\"wwd-card\">\n<div class=\"wwd-card-icon\"><svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.8\" viewbox=\"0 0 24 24\"><circle cx=\"11\" cy=\"11\" r=\"7\"></circle><path d=\"m21 21-4.3-4.3\"></path></svg></div>\n\n<div class=\"wwd-card-title\">Research Area</div>\n\n<p class=\"wwd-card-text\">Currently we are carrying out extensive research and analysis in the domain of 5G technology to meet the upcoming demands of internet, data and communication.</p>\n<a class=\"wwd-card-link\" href=\"/research-area\">Read More &rarr;</a></div>\n\n<div class=\"wwd-card\">\n<div class=\"wwd-card-icon\"><svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.8\" viewbox=\"0 0 24 24\"><path d=\"M17 20h5v-1a4 4 0 0 0-4-4h-1M9 20H4v-1a4 4 0 0 1 4-4h1m2-3a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm6 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z\"></path></svg></div>\n\n<div class=\"wwd-card-title\">Collaborations</div>\n\n<p class=\"wwd-card-text\">We believe in collaborating with growing organizations and industries to achieve excellent outcomes in our research work.</p>\n<a class=\"wwd-card-link\" href=\"https://opennetworking.org/member-listing/\">Read More &rarr;</a></div>\n\n<div class=\"wwd-card\">\n<div class=\"wwd-card-icon\"><svg fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.8\" viewbox=\"0 0 24 24\"><path d=\"M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6l-8-3Z\"></path><path d=\"m9.2 12 1.9 1.9 3.7-3.9\"></path></svg></div>\n\n<div class=\"wwd-card-title\">Testing</div>\n\n<p class=\"wwd-card-text\">GUNI-ATCNN works closely with industry partners in supporting and fulfilling their business and social objectives.</p>\n<a class=\"wwd-card-link\" href=\"/testing\">Read More &rarr;</a></div>\n</div>\n</div>\n</div>\n<!-- =========================================================\n     SECTION 7 — Our Collaborations\n     ========================================================= -->\n<style type=\"text/css\">.oc-collab, .oc-collab *, .oc-collab *::before, .oc-collab *::after { box-sizing: border-box; }\n.oc-collab {\n  --oc-blue:#086AD8; --oc-navy:#0e2b3d; --oc-ink:#55606b; --oc-gold:#d99a2b; --oc-line:#e3e8f0;\n  font-family: 'Inter', sans-serif;\n  background-color: #ffffff;\n  padding: clamp(2.5rem, 6vw, 5rem) 1.25rem;\n}\n.oc-collab .oc-container { max-width: 75rem; margin: 0 auto; }\n.oc-collab .oc-head { text-align: center; margin-bottom: 2.75rem; }\n.oc-collab .oc-eyebrow { font-family: 'Poppins', sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--oc-gold); }\n.oc-collab .oc-grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }\n@media (min-width: 48rem) { .oc-collab .oc-grid { grid-template-columns: repeat(3, 1fr); } }\n.oc-collab .oc-card { display: flex; align-items: center; gap: 1.1rem; border: 1px solid var(--oc-line); border-radius: 0.85rem; padding: 1.25rem 1.4rem; text-decoration: none; transition: box-shadow 0.2s ease, transform 0.2s ease; }\n.oc-collab .oc-card:hover { transform: translateY(-0.2rem); box-shadow: 0 1rem 2rem -0.8rem rgba(14,43,61,0.2); }\n.oc-collab .oc-logo { flex: none; width: 3.5rem; height: 3.5rem; border-radius: 0.6rem; background-color: #f5f8fc; display: flex; align-items: center; justify-content: center; padding: 0.5rem; }\n.oc-collab .oc-logo img { max-width: 100%; max-height: 100%; object-fit: contain; }\n.oc-collab .oc-name { font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--oc-navy); font-size: 1rem; }\n.oc-collab .oc-tag { color: var(--oc-ink); font-size: 0.8rem; margin-top: 0.1rem; }\n</style>\n<div class=\"oc-collab\" id=\"our-collaborations\">\n<div class=\"oc-container\">\n<div class=\"oc-head\">\n<div class=\"oc-eyebrow\">Our Collaborations</div>\n</div>\n\n<div class=\"oc-grid\">\n<a class=\"oc-card\" href=\"https://opennetworking.org/member-listing/\" rel=\"noopener\" target=\"_blank\">\n  <div class=\"oc-logo\"><img alt=\"ONF logo\" src=\"https://atcnn.guni.ac.in/ut/wp-content/uploads/2022/08/ONG.png\" /></div>\n  <div>\n    <div class=\"oc-name\">ONF</div>\n    <div class=\"oc-tag\">Open Networking Foundation</div>\n  </div>\n</a>\n\n<a class=\"oc-card\" href=\"https://tsdsi.in/present_members/\" rel=\"noopener\" target=\"_blank\">\n  <div class=\"oc-logo\"><img alt=\"TSDSI logo\" src=\"https://atcnn.guni.ac.in/ut/wp-content/uploads/2022/08/Tsdsi.png\" /></div>\n  <div>\n    <div class=\"oc-name\">TSDSI</div>\n    <div class=\"oc-tag\">Telecom Standards Development Society, India</div>\n  </div>\n</a>\n\n<a class=\"oc-card\" href=\"/expression-of-interest-einfochips\">\n  <div class=\"oc-logo\"><img alt=\"Einfochips logo\" src=\"https://atcnn.guni.ac.in/ut/wp-content/uploads/2022/08/eic-arrow-logo-dark-1.png\" /></div>\n  <div>\n    <div class=\"oc-name\">Einfochips</div>\n    <div class=\"oc-tag\">Industry Collaboration Partner</div>\n  </div>\n</a>\n</div>\n</div>\n</div>\n<!-- =========================================================\n     SECTION 8 — Leadership / Governance\n     ========================================================= -->\n<style type=\"text/css\">.lt-team, .lt-team *, .lt-team *::before, .lt-team *::after { box-sizing: border-box; }\n.lt-team {\n  --lt-blue:#086AD8; --lt-navy:#0e2b3d; --lt-ink:#55606b; --lt-gold:#d99a2b;\n  font-family: 'Inter', sans-serif;\n  background-color: #f5f8fc;\n  padding: clamp(2.5rem, 6vw, 5rem) 1.25rem;\n}\n.lt-team .lt-container { max-width: 75rem; margin: 0 auto; }\n.lt-team .lt-head { text-align: center; max-width: 34rem; margin: 0 auto 2.75rem; }\n.lt-team .lt-eyebrow { font-family: 'Poppins', sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--lt-gold); margin-bottom: 0.6rem; }\n.lt-team .lt-title { font-family: 'Poppins', sans-serif; font-weight: 700; color: var(--lt-navy); font-size: clamp(1.5rem, 3vw, 2.1rem); }\n.lt-team .lt-grid { display: grid; grid-template-columns: 1fr; gap: 1.75rem; max-width: 42rem; margin: 0 auto; }\n@media (min-width: 36rem) { .lt-team .lt-grid { grid-template-columns: repeat(2, 1fr); } }\n.lt-team .lt-card { background-color: #fff; border-radius: 0.85rem; overflow: hidden; text-align: center; box-shadow: 0 0.6rem 1.75rem -0.9rem rgba(14,43,61,0.2); }\n.lt-team .lt-thumb { aspect-ratio: 4/3.4; overflow: hidden; }\n.lt-team .lt-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }\n.lt-team .lt-card-body { padding: 1.25rem 1.1rem 1.5rem; }\n.lt-team .lt-name { font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--lt-navy); font-size: 1.02rem; margin-bottom: 0.3rem; }\n.lt-team .lt-role { color: var(--lt-ink); font-size: 0.85rem; }\n.lt-team .lt-footer { text-align: center; margin-top: 2.5rem; }\n.lt-team .lt-btn { display: inline-block; background-color: transparent; color: var(--lt-blue); border: 2px solid var(--lt-blue); font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 0.9rem; padding: 0.75rem 2rem; border-radius: 2rem; text-decoration: none; }\n.lt-team .lt-btn:hover { background-color: var(--lt-blue); color: #fff; }\n</style>\n<div class=\"lt-team\" id=\"leadership-team\">\n<div class=\"lt-container\">\n<div class=\"lt-head\">\n<div class=\"lt-eyebrow\">Governance</div>\n\n<div class=\"lt-title\">Meet Our Leadership</div>\n</div>\n\n<div class=\"lt-grid\">\n<div class=\"lt-card\">\n<div class=\"lt-thumb\"><img alt=\"Padmashri Ganpatbhai Patel\" src=\"/uploads/shri-ganpatbhai-patel2-1787220919108.jpg\" /></div>\n\n<div class=\"lt-card-body\">\n<div class=\"lt-name\">Padmashri Ganpatbhai Patel</div>\n\n<div class=\"lt-role\">Patron-in-Chief &amp; President</div>\n</div>\n</div>\n\n<div class=\"lt-card\">\n<div class=\"lt-thumb\"><img alt=\"Dr. Mahendra Sharma\" src=\"/uploads/mahendra-sharma-1787299901168.png\" /></div>\n\n<div class=\"lt-card-body\">\n<div class=\"lt-name\">Dr. Mahendra Sharma</div>\n\n<div class=\"lt-role\">Pro-Chancellor and Director General</div>\n</div>\n</div>\n</div>\n\n<div class=\"lt-footer\"><a class=\"lt-btn\" href=\"/advisory-committee\">View All</a></div>\n</div>\n</div>\n<!-- =========================================================\n     SECTION 9 — FAQ\n     ========================================================= -->\n<style type=\"text/css\">.faq-section, .faq-section *, .faq-section *::before, .faq-section *::after { box-sizing: border-box; }\n.faq-section {\n  --faq-blue:#086AD8; --faq-navy:#0e2b3d; --faq-ink:#55606b; --faq-gold:#d99a2b; --faq-line:#e3e8f0;\n  font-family: 'Inter', sans-serif;\n  background-color: #ffffff;\n  padding: clamp(2.5rem, 6vw, 5rem) 1.25rem;\n}\n.faq-section .faq-container { max-width: 75rem; margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 2rem; }\n@media (min-width: 55rem) { .faq-section .faq-container { grid-template-columns: 0.8fr 1.2fr; } }\n.faq-section .faq-eyebrow { font-family: 'Poppins', sans-serif; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--faq-gold); margin-bottom: 0.6rem; }\n.faq-section .faq-title { font-family: 'Poppins', sans-serif; font-weight: 700; color: var(--faq-navy); font-size: clamp(1.5rem, 3vw, 2.1rem); line-height: 1.25; margin-bottom: 1.25rem; }\n.faq-section .faq-viewall { display: inline-block; color: var(--faq-blue); font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 0.88rem; text-decoration: none; border-bottom: 2px solid var(--faq-blue); padding-bottom: 0.15rem; }\n.faq-section .faq-list { display: grid; gap: 0.9rem; }\n.faq-section details { border: 1px solid var(--faq-line); border-radius: 0.65rem; padding: 0; background-color: #f5f8fc; overflow: hidden; }\n.faq-section summary {\n  list-style: none; cursor: pointer; padding: 1.1rem 1.3rem;\n  font-family: 'Poppins', sans-serif; font-weight: 600; color: var(--faq-navy); font-size: 0.96rem;\n  display: flex; align-items: center; justify-content: space-between; gap: 1rem;\n}\n.faq-section summary::-webkit-details-marker { display: none; }\n.faq-section summary::after {\n  content: \"+\"; flex: none; width: 1.6rem; height: 1.6rem; border-radius: 50%;\n  background-color: var(--faq-blue); color: #fff; display: flex; align-items: center; justify-content: center;\n  font-size: 1rem; line-height: 1;\n}\n.faq-section details[open] summary::after { content: \"–\"; }\n.faq-section .faq-answer { padding: 0 1.3rem 1.2rem; color: var(--faq-ink); font-size: 0.9rem; line-height: 1.65; }\n</style>\n<div class=\"faq-section\" id=\"faq-section\">\n<div class=\"faq-container\">\n<div>\n<div class=\"faq-eyebrow\">FAQ</div>\n\n<div class=\"faq-title\">Most common answer and question</div>\n<a class=\"faq-viewall\" href=\"#faq-section\">View All FAQs</a></div>\n\n<div class=\"faq-list\">\n<details open=\"\"><summary>What is 5G Technology?</summary>\n\n<p class=\"faq-answer\">In telecommunications, 5G is the fifth-generation technology standard for broadband cellular networks, which cellular phone companies began deploying worldwide in 2019. It is the planned successor to 4G networks, which provide connectivity to most current cellphones.</p>\n</details>\n\n<details><summary>Who can attend 5G Technology workshops?</summary>\n\n<p class=\"faq-answer\">Any individual student, faculty member, industry expert or research fellow can join our seminars and workshops.</p>\n</details>\n\n<details><summary>Who can collaborate with GNU for 5G?</summary>\n\n<p class=\"faq-answer\">Ganpat University actively collaborates with various technological institutes and R&amp;D organizations in India and abroad. Various collaboration models are followed to suit the institute and the project context.</p>\n</details>\n</div>\n</div>\n</div>\n",
+          "title": "",
+          "subtitle": "",
+          "fullWidth": true
+        },
+        "type": "custom"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 1,
+    "createdAt": "2026-08-17T09:56:40.735Z",
+    "updatedAt": "2026-08-31T10:40:19.880Z"
+  },
+  {
+    "id": "cmsx27c100008urh0yy9dggn5",
+    "slug": "about",
+    "title": "About",
+    "metaTitle": "About the Centre | ATCNN Ganpat University",
+    "metaDescription": "A world-class Next-Generation Networks & 5G Centre driving innovation, research, and industry collaboration at Ganpat University.",
+    "sections": [
+      {
+        "id": "about-hero",
+        "data": {
+          "title": "About the Centre",
+          "variant": "subpage-light",
+          "subtitle": "Centre of Excellence",
+          "isSubpage": true,
+          "description": "A world-class Next-Generation Networks & 5G Telecommunications Centre driving innovation, research, and industry collaboration.",
+          "subpageAlign": "left",
+          "subpageHeight": "short"
+        },
+        "type": "hero"
+      },
+      {
+        "id": "about-university",
+        "data": {
+          "body": [
+            "Ganpat University and Ganpat Vidyanagar form a high-tech education campus, established as a joint initiative, purely philanthropic in nature, by industrialists, technocrats, noble farmers, and affluent businessmen for the mission of 'Social Upliftment through Education.'",
+            "Established by the State Government via Act No.19/2005 on April 12, 2005. The University holds Permanent Membership of AIU (New Delhi), ACU (UK), and IAU (France), offering programs across Engineering, Management, Pharmacy, Sciences, Commerce, Architecture, and more."
+          ],
+          "title": "Ganpat University: A Destination of Smart Education",
+          "layout": "centre_intro",
+          "category": "The University",
+          "imageUrl": "https://images.unsplash.com/photo-1581091226033-d5c48150dbaa?w=700&h=500&fit=crop&auto=format",
+          "imageBadge": {
+            "label": "Years of Excellence",
+            "value": "20+"
+          }
+        },
+        "type": "narrative"
+      },
+      {
+        "id": "about-why-am",
+        "data": {
+          "items": [
+            {
+              "icon": "Globe",
+              "title": "₹3.4 Lakh Crore Market by 2027",
+              "description": "The global AM market is set to grow from ₹1.15 Lakh Crore in 2020 to ₹3.4 Lakh Crore by 2027, growing at 27% YoY, with India positioned to capture a larger share."
+            },
+            {
+              "icon": "Building2",
+              "title": "Make in India Initiative",
+              "description": "The Make in India mission is driving AM technology adoption across every sector, creating urgent demand for AM-educated graduates and researchers."
+            },
+            {
+              "icon": "Users",
+              "title": "Bridging the Skills Gap",
+              "description": "With very few AM programs in India, GUNI ATCNN was established to address the educational gap and produce world-class AM professionals."
+            }
+          ],
+          "title": "Why Next-Generation Networks & 5G Telecommunications Matters",
+          "columns": 3,
+          "cardType": "standard",
+          "category": "About the Centre"
+        },
+        "type": "card_grid"
+      },
+      {
+        "id": "about-highlights",
+        "data": {
+          "items": [
+            {
+              "icon": "Phone",
+              "title": "24/7 Online Support",
+              "description": "Always available to connect with researchers, industry partners, and students regarding any type of research work, collaboration, and inquiry. Helpline: 1800 233 12345"
+            },
+            {
+              "icon": "Building2",
+              "title": "Innovation Centre",
+              "description": "Smart and digitalized testing laboratories for all research works, continuously updated to meet future technology requirements and industry standards."
+            }
+          ],
+          "title": "Centre Highlights",
+          "columns": 2,
+          "cardType": "standard",
+          "category": "Our Infrastructure"
+        },
+        "type": "card_grid"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 2,
+    "createdAt": "2026-08-17T09:56:40.740Z",
+    "updatedAt": "2026-08-31T10:33:53.930Z"
+  },
+  {
+    "id": "cmsx27c120009urh0mxlus67y",
+    "slug": "vision",
+    "title": "Vision",
+    "metaTitle": "Vision & Ecosystem | ATCNN Ganpat University",
+    "metaDescription": "Building a sustainable ecosystem for product innovation through Next-Generation Networks & 5G technology.",
+    "sections": [
+      {
+        "id": "vision-hero",
+        "data": {
+          "title": "Our Vision",
+          "variant": "subpage-light",
+          "subtitle": "Ecosystem & Strategy",
+          "isSubpage": true,
+          "description": "Building a sustainable ecosystem for product innovation through AM technology."
+        },
+        "type": "hero"
+      },
+      {
+        "id": "vision-statement",
+        "data": {
+          "body": [
+            "The vision of GUNI ATCNN is to create and enable a sustainable ecosystem for product innovation in India with emphasis on educational programs, research activities, designing, and testing through collaborative efforts between academia institutes, industries, and government bodies using the Next-Generation Networks & 5G Telecommunications technology."
+          ],
+          "title": "Ganpat University: A Destination of Smart Education",
+          "layout": "centre_intro",
+          "category": "Our Vision",
+          "imageUrl": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=700&h=500&fit=crop&auto=format",
+          "imageBadge": {
+            "label": "Target for ₹3.4 Lakh Crore Global AM Market",
+            "value": "2027"
+          }
+        },
+        "type": "narrative"
+      },
+      {
+        "id": "vision-collaboration",
+        "data": {
+          "items": [
+            {
+              "year": "01",
+              "title": "Academia",
+              "description": "Universities, research institutes, and faculty contributing theoretical frameworks, fundamental research, and trained talent."
+            },
+            {
+              "year": "02",
+              "title": "Collaboration Hub",
+              "description": "GUNI ATCNN acts as the nexus, facilitating joint projects, IP development, knowledge exchange, and shared infrastructure."
+            },
+            {
+              "year": "03",
+              "title": "Industry",
+              "description": "Manufacturing companies, startups, and government bodies providing real-world challenges, funding, and commercialization pathways."
+            }
+          ],
+          "title": "Industry + Academia Collaboration Model",
+          "columns": 3,
+          "cardType": "collaboration_model",
+          "category": "The Ecosystem",
+          "subtitle": "Our collaboration model bridges the gap between academic research and industrial application, creating a virtuous cycle of innovation."
+        },
+        "type": "card_grid"
+      },
+      {
+        "id": "vision-goals",
+        "data": {
+          "items": [
+            {
+              "icon": "Target",
+              "title": "Education Leadership",
+              "description": "Become a nationally recognized centre for AM education with programs at every level from certification to PhD."
+            },
+            {
+              "icon": "Lightbulb",
+              "title": "Research Excellence",
+              "description": "Publish high-impact research in peer-reviewed journals and drive commercializable innovations in polymer and metal AM."
+            },
+            {
+              "icon": "Users",
+              "title": "Academia-Industry Bridge",
+              "description": "Create robust collaboration frameworks that connect university researchers with manufacturing industries to solve real-world problems."
+            },
+            {
+              "icon": "Globe",
+              "title": "Global Visibility",
+              "description": "Establish international partnerships with leading AM research institutes, universities, and industry organizations worldwide."
+            },
+            {
+              "icon": "TrendingUp",
+              "title": "National AM Growth",
+              "description": "Contribute to India's AM market share growth from the current 1.4% by producing skilled professionals and driving domestic innovation."
+            },
+            {
+              "icon": "Cpu",
+              "title": "Technology Development",
+              "description": "Develop next-generation AM technologies that serve the Make in India mission and strengthen the Atmanirbhar Bharat initiative."
+            }
+          ],
+          "title": "Strategic Goals",
+          "columns": 3,
+          "cardType": "standard",
+          "category": "Strategic Direction"
+        },
+        "type": "card_grid"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 3,
+    "createdAt": "2026-08-17T09:56:40.743Z",
+    "updatedAt": "2026-08-31T10:33:53.937Z"
+  },
+  {
+    "id": "cmsx27c15000aurh08q2xv9c9",
+    "slug": "objectives",
+    "title": "Objectives",
+    "metaTitle": "Strategic Objectives | ATCNN Ganpat University",
+    "metaDescription": "Strategic objectives guiding our mission to transform Next-Generation Networks & 5G education and research in India.",
+    "sections": [
+      {
+        "id": "objectives-hero",
+        "data": {
+          "title": "Strategic Objectives",
+          "variant": "subpage-light",
+          "subtitle": "Our Purpose",
+          "isSubpage": true,
+          "description": "Strategic objectives guiding our mission to transform Next-Generation Networks & 5G Telecommunications education and research in India."
+        },
+        "type": "hero"
+      },
+      {
+        "id": "objectives-list",
+        "data": {
+          "items": [
+            {
+              "icon": "Rocket",
+              "title": "Promote Research Infrastructure",
+              "category": "Innovation",
+              "description": "Promote innovation and research infrastructure for commercialization of end-user application-based industrial AM products suited for domestic and global markets."
+            },
+            {
+              "icon": "Sparkles",
+              "title": "Invigorate Student Creativity",
+              "category": "Student Development",
+              "description": "Invigorate interest, imagination, and individuality in students, encouraging them to explore Next-Generation Networks & 5G Telecommunications as a medium for creative problem-solving."
+            },
+            {
+              "icon": "BookOpen",
+              "title": "STEAM Learning Implementation",
+              "category": "STEAM Learning",
+              "description": "Encourage and make students future-ready by implementing Science, Technology, Engineering, Arts, and Mathematics (STEAM) learning frameworks within the AM curriculum."
+            },
+            {
+              "icon": "Cpu",
+              "title": "Adapt to Modern Paradigm Shifts",
+              "category": "Technology Readiness",
+              "description": "Enhance students to act dynamically in the modern paradigm shift with emerging technologies like Next-Generation Networks & 5G Telecommunications, preparing them for Industry 4.0 roles."
+            },
+            {
+              "icon": "Flag",
+              "title": "Encourage Domestic Manufacturing",
+              "category": "National Development",
+              "description": "Encourage domestic manufacturing and contribute to the 'Atmanirbhar Bharat' (Self-Reliant India) mission by developing homegrown AM capabilities and talent."
+            },
+            {
+              "icon": "Factory",
+              "title": "Nurture Domestic AM Industries",
+              "category": "Industry Growth",
+              "description": "Nurture domestic Next-Generation Networks & 5G Telecommunications industries through collaborative research, technology transfer, trained human capital, and ecosystem development."
+            }
+          ],
+          "title": "Established with Clear Purpose",
+          "columns": 3,
+          "cardType": "standard",
+          "category": "Our Purpose",
+          "subtitle": "We have established the Advanced Technology Centre for Next-Generation Networks with strategic objectives to drive innovation, education, and industry impact."
+        },
+        "type": "card_grid"
+      },
+      {
+        "id": "objectives-impact",
+        "data": {
+          "items": [
+            {
+              "title": "Innovation Goals",
+              "highlights": [
+                "Commercializable AM products",
+                "End-user application research",
+                "IP development & technology transfer"
+              ]
+            },
+            {
+              "title": "Student Development Goals",
+              "highlights": [
+                "STEAM-based curriculum design",
+                "Hands-on AM training",
+                "Industry-readiness programs"
+              ]
+            },
+            {
+              "title": "Industry Impact Goals",
+              "highlights": [
+                "Manufacturing sector partnerships",
+                "Startup incubation in AM",
+                "Real-world problem-solving research"
+              ]
+            },
+            {
+              "title": "National Development Goals",
+              "highlights": [
+                "Contribute to Make in India",
+                "Atmanirbhar Bharat alignment",
+                "Increasing India's global AM market share"
+              ]
+            }
+          ],
+          "title": "Our Strategic Focus Areas",
+          "columns": 2,
+          "cardType": "achievement",
+          "category": "Impact Areas"
+        },
+        "type": "card_grid"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 4,
+    "createdAt": "2026-08-17T09:56:40.746Z",
+    "updatedAt": "2026-08-31T10:33:53.940Z"
+  },
+  {
+    "id": "cmsx27c19000burh0ef11g6af",
+    "slug": "programs",
+    "title": "Programs",
+    "metaTitle": "Academic Programs | ATCNN Ganpat University",
+    "metaDescription": "Comprehensive programs from certification to PhD, designed to produce world-class AM professionals.",
+    "sections": [
+      {
+        "id": "programs-hero",
+        "data": {
+          "title": "Academic Programs",
+          "variant": "subpage-light",
+          "subtitle": "Qualifications",
+          "isSubpage": true,
+          "description": "Comprehensive programs from certification to PhD, designed to produce world-class AM professionals."
+        },
+        "type": "hero"
+      },
+      {
+        "id": "programs-degrees",
+        "data": {
+          "items": [
+            {
+              "icon": "BookOpen",
+              "year": "4 Years",
+              "title": "Undergraduate",
+              "category": "UG Program",
+              "subtitle": "Bachelor of Technology",
+              "highlights": [
+                "5G & mmWave Technologies",
+                "Materials Science",
+                "CAD/CAM Integration",
+                "Industry Internships",
+                "Research Projects",
+                "Capstone Design"
+              ],
+              "description": "A comprehensive four-year undergraduate program in Next-Generation Networks & 5G Telecommunications, covering design, materials, processes, and industrial applications."
+            },
+            {
+              "icon": "GraduationCap",
+              "year": "2 Years",
+              "title": "Postgraduate",
+              "category": "PG Program",
+              "subtitle": "Master of Technology",
+              "highlights": [
+                "Advanced AM Processes",
+                "Research Methodology",
+                "Thesis Work",
+                "Industry Collaboration",
+                "Polymer & Metal AM",
+                "Process Optimization"
+              ],
+              "description": "An intensive two-year postgraduate program focused on advanced research, specialization, and innovation in Next-Generation Networks & 5G Telecommunications technologies."
+            },
+            {
+              "icon": "Award",
+              "year": "1 Year",
+              "title": "PG Diploma",
+              "category": "Diploma Program",
+              "subtitle": "Postgraduate Diploma",
+              "highlights": [
+                "Specialized AM Training",
+                "Practical Lab Work",
+                "Industry Projects",
+                "Technical Skills",
+                "AM Software Tools",
+                "Professional Development"
+              ],
+              "description": "A focused one-year diploma program providing specialized knowledge in Next-Generation Networks & 5G Telecommunications for professionals and recent graduates."
+            },
+            {
+              "icon": "GraduationCap",
+              "year": "3 Years",
+              "title": "Doctoral",
+              "category": "PhD Program",
+              "subtitle": "Doctor of Philosophy",
+              "highlights": [
+                "Original Research",
+                "Publication Support",
+                "Expert Supervision",
+                "Conference Presentations",
+                "Grant Opportunities",
+                "Industry Ties"
+              ],
+              "description": "A rigorous three-year research program for candidates pursuing advanced scholarly contributions to the field of Next-Generation Networks & 5G Telecommunications."
+            }
+          ],
+          "title": "Academic Qualifications",
+          "columns": 2,
+          "cardType": "academic",
+          "category": "Degree Programs"
+        },
+        "type": "card_grid"
+      },
+      {
+        "id": "programs-certifications",
+        "data": {
+          "items": [
+            {
+              "title": "Certificate Course in AM Fundamentals",
+              "impact": "Topics: AM Introduction, FDM/SLA Basics, 3D Modeling Intro, Safety & Setup",
+              "status": "1 Month",
+              "category": "Level I",
+              "description": "Introduction to Next-Generation Networks & 5G Telecommunications principles, basic 5G & mmWave technologies, and applications. Ideal for beginners and industry professionals."
+            },
+            {
+              "title": "Certificate Course in Advanced AM",
+              "impact": "Topics: Multi-Material AM, Support Strategies, Quality Control, Materials Selection",
+              "status": "2 Months",
+              "category": "Level II",
+              "description": "Advanced techniques in Next-Generation Networks & 5G Telecommunications including multi-material printing, support structures, and quality control processes."
+            },
+            {
+              "title": "Certificate Course in Industrial AM",
+              "impact": "Topics: DfAM Principles, Metal AM Processes, Post-Processing, Industry Standards",
+              "status": "3 Months",
+              "category": "Level III",
+              "description": "Industry-focused certification covering end-to-end AM workflows from design for Next-Generation Networks & 5G Telecommunications (DfAM) to post-processing and inspection."
+            }
+          ],
+          "title": "Certification Courses",
+          "columns": 3,
+          "cardType": "initiative",
+          "category": "Professional Certifications",
+          "subtitle": "Short-term intensive certification courses designed for working professionals and students seeking specialized Next-Generation Networks & 5G Telecommunications skills."
+        },
+        "type": "card_grid"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 5,
+    "createdAt": "2026-08-17T09:56:40.749Z",
+    "updatedAt": "2026-08-31T10:33:53.942Z"
+  },
+  {
+    "id": "cmsx27c1c000curh00py25jv6",
+    "slug": "research",
+    "title": "Research",
+    "metaTitle": "Advanced AM Research | ATCNN Ganpat University",
+    "metaDescription": "World-class Next-Generation Networks & 5G research driving innovation in polymer, metal, and emerging AM domains.",
+    "sections": [
+      {
+        "id": "research-hero",
+        "data": {
+          "title": "Advanced AM Research",
+          "variant": "subpage-light",
+          "subtitle": "Innovation & Technology",
+          "isSubpage": true,
+          "description": "World-class Next-Generation Networks & 5G Telecommunications research driving innovation in polymer, metal, and emerging AM domains."
+        },
+        "type": "hero"
+      },
+      {
+        "id": "research-domains-tabs",
+        "data": {
+          "title": "Research Domains",
+          "domains": [
+            {
+              "id": "polymer",
+              "icon": "FlaskConical",
+              "areas": [
+                {
+                  "desc": "Investigating process parameters and material formulations to improve tensile strength, hardness, and fatigue resistance of FDM, SLA, and SLS printed parts.",
+                  "title": "Enhancement of Mechanical Properties"
+                },
+                {
+                  "desc": "Research into fiber-reinforced composites, nano-composite materials, and multi-material printing for high-performance structural applications.",
+                  "title": "Composite 5G & mmWave"
+                },
+                {
+                  "desc": "Affiliation of 3D printed surgical models in complex surgery planning, including patient-specific anatomical models and surgical guides.",
+                  "title": "Surgical Model Applications"
+                }
+              ],
+              "color": "#1556B2",
+              "title": "Polymer-Based AM",
+              "description": "Advanced research in polymer-based Next-Generation Networks & 5G Telecommunications processes, materials science, and industrial applications."
+            },
+            {
+              "id": "metal",
+              "icon": "Cpu",
+              "areas": [
+                {
+                  "desc": "Optimization of laser power, scan speed, and layer thickness in DMLS and SLM to achieve superior metallurgical properties in printed parts.",
+                  "title": "Enhancement of Mechanical Properties"
+                },
+                {
+                  "desc": "Development and characterization of novel metal alloys tailored for Next-Generation Networks & 5G Telecommunications, including titanium, Inconel, and aluminum-based compositions.",
+                  "title": "Alloy-Based 5G & mmWave"
+                },
+                {
+                  "desc": "Design and fabrication of 3D printed implants for orthopedic and dental applications, with research into biocompatibility and osseointegration.",
+                  "title": "Implant Development"
+                }
+              ],
+              "color": "#15B1D8",
+              "title": "Metal-Based AM",
+              "description": "Cutting-edge research in metal Next-Generation Networks & 5G Telecommunications including DMLS, SLM, and EBM for industrial and medical applications."
+            }
+          ],
+          "subtitle": "Explore our specialized laboratory configurations and key industrial research domains."
+        },
+        "type": "research_tabs"
+      },
+      {
+        "id": "research-table",
+        "data": {
+          "items": [
+            {
+              "icon": "FlaskConical",
+              "title": "Polymer Base AM",
+              "highlights": [
+                "Enhancement of mechanical properties",
+                "Composite 5G & mmWave",
+                "Affiliation of 3D printed surgical model in complex surgery"
+              ]
+            },
+            {
+              "icon": "Cpu",
+              "title": "Metal Base AM",
+              "highlights": [
+                "Enhancement of mechanical properties",
+                "Alloy base 5G & mmWave",
+                "Affiliation of 3D printed implants in complex surgery"
+              ]
+            }
+          ],
+          "title": "Research Areas Overview",
+          "cardType": "research_table",
+          "category": "Research Work"
+        },
+        "type": "card_grid"
+      },
+      {
+        "id": "research-infrastructure",
+        "data": {
+          "items": [
+            {
+              "icon": "Layers",
+              "title": "FDM Printing Lab",
+              "description": "Fused Deposition Modeling workstation with multi-material capability."
+            },
+            {
+              "icon": "Layers",
+              "title": "SLA/DLP Facility",
+              "description": "High-resolution stereolithography and digital light processing printers."
+            },
+            {
+              "icon": "Layers",
+              "title": "Metal AM Suite",
+              "description": "DMLS and SLM systems for metal powder bed fusion processes."
+            },
+            {
+              "icon": "Microscope",
+              "title": "Material Testing Lab",
+              "description": "Universal Testing Machines, hardness testers, and microscopy."
+            },
+            {
+              "icon": "Globe",
+              "title": "Scanning & Metrology",
+              "description": "3D scanning, CT scanning, and precision coordinate measuring equipment."
+            },
+            {
+              "icon": "Factory",
+              "title": "Post-Processing",
+              "description": "Heat treatment, surface finishing, and quality assurance systems."
+            }
+          ],
+          "title": "Centre Highlights",
+          "columns": 3,
+          "cardType": "standard",
+          "category": "Our Infrastructure"
+        },
+        "type": "card_grid"
+      },
+      {
+        "id": "research-future",
+        "data": {
+          "items": [
+            {
+              "title": "Emerging Fields",
+              "highlights": [
+                "Bioprinting and tissue engineering",
+                "4D printing with smart materials",
+                "AI-driven process optimization"
+              ]
+            },
+            {
+              "title": "Scale & Sustainability",
+              "highlights": [
+                "Sustainable & bio-based AM materials",
+                "Large-scale AM for construction",
+                "Hybrid manufacturing processes"
+              ]
+            }
+          ],
+          "title": "Future Research Areas",
+          "columns": 2,
+          "cardType": "achievement",
+          "category": "Future Focus"
+        },
+        "type": "card_grid"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 6,
+    "createdAt": "2026-08-17T09:56:40.752Z",
+    "updatedAt": "2026-08-31T10:33:53.945Z"
+  },
+  {
+    "id": "cmsx27c1f000durh063nllu13",
+    "slug": "contact",
+    "title": "Contact",
+    "metaTitle": "Contact Us | ATCNN Ganpat University",
+    "metaDescription": "Get in touch with India's most recognized Advanced Technology Centre for Next-Generation Networks for research, collaboration, and admissions.",
+    "sections": [
+      {
+        "id": "contact-hero",
+        "data": {
+          "title": "Contact Us",
+          "variant": "subpage-light",
+          "subtitle": "Get in Touch",
+          "isSubpage": true,
+          "description": "Reach out to India's most recognized Advanced Technology Centre for Next-Generation Networks."
+        },
+        "type": "hero"
+      },
+      {
+        "id": "contact-main",
+        "data": {
+          "title": "Need Help?",
+          "subtitle": "Reach out to India's most recognized university AM centre."
+        },
+        "type": "contact"
+      }
+    ],
+    "isPublished": true,
+    "isMaintenance": false,
+    "order": 7,
+    "createdAt": "2026-08-17T09:56:40.755Z",
+    "updatedAt": "2026-08-31T10:33:53.947Z"
+  }
+]

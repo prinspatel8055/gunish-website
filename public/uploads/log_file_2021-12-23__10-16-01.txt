@@ -1,0 +1,59 @@
+
+---Downloaded files---
+The import files for: Demo Import 1 were successfully downloaded!
+Initial max execution time = 90
+Files info:
+Site URL = https://testingproject.in/gcemp
+Data file = /home/project/public_html/gcemp/wp-content/themes/academix//inc/import/academix-demo-content.xml
+Widget file = /home/project/public_html/gcemp/wp-content/themes/academix//inc/import/academix-widgets.wie
+Customizer file = /home/project/public_html/gcemp/wp-content/themes/academix//inc/import/academix-export.dat
+Redux files:
+academix_options -> /home/project/public_html/gcemp/wp-content/themes/academix//inc/import/theme-options.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Imported
+Recent Posts - No Title - Imported
+Recent Comments - No Title - Imported
+Archives - No Title - Imported
+Categories - No Title - Imported
+Tag Cloud - Tags - Imported
+Calendar - Calendar - Imported
+Meta - No Title - Imported
+
+Footer Widgets1 : 
+
+Image - No Title - Imported
+Text - Address - Imported
+Text - Contact Information - Imported
+
+Footer Widgets2 : 
+
+Academix Latest Events - Latest Events - Imported
+
+Footer Widgets3 : 
+
+Navigation Menu - Quick Links - Imported
+Academix Social Links - Social Links - Imported
+
+Footer Widgets4 : 
+
+Text - Publications Statistics - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: academix_options finished successfully!
+
+---Importing customizer settings---
+Customizer settings import finished!

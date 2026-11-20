@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Production build
+dist/
+
+# Environment files
+.env
+.env*.local
+
+# Deployment zip
+atcnn_deploy.zip
+
+# Lighthouse reports
+lighthouse-report*.json
+
+# Local database files (not needed if using external Postgres)
+local_db/
+local_db_rs/
+
+# Prisma
+prisma/*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database backups (local only — do not commit)
+backups/
+*.dump
+
+# Scratch & temporary scripts
+scratch/

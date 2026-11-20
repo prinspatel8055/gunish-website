@@ -1,0 +1,117 @@
+
+==========================================
+PAGE ID 275: 'About Us' (text length: 3689)
+Images (11): ['https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/1st--1000 x 800xc.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/FLAYER-GUNISH-e1643688511819-1000 x 800xc.jpeg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/GUNICSH-Conf.-Flyer-1-1000 x 800xc.jpeg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2024/01/Job-145-1000 x 800xc.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/6.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/5.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/4.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/3.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/2.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/1.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/Ganpat-University.jpg']
+Links (6): ['https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/1st-.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/FLAYER-GUNISH-e1643688511819.jpeg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/GUNICSH-Conf.-Flyer-1.jpeg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2024/01/Job-145.jpg', 'https://www.youtube.com/watch?v=OsoXEo1wpYI', 'https://www.youtube.com/watch?v=OsoXEo1wpYI']
+Text preview: GUNICSH 1st NATIONAL CONFERENCE ONÃÂ EMERGING ISSUES IN ACCOUNTING & COMMERCE ÃÂ The objective of the conference is to provide a platform to academicians, practitioners, doctoral students, post graduate students and other researchers for exchanging knowledge, experiences and innovative ideas on the emerging and diversified roles of Accounting and Commerce in the growing economy through the prese
+
+==========================================
+PAGE ID 257: 'The Conference' (text length: 176)
+Images (1): ['https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/GUNICSH-Conf.-Flyer-1.jpeg']
+Links (1): ['https://gunicsh.guni.ac.in/rushmore_event/international-conference/']
+Text preview: 3rd International Conference V. M. Patel Institute of Management,Ganpat University,Ganpat Vidyanagar-384012.Mehsana-Gandhinagar Highway,Mehsana, Gujarat, India. 17 Mar 2023
+
+==========================================
+PAGE ID 2308: 'Theme' (text length: 881)
+Images (2): ['https://gunicsh.guni.ac.in/wp-content/uploads/2024/01/Logo.png', 'https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/Ganpat-University.jpg']
+Links (0): []
+Text preview: 4th international conference is Human Technological Interaction (HTI)MARCH 02-03, 2024 4thÃÂ  International Conference ÃÂ The theme of GUNI FSSH's 4th international conference is Human Technological Interaction (HTI). It is a field in need of significant innovation and breakthroughs towardradically new future formsofinteraction. Weencourage participation intheHTI thematic area as a forum for sc
+
+==========================================
+PAGE ID 459: 'Call For Papers' (text length: 2043)
+Images (0): []
+Links (2): ['https://gunicsh.guni.ac.in/wp-admin/admin.php?page=tablepress&action=edit&table_id=3', 'https://guides.library.uwa.edu.au/apa']
+Text preview: Call for papers Ideas on the conference themes in the form of full papers-academic/practitioner research/case studies; extended abstract- work-in-progress; and proposals for poster presentation, video/film-based presentation, panel/round-table discussion are invited. The sub-themes and submission process are given below. Submission Guide Line All full papers should include the title page, a struct
+Tables (1):
+--- Table 0 ---
+  ['Title of the paper/proposal', 'Introduction']
+  ['Author Name(s)', 'Research questions/ Objectives']
+  ['Designation(s)', 'Research/project methodology/process']
+  ['Institutional affiliation(s)', 'Result(final/interim) and implication']
+  ['Email id', 'Key words']
+  ['Contact number', 'Contact number']
+  ['Brief resume(bio-note)', 'Brief resume']
+
+==========================================
+PAGE ID 2343: 'Publication' (text length: 1427)
+Images (0): []
+Links (2): ['https://gunicsh.guni.ac.in/wp-admin/admin.php?page=tablepress&action=edit&table_id=4', 'https://gunicsh.guni.ac.in/wp-admin/admin.php?page=tablepress&action=edit&table_id=5']
+Text preview: Publication Details The selected papers will be published in Scopus Indexed & SCOPUS listed Journal. Subject to their own online submission and normal review process of the respective journals. A special issue in an indexed journal will be published as a part of the publication output. Authors will get an opportunity to publish their manuscripts in special issues. Best paper awards (academician/co
+Tables (2):
+--- Table 0 ---
+  ['Registration type', 'INRÃ¢â\x80\x9aÂ¹', 'USD$']
+  ['International Academician/Corporate Delegates', '', '$40']
+  ['International Research Assistant/Doctoral Scholars/Young Innovators', '', '$30']
+  ['International Students', '', '$20']
+  ['Indian National Academician/Corporate Delegates', '1500', '']
+  ['Indian National Research Assistant/Doctoral Scholars/Young Innovators', '1000', '']
+  ['Indian Students', '500', '']
+  ['GST will be applicable for all types of registration', '', '']
+  ['* Early bird discount of 10% is available before 30th January2022', '', '']
+--- Table 1 ---
+  ['Bank A/C Name', 'Ganpat University']
+  ['Bank Name', 'AXIS BANK']
+  ['Bank A/C No.', '130010100235204']
+  ['Bank Branch', 'MEHSANA']
+  ['IFSC CODE', 'UTIB0000130']
+
+==========================================
+PAGE ID 505: 'Journal Articles' (text length: 3247)
+Images (0): []
+Links (12): ['#2023', '#2022', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/04/FINAL-SAARANSH-single-file-kmp.pdf', '#', '#', '#', '#', '#', '#', '#', '#', '#']
+Text preview: Disclaimer:ÃÂ The papers below are intended for private viewing by the page owner or those who otherwise have legitimate access to them. No part of it may in any form or by any electronic, mechanical, photocopying, recording, or any other means be reproduced, stored in a retrieval system or be broadcast or transmitted without the prior permission of the respective publishers. If your organization
+
+==========================================
+PAGE ID 2372: 'Committees' (text length: 775)
+Images (5): ['https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/04-copy-263x216.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/imageWnFrxR-263x216.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/Mahendra-Sharma-263x216.jpg', 'https://gunicsh.guni.ac.in/wp-content/plugins/kingcomposer/assets/images/get_start.jpg', 'https://gunicsh.guni.ac.in/wp-content/plugins/kingcomposer/assets/images/get_start.jpg']
+Links (6): ['https://gunicsh.guni.ac.in/rushmore_teams/dr-ganpat-i-patel-dada/', 'https://gunicsh.guni.ac.in/rushmore_teams/dr-amit-patel/', 'https://gunicsh.guni.ac.in/rushmore_teams/dr-mahendra-sharma/', 'https://gunicsh.guni.ac.in/rushmore_teams/dr-rajen-purohit/', 'https://gunicsh.guni.ac.in/rushmore_teams/dr-ajay-gupta/', '#']
+Text preview: University Office Bearers Dr. Ganpat I. Patel (DADA) Patron-In-Chief and President Daniel Montplaisir Joint Director General Dr. Mahendra Sharma Pro-Chancellor & Director General Dr. Abhishek Parikh Dean-FSSH Dr. Ajay Gupta Director R & D, GUNI Conference Chair Dr. Abhishek Parikh Dr. Jayesh Patel Conference conveners Dr. Vipul Patel Prof. Sanjay Vanani Co-Conveners Dr. Kundan Patel Dr. Usha Kaush
+
+==========================================
+PAGE ID 198: 'Our Team' (text length: 433)
+Images (5): ['https://testingproject.in/gcemp/wp-content/uploads/2021/12/04-copy-360x270.jpg', 'https://testingproject.in/gcemp/wp-content/uploads/2021/12/04-copy-263x216.jpg', 'https://testingproject.in/gcemp/wp-content/plugins/kingcomposer/assets/images/get_start.jpg', 'https://testingproject.in/gcemp/wp-content/plugins/kingcomposer/assets/images/get_start.jpg', 'https://testingproject.in/gcemp/wp-content/plugins/kingcomposer/assets/images/get_start.jpg']
+Links (5): ['https://testingproject.in/gcemp/rushmore_teams/dr-ganpat-i-patel-dada/', 'https://testingproject.in/gcemp/rushmore_teams/dr-amit-patel/', 'https://testingproject.in/gcemp/rushmore_teams/dr-mahendra-sharma/', 'https://testingproject.in/gcemp/rushmore_teams/dr-ajay-gupta/', '#']
+Text preview: Dr. Ganpat I. Patel (DADA) Dr. Ganpat I. Patel (DADA) Patron-In-Chief and President Dr. Amit Patel Pro Vice Chancellor & Executive Registrar Dr. Mahendra Sharma Pro-Chancellor & Director General Dr. Ajay Gupta Director R & D, GUNI Rushmore is one of EnglandÃ¢â¬â¢s Lorem ipsum dolor sit amet, con adipiscing elit. Etiam convallis elit id impedie. Quisq commodo ornare tortor Quiue bibendu. magna vi
+
+==========================================
+PAGE ID 2578: 'Registration Fess' (text length: 656)
+Images (0): []
+Links (0): []
+Text preview: Registration Fees Registration type INRÃ¢âÂ¹ USD$ International Academician/Corporate Delegates $40 International Research Assistant/Doctoral Scholars/Young Innovators $30 International Students $20 Indian National Academician/Corporate Delegates 1500 Indian National Research Assistant/Doctoral Scholars/Young Innovators 1000 Indian Students 500 GST will be applicable for all types of registratio
+Tables (2):
+--- Table 0 ---
+  ['Registration type', 'INRÃ¢â\x80\x9aÂ¹', 'USD$']
+  ['International Academician/Corporate Delegates', '', '$40']
+  ['International Research Assistant/Doctoral Scholars/Young Innovators', '', '$30']
+  ['International Students', '', '$20']
+  ['Indian National Academician/Corporate Delegates', '1500', '']
+  ['Indian National Research Assistant/Doctoral Scholars/Young Innovators', '1000', '']
+  ['Indian Students', '500', '']
+  ['GST will be applicable for all types of registration', '', '']
+  ['* Early bird discount of 10% is available before 30th January2022', '', '']
+--- Table 1 ---
+  ['Bank A/C Name', 'Ganpat University']
+  ['Bank Name', 'AXIS BANK']
+  ['Bank A/C No.', '130010100235204']
+  ['Bank Branch', 'MEHSANA']
+  ['IFSC CODE', 'UTIB0000130']
+
+==========================================
+PAGE ID 410: 'Conferences And Talks' (text length: 3972)
+Images (0): []
+Links (0): []
+Text preview: [kc_row use_container="yes" _id="236965" cols_gap="{`kc-css`:{}}" force="__empty__" css_custom="{`kc-css`:{`any`:{`box`:{`padding|`:`55px inherit 55px inherit`}}}}"][kc_column width="74.76%" _id="471842"][kc_column_text _id="640281"]
+
+unchariness cuneocuboid celioparacentesis heimin lucklessness jarool strongyliasis idyllically prevalescence crabhole cyanophyceous violetlike perfumeless gravedigge
+
+==========================================
+PAGE ID 523: 'Contact Us' (text length: 538)
+Images (0): []
+Links (2): ['https://gunicsh.guni.ac.in/', 'https://vmpcms.guni.ac.in/']
+Text preview: Connecting Us Conference Venue: V. M. Patel College of Management Studies , Ganpat University, Ganpat Vidyanagar-384012. Mehsana-Gandhinagar Highway, Mehsana, Gujarat, India. Contact Information E-mail : gunicsh@ganpatuniversity.ac.in Websites:ÃÂ www.gunicsh.guni.ac.in ,ÃÂ ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ www.vmpcms.guni.ac.in ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ  ÃÂ
+
+==========================================
+PAGE ID 1796: 'Home' (text length: 2809)
+Images (9): ['https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/Ganpat-University.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/GANPAT-UNIVERSITYVMPCMS-NATIONAL-CONFERENCE-BROCHURE-10th-feb-18_Page_1-scaled.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/FLAYER-GUNISH-e1643688511819.jpeg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/GUNICSH-Conf.-Flyer.jpeg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2024/01/Job-145.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/04-copy-263x216.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/imageWnFrxR-263x216.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/Mahendra-Sharma-263x216.jpg', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/know-part.png']
+Links (15): ['https://gunicsh.guni.ac.in/the-conference/', 'https://gunicsh.guni.ac.in/about-us/', 'https://www.youtube.com/watch?v=OsoXEo1wpYI', 'https://www.youtube.com/watch?v=OsoXEo1wpYI', 'https://drive.google.com/file/d/1buP2n6JkO9VZNXD_3cIdzi_dNBY6O5Fv/view', '#', 'https://gunicsh.guni.ac.in/rushmore_event/1st-international-conference/', 'https://gunicsh.guni.ac.in/wp-content/uploads/2023/12/1.-FINAL-SAARANSH-single-file-kmp.pdf', 'https://drive.google.com/file/d/1Rv9i9VWdPDd3aY3Jp2cbDF03xP4_SUrx/view?usp=sharing', 'https://gunicsh.guni.ac.in/the-conference/', 'https://gunicsh.guni.ac.in/journal-articles/', 'https://gunicsh.guni.ac.in/rushmore_teams/dr-ganpat-i-patel-dada/', 'https://gunicsh.guni.ac.in/rushmore_teams/dr-amit-patel/', 'https://gunicsh.guni.ac.in/rushmore_teams/dr-mahendra-sharma/', 'https://gunicsh.guni.ac.in/committees/']
+Text preview: 4th international conference is Human Technological Interaction (HTI) MARCH 2-3, 2024 GUNICSH Ã¢â¬ÅTransforming Business in ESG (Environmental, Social and Governance)Ã¢â¬Â The rising pressure on businesses to manage in the times when their ESG (Environmental, Social, Governance) performance has been instrumental for their investors.ÃÂ read more Ganpat University Ganpat Uiversity Ganpat Univer

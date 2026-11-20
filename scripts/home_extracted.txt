@@ -1,0 +1,62 @@
+=== IMAGES IN ORIGINAL HOME PAGE ===
+[0] src=https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/Ganpat-University.jpg alt=
+[1] src=https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/GANPAT-UNIVERSITYVMPCMS-NATIONAL-CONFERENCE-BROCHURE-10th-feb-18_Page_1-scaled.jpg alt=
+[2] src=https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/FLAYER-GUNISH-e1643688511819.jpeg alt=
+[3] src=https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/GUNICSH-Conf.-Flyer.jpeg alt=
+[4] src=https://gunicsh.guni.ac.in/wp-content/uploads/2024/01/Job-145.jpg alt=
+[5] src=https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/04-copy-263x216.jpg alt=
+[6] src=https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/imageWnFrxR-263x216.jpg alt=
+[7] src=https://gunicsh.guni.ac.in/wp-content/uploads/2021/12/Mahendra-Sharma-263x216.jpg alt=
+[8] src=https://gunicsh.guni.ac.in/wp-content/uploads/2023/02/know-part.png alt=
+
+=== HEADINGS ===
+[h2] GUNICSH
+[h6] Ã¢â¬ÅTransforming Business in ESG (Environmental, Social and Governance)Ã¢â¬Â
+[h3] Ganpat Uiversity
+[h2] GUNICSH
+[h6] Ã¢â¬ÅGanpat University InternationalÃÂ  Conference on ManagementÃÂ  Perspectives, Practices & Research TrendsÃ¢â¬Â
+[h2] 1st NATIONAL CONFERENCE ON EMERGING ISSUES IN ACCOUNTING & COMMERCE
+[h2] 2nd International Conference (Forthcoming)
+[h2] 3rd International Multidisciplinary Conferenceon theme Education Reforms and its Global Impact through National Education Policy
+[h2] March 02 TO 03-2024
+[h2] About Publications Group
+[h3] Dr. Ganpat I. Patel (DADA)
+[h3] Daniel Montplaisir
+[h3] Dr. Mahendra Sharma
+
+=== LINKS ===
+<a> text='' href='https://gunicsh.guni.ac.in/the-conference/'
+<a> text='read more' href='https://gunicsh.guni.ac.in/about-us/'
+<a> text='' href='https://www.youtube.com/watch?v=OsoXEo1wpYI'
+<a> text='Ganpat Uiversity' href='https://www.youtube.com/watch?v=OsoXEo1wpYI'
+<a> text='Brochure' href='https://drive.google.com/file/d/1buP2n6JkO9VZNXD_3cIdzi_dNBY6O5Fv/view'
+<a> text='read more' href='#'
+<a> text='read more' href='https://gunicsh.guni.ac.in/rushmore_event/1st-international-conference/'
+<a> text='Abstract Paper ( SAARANSH)' href='https://gunicsh.guni.ac.in/wp-content/uploads/2023/12/1.-FINAL-SAARANSH-single-file-kmp.pdf'
+<a> text='Click Here' href='https://drive.google.com/file/d/1Rv9i9VWdPDd3aY3Jp2cbDF03xP4_SUrx/view?usp=sharing'
+<a> text='View All Conference' href='https://gunicsh.guni.ac.in/the-conference/'
+<a> text='View all Publications' href='https://gunicsh.guni.ac.in/journal-articles/'
+<a> text='Dr. Ganpat I. Patel (DADA)' href='https://gunicsh.guni.ac.in/rushmore_teams/dr-ganpat-i-patel-dada/'
+<a> text='Daniel Montplaisir' href='https://gunicsh.guni.ac.in/rushmore_teams/dr-amit-patel/'
+<a> text='Dr. Mahendra Sharma' href='https://gunicsh.guni.ac.in/rushmore_teams/dr-mahendra-sharma/'
+<a> text='View all' href='https://gunicsh.guni.ac.in/committees/'
+
+=== TEXT BLOCKS ===
+[p] 4th international conference is Human Technological Interaction (HTI) MARCH 2-3, 2024
+
+[p] The rising pressure on businesses to manage in the times when their ESG (Environmental, Social, Governance) performance has been instrumental for their investors.ÃÂ
+
+[p] Ganpat University is a private university in Kherva, Mehsana in the state of Gujarat, India. It was established in 2005 through the State Legislative act no 19 of 2005.
+
+[div] Ã¢â¬ÅGanpat University InternationalÃÂ  Conference on ManagementÃÂ  Perspectives, Practices & Research TrendsÃ¢â¬ÂBrochure
+
+[p] The objective of the conference is to provide a platform to academicians, practitioners, doctoral students, post graduate students and other researchers for exchanging knowledge, experiences and innovative ideas on the emerging and diversified roles of Accounting and Commerce in the growing economy through the presentation of conceptual and empirical research papers as well as the case studies.
+
+[p] 14th International Conference (Forthcoming)GCeMP 2k22March 12-13, 2022Transforming Business in ESG (Environmental, Social, Governance)
+
+[p] MARCH 17-18, 2023Ganpat University- Faculty of Social Sciences & Humanities (GUNIFSSH) is organizing its 3rd International Multidisciplinary Conferenceon theme Education Reforms and its Global Impact through National Education Policy. It offers a platform to academicians, educators, industrial experts and practitioners to exchange knowledge and expertise in the development field. It can lead to development of subjects on a much larger scale through discussion on topics with current relevance and importance
+
+[p] The International Monetary Fund projected the global economy to grow at 5.9 in 2021 and 4.9 % in 2022. In the year 2022, India will be experiencing the highest growth among all the countries with 8.5 %.ÃÂ  Most of the countries are trying to design their recovery despite the possibility that Covid 19 may resurge in several countries.ÃÂ  The upcoming development challenges require a new set of policy choices. Governments need to address the challenges of rising poverty and widening inequality,
+
+[div] Pro-Chancellor & Director General
+
