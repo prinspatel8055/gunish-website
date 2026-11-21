@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight, Target, Quote, Star, CheckCircle2, BookOpen, Play, Newspaper, ChevronRight } from 'lucide-react';
+import { ArrowRight, Target, Quote, Star, CheckCircle2, BookOpen, Play, Newspaper, ChevronRight, FileText, Download, ExternalLink } from 'lucide-react';
 import FadeIn from '@/components/shared/FadeIn';
 import Icon from '@/components/shared/Icon';
 import { CardGridBlockData, CardItem } from '@/types/cms';
@@ -69,13 +69,16 @@ interface CardWrapperProps {
   className?: string;
   padding?: string;
   onClick?: () => void;
+  link?: string;
+  href?: string;
   children: React.ReactNode;
 }
 
-const CardWrapper = ({ index, cardStyle, isDark, className = '', padding = 'p-8', onClick, children }: CardWrapperProps) => {
+const CardWrapper = ({ index, cardStyle, isDark, className = '', padding = 'p-8', onClick, link, href, children }: CardWrapperProps) => {
   const containerClasses = getCardContainerClasses(cardStyle, isDark);
+  const targetUrl = link || href;
   
-  return (
+  const innerCard = (
     <div
       onClick={onClick}
       className={`h-full flex flex-col rounded-2xl group cursor-pointer relative overflow-hidden transition-all duration-300 ${containerClasses} ${padding} ${className}`}
@@ -110,6 +113,30 @@ const CardWrapper = ({ index, cardStyle, isDark, className = '', padding = 'p-8'
       </div>
     </div>
   );
+
+  if (targetUrl) {
+    const isDocOrExternal = targetUrl.startsWith('http') || targetUrl.toLowerCase().endsWith('.pdf') || targetUrl.startsWith('/uploads/');
+    if (isDocOrExternal) {
+      return (
+        <a
+          href={targetUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block h-full no-underline"
+          title={`Open ${targetUrl}`}
+        >
+          {innerCard}
+        </a>
+      );
+    }
+    return (
+      <Link href={targetUrl} className="block h-full no-underline">
+        {innerCard}
+      </Link>
+    );
+  }
+
+  return innerCard;
 };
 
 interface CardGridModuleProps {
@@ -166,6 +193,8 @@ export default function CardGridModule({ id, data }: CardGridModuleProps) {
   // Sub-renderer for standard cards (e.g. Areas of Influence, Core Values, Contact Categories)
   const renderStandardCard = (item: CardItem, index: number) => {
     const parsed = parseCardDescription(item.description || '');
+    const linkUrl = item.link || item.href;
+    const isPdf = linkUrl && linkUrl.toLowerCase().endsWith('.pdf');
 
     return (
       <CardWrapper
@@ -173,6 +202,7 @@ export default function CardGridModule({ id, data }: CardGridModuleProps) {
         index={index}
         cardStyle={cardStyle}
         isDark={isDark}
+        link={linkUrl}
       >
         {(item.imageUrl || item.image) && (
           <div className="w-full h-48 -mt-8 -mx-8 mb-5 overflow-hidden relative bg-slate-100 dark:bg-slate-800">
@@ -214,18 +244,39 @@ export default function CardGridModule({ id, data }: CardGridModuleProps) {
             {parsed.body}
           </p>
         )}
+
+        {linkUrl && (
+          <div className="mt-auto pt-4 border-t border-[var(--midnight-navy)]/10 dark:border-white/10 text-xs font-bold text-[var(--royal-blue)] dark:text-[var(--secondary)] flex items-center justify-between group-hover:text-[#A81C24] transition-colors">
+            <span className="flex items-center gap-1.5">
+              {isPdf ? (
+                <>
+                  <FileText size={15} className="text-[#A81C24]" />
+                  <span>Download PDF Document</span>
+                </>
+              ) : (
+                <span>Explore Details</span>
+              )}
+            </span>
+            <span className="inline-flex items-center gap-1 text-[11px] font-semibold opacity-80 group-hover:opacity-100 group-hover:translate-x-1 transition-all">
+              <span>Open</span>
+              <ArrowRight size={13} />
+            </span>
+          </div>
+        )}
       </CardWrapper>
     );
   };
 
   // Sub-renderer for pillar cards (e.g. Future of Education pillars on dark background)
   const renderPillarCard = (item: CardItem, index: number) => {
+    const linkUrl = item.link || item.href;
     return (
       <CardWrapper
         key={index}
         index={index}
         cardStyle={cardStyle}
         isDark={isDark}
+        link={linkUrl}
       >
         {(item.imageUrl || item.image) && (
           <div className="w-full h-48 -mt-8 -mx-8 mb-5 overflow-hidden relative bg-slate-100 dark:bg-slate-800">
@@ -270,8 +321,11 @@ export default function CardGridModule({ id, data }: CardGridModuleProps) {
     );
   };
 
-  // Sub-renderer for initiative cards (e.g. Featured Initiatives, Initiatives Grid)
+  // Sub-renderer for initiative cards (e.g. Featured Initiatives, Initiatives Grid, Conference Resources)
   const renderInitiativeCard = (item: CardItem, index: number) => {
+    const linkUrl = item.link || item.href;
+    const isPdf = linkUrl && linkUrl.toLowerCase().endsWith('.pdf');
+
     return (
       <CardWrapper
         key={index}
@@ -279,6 +333,7 @@ export default function CardGridModule({ id, data }: CardGridModuleProps) {
         cardStyle={cardStyle}
         isDark={isDark}
         padding="p-0"
+        link={linkUrl}
       >
         {cardStyle !== 'editorial' && (
           <div className="h-1 bg-gradient-to-r from-[var(--royal-blue)] to-[var(--secondary)] w-full" />
@@ -326,6 +381,28 @@ export default function CardGridModule({ id, data }: CardGridModuleProps) {
               <ArrowRight size={14} className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all" />
             </div>
           )}
+
+          {linkUrl && !item.impact && (
+            <div className="mt-auto pt-4 border-t border-[var(--midnight-navy)]/10 dark:border-white/10 text-xs font-bold text-[var(--royal-blue)] dark:text-[var(--secondary)] flex items-center justify-between group-hover:text-[#A81C24] transition-colors">
+              <span className="flex items-center gap-1.5">
+                {isPdf ? (
+                  <>
+                    <FileText size={15} className="text-[#A81C24]" />
+                    <span>Download PDF Document</span>
+                  </>
+                ) : (
+                  <>
+                    <ExternalLink size={14} className="text-[var(--royal-blue)]" />
+                    <span>View Resource</span>
+                  </>
+                )}
+              </span>
+              <span className="inline-flex items-center gap-1 text-[11px] font-semibold opacity-80 group-hover:opacity-100 group-hover:translate-x-1 transition-all">
+                <span>Click to Open</span>
+                <ArrowRight size={13} />
+              </span>
+            </div>
+          )}
         </div>
       </CardWrapper>
     );
@@ -340,6 +417,7 @@ export default function CardGridModule({ id, data }: CardGridModuleProps) {
         cardStyle={cardStyle}
         isDark={isDark}
         padding="p-6"
+        link={item.link || item.href}
       >
         <div className="flex items-start gap-5">
           {item.icon && (
@@ -624,6 +702,7 @@ export default function CardGridModule({ id, data }: CardGridModuleProps) {
         index={index}
         cardStyle={cardStyle}
         isDark={isDark}
+        link={item.link || item.href}
       >
         <h3 className={`mb-6 text-[var(--midnight-navy)] dark:text-white transition-colors ${
           cardStyle === 'editorial' ? 'font-serif text-2xl font-medium' : 'font-sans text-xl font-semibold'
@@ -656,6 +735,7 @@ export default function CardGridModule({ id, data }: CardGridModuleProps) {
         isDark={isDark}
         padding="p-0"
         className="h-full flex flex-col"
+        link={item.link || item.href}
       >
         {cardStyle !== 'editorial' && (
           (item.imageUrl || item.image) ? (
@@ -730,6 +810,7 @@ export default function CardGridModule({ id, data }: CardGridModuleProps) {
         isDark={isDark}
         padding="p-0"
         className="h-full flex flex-col"
+        link={item.link || item.href}
       >
         {cardStyle !== 'editorial' && (
           <div className="aspect-video bg-gradient-to-br from-[var(--royal-blue)] to-[var(--midnight-navy)] flex items-center justify-center relative flex-shrink-0 border-b border-white/5 overflow-hidden">
