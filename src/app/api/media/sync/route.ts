@@ -3,6 +3,7 @@ import { prisma } from '@/lib/prisma';
 import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
+import { requirePermission } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
 
@@ -55,7 +56,10 @@ function getMasterFiles(dir: string, prefix = '/uploads') {
   return list;
 }
 
-export async function POST() {
+export async function POST(request: Request) {
+  const { errorResponse } = await requirePermission(request, 'manage_media');
+  if (errorResponse) return errorResponse;
+
   try {
     const uploadsDir = path.join(process.cwd(), 'public', 'uploads');
     const publicDir = path.join(process.cwd(), 'public');

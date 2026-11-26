@@ -4,10 +4,14 @@ import { unlink, writeFile, stat } from 'fs/promises';
 import { existsSync } from 'fs';
 import path from 'path';
 import sharp from 'sharp';
+import { requirePermission } from '@/lib/auth';
 
 interface RouteParams {
   params: Promise<{ id: string }>;
 }
+
+const ALLOWED_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg', '.webp', '.avif', '.gif', '.pdf', '.svg']);
+const MAX_FILE_SIZE = 15 * 1024 * 1024; // 15 MB
 
 // Helper: delete all responsive image variants generated during upload
 async function deleteImageVariants(uploadsDir: string, baseName: string) {
@@ -68,7 +72,10 @@ async function processAndSaveImage(filePath: string, buffer: Buffer) {
 }
 
 // DELETE /api/media/[id]
-export async function DELETE(_request: Request, { params }: RouteParams) {
+export async function DELETE(request: Request, { params }: RouteParams) {
+  const { errorResponse } = await requirePermission(request, 'manage_media');
+  if (errorResponse) return errorResponse;
+
   try {
     const { id } = await params;
     const media = await (prisma as any).media.findUnique({ where: { id } });
@@ -77,13 +84,14 @@ export async function DELETE(_request: Request, { params }: RouteParams) {
       return NextResponse.json({ error: 'Media not found' }, { status: 404 });
     }
 
-    const uploadsDir = path.join(process.cwd(), 'public', 'uploads');
+    const publicDir = path.resolve(process.cwd(), 'public');
+    const uploadsDir = path.resolve(publicDir, 'uploads');
     const ext = path.extname(media.filename);
     const baseName = path.basename(media.filename, ext);
 
-    // Delete the primary file
-    const filePath = path.join(process.cwd(), 'public', media.url);
-    if (existsSync(filePath)) {
+    // Delete the primary file safely within public directory
+    const filePath = path.resolve(publicDir, media.url.replace(/^\/+/, ''));
+    if (filePath.startsWith(publicDir) && existsSync(filePath)) {
       await unlink(filePath);
     }
 
@@ -101,13 +109,16 @@ export async function DELETE(_request: Request, { params }: RouteParams) {
 
 // PATCH /api/media/[id] - Update alt text
 export async function PATCH(request: Request, { params }: RouteParams) {
+  const { errorResponse } = await requirePermission(request, 'manage_media');
+  if (errorResponse) return errorResponse;
+
   try {
     const { id } = await params;
     const { alt } = await request.json();
 
     const media = await (prisma as any).media.update({
       where: { id },
-      data: { alt },
+      data: { alt: (alt || '').slice(0, 200) },
     });
 
     return NextResponse.json(media);
@@ -117,8 +128,11 @@ export async function PATCH(request: Request, { params }: RouteParams) {
   }
 }
 
-// PUT /api/media/[id] - Replace file contents (now compresses the new file)
+// PUT /api/media/[id] - Replace file contents
 export async function PUT(request: Request, { params }: RouteParams) {
+  const { errorResponse } = await requirePermission(request, 'manage_media');
+  if (errorResponse) return errorResponse;
+
   try {
     const { id } = await params;
     const media = await (prisma as any).media.findUnique({ where: { id } });
@@ -134,11 +148,28 @@ export async function PUT(request: Request, { params }: RouteParams) {
       return NextResponse.json({ error: 'No file provided' }, { status: 400 });
     }
 
+    if (file.size > MAX_FILE_SIZE) {
+      return NextResponse.json({ error: 'File exceeds maximum 15MB size limit' }, { status: 400 });
+    }
+
+    const ext = path.extname(file.name).toLowerCase();
+    if (!ALLOWED_EXTENSIONS.has(ext)) {
+      return NextResponse.json({ error: 'Disallowed file extension' }, { status: 400 });
+    }
+
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
 
-    const uploadsDir = path.join(process.cwd(), 'public', 'uploads');
-    const ext = path.extname(file.name);
+    // Stored XSS defense
+    if (ext === '.svg') {
+      const svgText = buffer.toString('utf-8').toLowerCase();
+      const dangerousPatterns = ['<script', 'javascript:', 'onload=', 'onerror=', 'onclick=', '<iframe', '<object', '<embed', '<!entity'];
+      if (dangerousPatterns.some(p => svgText.includes(p))) {
+        return NextResponse.json({ error: 'Disallowed script content in SVG' }, { status: 400 });
+      }
+    }
+
+    const uploadsDir = path.resolve(process.cwd(), 'public', 'uploads');
     const oldExt = path.extname(media.filename);
     const oldBaseName = path.basename(media.filename, oldExt);
 
@@ -147,19 +178,34 @@ export async function PUT(request: Request, { params }: RouteParams) {
 
     if (ext.toLowerCase() === oldExt.toLowerCase()) {
       // Same extension — overwrite in-place, delete old variants first then regenerate
-      const filePath = path.join(uploadsDir, filename);
+      const filePath = path.resolve(uploadsDir, filename);
+      if (!filePath.startsWith(uploadsDir)) {
+        return NextResponse.json({ error: 'Invalid file path' }, { status: 403 });
+      }
       await deleteImageVariants(uploadsDir, oldBaseName);
       await processAndSaveImage(filePath, buffer);
     } else {
       // Different extension — delete old file + variants, create new file
-      const oldFilePath = path.join(process.cwd(), 'public', media.url);
-      if (existsSync(oldFilePath)) await unlink(oldFilePath);
+      const publicDir = path.resolve(process.cwd(), 'public');
+      const oldFilePath = path.resolve(publicDir, media.url.replace(/^\/+/, ''));
+      if (oldFilePath.startsWith(publicDir) && existsSync(oldFilePath)) {
+        await unlink(oldFilePath);
+      }
       await deleteImageVariants(uploadsDir, oldBaseName);
 
-      const newBaseName = path.basename(media.filename, oldExt);
-      filename = `${newBaseName}-${Date.now()}${ext}`;
+      const rawBase = path.basename(media.filename, oldExt)
+        .toLowerCase()
+        .replace(/[^a-z0-9]/g, '-')
+        .replace(/-+/g, '-')
+        .replace(/^-|-$/g, '')
+        .slice(0, 40) || 'upload';
+
+      filename = `${rawBase}-${Date.now()}${ext}`;
       url = `/uploads/${filename}`;
-      const filePath = path.join(uploadsDir, filename);
+      const filePath = path.resolve(uploadsDir, filename);
+      if (!filePath.startsWith(uploadsDir)) {
+        return NextResponse.json({ error: 'Invalid file path' }, { status: 403 });
+      }
       await processAndSaveImage(filePath, buffer);
     }
 

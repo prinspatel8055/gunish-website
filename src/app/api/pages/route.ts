@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { revalidatePath } from 'next/cache';
+import { requirePermission } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
 
@@ -35,6 +36,9 @@ export async function GET() {
 
 // POST /api/pages - Create a new page
 export async function POST(request: Request) {
+  const { errorResponse } = await requirePermission(request, 'manage_pages');
+  if (errorResponse) return errorResponse;
+
   try {
     const body = await request.json();
     const { slug, title, metaTitle, metaDescription, sections, isPublished } = body;

@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { revalidatePath } from 'next/cache';
+import { requirePermission } from '@/lib/auth';
 
 interface RouteParams {
   params: Promise<{ slug: string }>;
@@ -25,6 +26,9 @@ export async function GET(request: Request, { params }: RouteParams) {
 
 // PUT /api/pages/[slug] - Update a page
 export async function PUT(request: Request, { params }: RouteParams) {
+  const { errorResponse } = await requirePermission(request, 'manage_pages');
+  if (errorResponse) return errorResponse;
+
   try {
     const { slug } = await params;
     const body = await request.json();
@@ -82,6 +86,9 @@ export async function PUT(request: Request, { params }: RouteParams) {
 
 // DELETE /api/pages/[slug] - Delete a page
 export async function DELETE(request: Request, { params }: RouteParams) {
+  const { errorResponse } = await requirePermission(request, 'manage_pages');
+  if (errorResponse) return errorResponse;
+
   try {
     const { slug } = await params;
     await prisma.page.delete({ where: { slug } });

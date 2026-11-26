@@ -1,7 +1,11 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
+import { requirePermission } from '@/lib/auth';
 
 export async function PUT(request: Request) {
+  const { errorResponse } = await requirePermission(request, 'manage_pages');
+  if (errorResponse) return errorResponse;
+
   try {
     const { order } = await request.json(); // order: [{ id, index }]
 

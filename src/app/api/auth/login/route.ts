@@ -10,6 +10,16 @@ export async function POST(request: Request) {
     const body = await request.json();
     const { username, password } = body;
 
+    // Input validation
+    if (!username || typeof username !== 'string' || !password || typeof password !== 'string') {
+      return NextResponse.json({ error: 'Username and password are required' }, { status: 400 });
+    }
+
+    const cleanUsername = username.trim();
+    if (cleanUsername.length > 100 || password.length > 200) {
+      return NextResponse.json({ error: 'Invalid credentials' }, { status: 401 });
+    }
+
     // First check if any users exist in the database
     const userCount = await prisma.user.count();
 
@@ -27,8 +37,8 @@ export async function POST(request: Request) {
         );
       }
 
-      if (username !== adminUsername) {
-        return NextResponse.json({ error: 'Invalid credentials' }, { status: 401 });
+      if (cleanUsername !== adminUsername) {
+        return NextResponse.json({ error: 'Invalid username or password' }, { status: 401 });
       }
 
       const passwordMatch =
@@ -37,14 +47,14 @@ export async function POST(request: Request) {
           : password === adminPassword;
 
       if (!passwordMatch) {
-        return NextResponse.json({ error: 'Invalid credentials' }, { status: 401 });
+        return NextResponse.json({ error: 'Invalid username or password' }, { status: 401 });
       }
 
       // Automatically seed the first SUPER_ADMIN user
       const hashedPassword = await bcrypt.hash(password, 10);
       user = await prisma.user.create({
         data: {
-          username: username,
+          username: cleanUsername,
           passwordHash: hashedPassword,
           name: 'Super Admin',
           role: 'SUPER_ADMIN',
@@ -54,17 +64,18 @@ export async function POST(request: Request) {
     } else {
       // Normal flow: check against database
       user = await prisma.user.findUnique({
-        where: { username },
+        where: { username: cleanUsername },
       });
 
       if (!user || !user.isActive) {
-        return NextResponse.json({ error: 'Invalid credentials or inactive account' }, { status: 401 });
+        // Uniform error response to prevent account enumeration
+        return NextResponse.json({ error: 'Invalid username or password' }, { status: 401 });
       }
 
       const passwordMatch = await bcrypt.compare(password, user.passwordHash);
 
       if (!passwordMatch) {
-        return NextResponse.json({ error: 'Invalid credentials' }, { status: 401 });
+        return NextResponse.json({ error: 'Invalid username or password' }, { status: 401 });
       }
     }
 
@@ -81,8 +92,12 @@ export async function POST(request: Request) {
 
     const response = NextResponse.json({ success: true, message: 'Login successful' });
 
-    // Set secure httpOnly cookie (only secure if accessed via HTTPS)
-    const isHttps = request.url.startsWith('https://');
+    // Set secure httpOnly cookie (supports reverse proxies like Nginx/Cloudflare)
+    const isHttps =
+      request.url.startsWith('https://') ||
+      request.headers.get('x-forwarded-proto') === 'https' ||
+      process.env.NODE_ENV === 'production';
+
     response.cookies.set('admin-token', token, {
       httpOnly: true,
       secure: isHttps,

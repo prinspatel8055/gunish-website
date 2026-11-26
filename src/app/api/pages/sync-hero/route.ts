@@ -1,7 +1,11 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
+import { requirePermission } from '@/lib/auth';
 
 export async function POST(request: Request) {
+  const { errorResponse } = await requirePermission(request, 'manage_pages');
+  if (errorResponse) return errorResponse;
+
   try {
     const body = await request.json();
     const { variant, subpageHeight, subpageAlign, lightBgStyle, lightGradientPos } = body;

@@ -4,8 +4,12 @@ import { writeFile, mkdir, stat } from 'fs/promises';
 import { existsSync } from 'fs';
 import path from 'path';
 import sharp from 'sharp';
+import { requirePermission } from '@/lib/auth';
 
 export const dynamic = 'force-dynamic';
+
+const ALLOWED_EXTENSIONS = new Set(['.png', '.jpg', '.jpeg', '.webp', '.avif', '.gif', '.pdf', '.svg']);
+const MAX_FILE_SIZE = 15 * 1024 * 1024; // 15 MB
 
 // Helper function to optimize and save images in multiple responsive formats and sizes
 async function processAndSaveImage(filePath: string, buffer: Buffer) {
@@ -49,8 +53,11 @@ async function processAndSaveImage(filePath: string, buffer: Buffer) {
   }
 }
 
-// GET /api/media - List all media
-export async function GET() {
+// GET /api/media - List all media (requires admin auth)
+export async function GET(request: Request) {
+  const { errorResponse } = await requirePermission(request, 'manage_media');
+  if (errorResponse) return errorResponse;
+
   try {
     const media = await (prisma as any).media.findMany({
       orderBy: { createdAt: 'desc' },
@@ -66,8 +73,11 @@ export async function GET() {
   }
 }
 
-// POST /api/media - Upload a file
+// POST /api/media - Upload a file (strict validation, extension whitelist, path traversal defense)
 export async function POST(request: Request) {
+  const { errorResponse } = await requirePermission(request, 'manage_media');
+  if (errorResponse) return errorResponse;
+
   try {
     const formData = await request.formData();
     const file = formData.get('file') as File;
@@ -77,23 +87,60 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'No file provided' }, { status: 400 });
     }
 
+    // 1. File size check
+    if (file.size > MAX_FILE_SIZE) {
+      return NextResponse.json(
+        { error: `File size exceeds the 15MB limit (${(file.size / 1024 / 1024).toFixed(1)}MB)` },
+        { status: 400 }
+      );
+    }
+
+    // 2. Extension validation against strict whitelist
+    const ext = path.extname(file.name).toLowerCase();
+    if (!ALLOWED_EXTENSIONS.has(ext)) {
+      return NextResponse.json(
+        { error: `Disallowed file type (${ext}). Only images (JPG, PNG, WEBP, AVIF, GIF, SVG) and PDFs are permitted.` },
+        { status: 400 }
+      );
+    }
+
     const bytes = await file.arrayBuffer();
     const buffer = Buffer.from(bytes);
 
+    // 3. Stored XSS defense: Sanitize SVG content
+    if (ext === '.svg') {
+      const svgText = buffer.toString('utf-8').toLowerCase();
+      const dangerousPatterns = ['<script', 'javascript:', 'onload=', 'onerror=', 'onclick=', '<iframe', '<object', '<embed', '<!entity'];
+      const hasDanger = dangerousPatterns.some(p => svgText.includes(p));
+      if (hasDanger) {
+        return NextResponse.json(
+          { error: 'SVG file rejected: file contains active scripts or disallowed tags.' },
+          { status: 400 }
+        );
+      }
+    }
+
     // Ensure uploads directory exists
-    const uploadsDir = path.join(process.cwd(), 'public', 'uploads');
+    const uploadsDir = path.resolve(process.cwd(), 'public', 'uploads');
     if (!existsSync(uploadsDir)) {
       await mkdir(uploadsDir, { recursive: true });
     }
 
-    // Generate unique filename
-    const ext = path.extname(file.name);
-    const baseName = path.basename(file.name, ext)
+    // Generate safe sanitized filename
+    const rawBase = path.basename(file.name, ext)
       .toLowerCase()
       .replace(/[^a-z0-9]/g, '-')
-      .slice(0, 50);
-    const filename = `${baseName}-${Date.now()}${ext}`;
-    const filePath = path.join(uploadsDir, filename);
+      .replace(/-+/g, '-')
+      .replace(/^-|-$/g, '')
+      .slice(0, 40) || 'upload';
+
+    const filename = `${rawBase}-${Date.now()}${ext}`;
+    const filePath = path.resolve(uploadsDir, filename);
+
+    // Path traversal check
+    if (!filePath.startsWith(uploadsDir)) {
+      return NextResponse.json({ error: 'Security violation: invalid file path' }, { status: 403 });
+    }
 
     // Save and optimize the file
     try {
@@ -101,7 +148,7 @@ export async function POST(request: Request) {
     } catch (sharpError) {
       console.error('Image compression failed:', sharpError);
       return NextResponse.json(
-        { error: 'Image upload failed: could not compress or process the image. Ensure sharp is installed correctly on the server.' },
+        { error: 'Image processing failed. Ensure valid image data is supplied.' },
         { status: 500 }
       );
     }
@@ -118,10 +165,10 @@ export async function POST(request: Request) {
       data: {
         filename,
         originalName: file.name,
-        mimeType: file.type,
+        mimeType: file.type || 'application/octet-stream',
         size: finalSize,
         url: `/uploads/${filename}`,
-        alt,
+        alt: alt.slice(0, 200),
       },
     });
 

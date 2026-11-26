@@ -20,11 +20,11 @@ const mimeTypes: Record<string, string> = {
   '.pdf': 'application/pdf',
 };
 
+const ALLOWED_EXTS = new Set(Object.keys(mimeTypes));
+
 const searchRoots = [
-  path.join(process.cwd(), 'public', 'wp-content', 'uploads'),
-  path.join(process.cwd(), 'public', 'uploads'),
-  path.join('d:/..111 web/gunish-website/public/wp-content/uploads'),
-  path.join('d:/..111 web/gunish-website/public/uploads'),
+  path.resolve(process.cwd(), 'public', 'wp-content', 'uploads'),
+  path.resolve(process.cwd(), 'public', 'uploads'),
 ];
 
 export async function GET(request: Request, { params }: RouteParams) {
@@ -34,27 +34,37 @@ export async function GET(request: Request, { params }: RouteParams) {
       return new NextResponse('File Not Found', { status: 404 });
     }
 
-    const decodedSegments = segments.map((s) => decodeURIComponent(s));
-    const relativePath = decodedSegments.join('/');
+    // Security: Block null bytes or directory traversal attempts
+    const decodedSegments = segments.map((s) => decodeURIComponent(s).replace(/\0/g, ''));
+    if (decodedSegments.some((s) => s.includes('..') || s.includes('/') || s.includes('\\'))) {
+      return new NextResponse('Access Denied', { status: 403 });
+    }
+
+    const relativePath = decodedSegments.join(path.sep);
     const basename = decodedSegments[decodedSegments.length - 1];
     const ext = path.extname(basename).toLowerCase();
 
+    // Security: Restrict strictly to permitted image/document extensions
+    if (!ALLOWED_EXTS.has(ext)) {
+      return new NextResponse('Access Denied', { status: 403 });
+    }
+
     let resolvedPath: string | null = null;
 
-    // 1. Try exact relative path in search roots
+    // 1. Try exact relative path in search roots with strict bounds check
     for (const root of searchRoots) {
-      const candidate = path.join(root, relativePath);
-      if (existsSync(candidate)) {
+      const candidate = path.resolve(root, relativePath);
+      if (candidate.startsWith(root) && existsSync(candidate)) {
         resolvedPath = candidate;
         break;
       }
     }
 
-    // 2. Try flat basename in search roots
+    // 2. Try flat basename in search roots with strict bounds check
     if (!resolvedPath) {
       for (const root of searchRoots) {
-        const candidate = path.join(root, basename);
-        if (existsSync(candidate)) {
+        const candidate = path.resolve(root, basename);
+        if (candidate.startsWith(root) && existsSync(candidate)) {
           resolvedPath = candidate;
           break;
         }
@@ -70,8 +80,11 @@ export async function GET(request: Request, { params }: RouteParams) {
           const lowerBasename = basename.toLowerCase();
           const match = files.find((f) => f.toLowerCase() === lowerBasename);
           if (match) {
-            resolvedPath = path.join(root, match);
-            break;
+            const candidate = path.resolve(root, match);
+            if (candidate.startsWith(root) && existsSync(candidate)) {
+              resolvedPath = candidate;
+              break;
+            }
           }
         } catch {
           // Ignore read errors
@@ -90,6 +103,7 @@ export async function GET(request: Request, { params }: RouteParams) {
       headers: {
         'Content-Type': contentType,
         'Cache-Control': 'public, max-age=31536000, immutable',
+        'X-Content-Type-Options': 'nosniff',
       },
     });
   } catch (error) {
